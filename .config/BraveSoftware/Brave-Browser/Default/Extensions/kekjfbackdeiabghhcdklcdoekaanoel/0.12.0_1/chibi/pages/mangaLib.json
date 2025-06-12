@@ -1,0 +1,435 @@
+{
+  "name": "MangaLib",
+  "type": "manga",
+  "domain": [
+    "https://mangalib.me",
+    "https://mangalib.org",
+    "https://slashlib.me",
+    "https://v2.slashlib.me",
+    "https://v1.yaoilib.net"
+  ],
+  "languages": [
+    "Russian"
+  ],
+  "urls": {
+    "match": [
+      "*://mangalib.org/*",
+      "*://mangalib.me/*",
+      "*://*.slashlib.me/*",
+      "*://*.yaoilib.net/*"
+    ]
+  },
+  "search": "https://mangalib.me/ru/catalog?q={searchterm}",
+  "sync": {
+    "isSyncPage": [
+      [
+        "url"
+      ],
+      [
+        "urlPart",
+        5
+      ],
+      [
+        "equals",
+        "read"
+      ]
+    ],
+    "getTitle": [
+      [
+        "coalesce",
+        [
+          [
+            "querySelector",
+            "a>div[data-media-up=\"sm\"]"
+          ],
+          [
+            "ifThen",
+            [
+              [
+                "next"
+              ]
+            ]
+          ]
+        ],
+        [
+          [
+            "querySelector",
+            "a>div[data-media-up=\"sm\"]"
+          ]
+        ]
+      ],
+      [
+        "ifNotReturn"
+      ],
+      [
+        "text"
+      ],
+      [
+        "trim"
+      ]
+    ],
+    "getIdentifier": [
+      [
+        "url"
+      ],
+      [
+        "urlPart",
+        4
+      ],
+      [
+        "string"
+      ],
+      [
+        "regex",
+        "(\\d+)",
+        1
+      ]
+    ],
+    "getOverviewUrl": [
+      [
+        "string",
+        "ru/manga/_URL_SLUG_"
+      ],
+      [
+        "replace",
+        "_URL_SLUG_",
+        [
+          [
+            "url"
+          ],
+          [
+            "urlPart",
+            4
+          ]
+        ]
+      ],
+      [
+        "urlAbsolute"
+      ]
+    ],
+    "getEpisode": [
+      [
+        "url"
+      ],
+      [
+        "urlPart",
+        7
+      ],
+      [
+        "substring",
+        1
+      ],
+      [
+        "split",
+        "."
+      ],
+      [
+        "at",
+        0
+      ],
+      [
+        "number"
+      ]
+    ],
+    "getVolume": [
+      [
+        "url"
+      ],
+      [
+        "urlPart",
+        6
+      ],
+      [
+        "substring",
+        1
+      ],
+      [
+        "number"
+      ]
+    ],
+    "nextEpUrl": [
+      [
+        "if",
+        [
+          [
+            "and",
+            [
+              [
+                "querySelectorAll",
+                "header a[href]"
+              ],
+              [
+                "last"
+              ],
+              [
+                "boolean"
+              ]
+            ],
+            [
+              [
+                "querySelectorAll",
+                "header a[href]"
+              ],
+              [
+                "last"
+              ],
+              [
+                "getAttribute",
+                "href"
+              ],
+              [
+                "boolean"
+              ]
+            ],
+            [
+              [
+                "querySelectorAll",
+                "header a[href]"
+              ],
+              [
+                "last"
+              ],
+              [
+                "getComputedStyle",
+                "pointer-events"
+              ],
+              [
+                "equals",
+                "none"
+              ],
+              [
+                "not"
+              ]
+            ]
+          ]
+        ],
+        [
+          [
+            "querySelectorAll",
+            "header a[href]"
+          ],
+          [
+            "last"
+          ],
+          [
+            "getAttribute",
+            "href"
+          ],
+          [
+            "urlAbsolute"
+          ],
+          [
+            "urlStrip"
+          ]
+        ],
+        [
+          [
+            "string",
+            ""
+          ]
+        ]
+      ]
+    ],
+    "readerConfig": [
+      {
+        "current": {
+          "selector": "footer",
+          "mode": "text",
+          "regex": "(\\d+) / (\\d+)$",
+          "group": 1
+        },
+        "total": {
+          "selector": "footer",
+          "mode": "text",
+          "regex": "(\\d+) / (\\d+)$",
+          "group": 2
+        }
+      }
+    ]
+  },
+  "overview": {
+    "isOverviewPage": [
+      [
+        "url"
+      ],
+      [
+        "urlPart",
+        4
+      ],
+      [
+        "equals",
+        "manga"
+      ]
+    ],
+    "getTitle": [
+      [
+        "coalesce",
+        [
+          [
+            "querySelector",
+            ".page h1"
+          ]
+        ],
+        [
+          [
+            "querySelector",
+            ".page h2"
+          ]
+        ]
+      ],
+      [
+        "ifNotReturn"
+      ],
+      [
+        "text"
+      ],
+      [
+        "trim"
+      ]
+    ],
+    "getIdentifier": [
+      [
+        "url"
+      ],
+      [
+        "urlPart",
+        5
+      ],
+      [
+        "string"
+      ],
+      [
+        "regex",
+        "(\\d+)",
+        1
+      ]
+    ],
+    "uiInjection": [
+      [
+        "querySelector",
+        ".tabs._border"
+      ],
+      [
+        "uiBefore"
+      ]
+    ]
+  },
+  "lifecycle": {
+    "setup": [
+      [
+        "addStyle",
+        "#malp #MalData {\n  justify-content: flex-start !important;\n  align-items: stretch !important;\n  gap: 10px;\n}\n#malp #MalData .malp-group {\n  display: flex;\n  flex-direction: column !important;\n  gap: 3px;\n}\n#malp #MalData .malp-group.malp-group-rating {\n  display: flex !important;\n}\n#malp #MalData .malp-group > .malp-group-field,\n#malp #MalData .malp-group > .malp-group-value-section {\n  flex-grow: 1;\n  background-color: var(--background-elevated-2) !important;\n  border-radius: 4px;\n  padding: 4px 8px !important;\n}\n#malp #MalData option {\n  background-color: var(--background-elevated-2) !important;\n}\n#malp #MalData .malp-group-label {\n  display: block !important;\n}\n#malp #MalData .malp-group-label {\n  display: block !important;\n  font-size: 12px !important;\n}\n#malp #MalData .malp-group-mal-add {\n  display: flex !important;\n}\n#malp #MalData .malp-group-mal-add .malp-group-label {\n  visibility: hidden;\n}\n#malp #MalData .malp-group-mal-add a {\n  color: inherit;\n}\n#malp #MalData #AddMalDiv {\n  display: none !important;\n}\n#malp #malStatus,\n#malp #malUserRating,\n#malp #malEpisodes,\n#malp #malVolumes,\n#malp #malEpisodes,\n#malp #malRating {\n  color: inherit;\n  font-size: inherit;\n  font-family: inherit;\n  background: transparent;\n  border-color: grey;\n  text-decoration: none;\n  outline: medium none;\n  border-width: 0;\n  height: auto;\n  align-content: center;\n  padding: 0;\n  margin: 0;\n  line-height: 1;\n}\n#malp #malEpisodes,\n#malp #malVolumes,\n#malp #malEpisodes {\n  text-align: center;\n  border-bottom-width: 1px;\n}\n#malp #malEpisodes:focus,\n#malp #malVolumes:focus,\n#malp #malEpisodes:focus {\n  border-color: black;\n}\n.mal-sync-active {\n  background-color: inherit;\n}\n#malSyncProgress.ms-loading {\n  height: 4px;\n  width: 100%;\n  position: relative;\n  overflow: hidden;\n  background-color: #ddd;\n}\n#malSyncProgress.ms-loading::before {\n  display: block;\n  position: absolute;\n  content: '';\n  left: -200px;\n  width: 200px;\n  height: 4px;\n  background-color: #2980b9;\n  animation: loading-mal 2s linear infinite;\n}\n@keyframes loading-mal {\n  0% {\n    left: -200px;\n    width: 30%;\n  }\n  50% {\n    width: 30%;\n  }\n  70% {\n    width: 70%;\n  }\n  80% {\n    left: 50%;\n  }\n  95% {\n    left: 120%;\n  }\n  100% {\n    left: 100%;\n  }\n}\n#malSyncProgress.ms-done .ms-progress {\n  width: 100% !important;\n  background-color: #ff4081 !important;\n  transition: background-color 1s !important;\n}\n#malp {\n  padding: 1rem;\n  font-size: 1rem;\n  margin-bottom: 0;\n  width: 100%;\n}\n.malp-group-field {\n  font-weight: bold;\n}\n.mal-sync-active {\n  outline: solid 2px #79a3c3 !important;\n  outline-offset: -2px;\n}\n#flashinfo-div {\n  z-index: 21 !important;\n}\n"
+      ]
+    ],
+    "ready": [
+      [
+        "domReady"
+      ],
+      [
+        "trigger"
+      ],
+      [
+        "detectChanges",
+        [
+          [
+            "url"
+          ],
+          [
+            "urlStrip"
+          ]
+        ],
+        [
+          [
+            "trigger"
+          ]
+        ],
+        "detectChangesttzymrrgudf"
+      ]
+    ],
+    "syncIsReady": [
+      [
+        "waitUntilTrue",
+        [
+          [
+            "and",
+            [
+              [
+                "querySelector",
+                "main img"
+              ],
+              [
+                "boolean"
+              ]
+            ],
+            [
+              [
+                "querySelector",
+                "a>div[data-media-up=\"sm\"]"
+              ],
+              [
+                "boolean"
+              ]
+            ]
+          ]
+        ],
+        "waitUntilTruex4qqa8gviun"
+      ],
+      [
+        "trigger"
+      ],
+      [
+        "detectChanges",
+        [
+          [
+            "url"
+          ],
+          [
+            "urlStrip"
+          ]
+        ],
+        [
+          [
+            "trigger"
+          ]
+        ],
+        "detectChangesufear5lt1e"
+      ]
+    ],
+    "overviewIsReady": [
+      [
+        "waitUntilTrue",
+        [
+          [
+            "or",
+            [
+              [
+                "querySelector",
+                ".page h2"
+              ],
+              [
+                "boolean"
+              ]
+            ],
+            [
+              [
+                "querySelector",
+                ".page h1"
+              ],
+              [
+                "boolean"
+              ]
+            ]
+          ]
+        ],
+        "waitUntilTruevcywtyh160e"
+      ],
+      [
+        "trigger"
+      ]
+    ]
+  },
+  "version": {
+    "hash": "3429fe3d",
+    "timestamp": "1747044328699"
+  }
+}

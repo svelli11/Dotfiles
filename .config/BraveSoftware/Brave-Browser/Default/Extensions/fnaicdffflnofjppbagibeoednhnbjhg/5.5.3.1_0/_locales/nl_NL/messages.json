@@ -1,0 +1,693 @@
+{
+   "DescriptionAccountDeleted": {
+      "message": "Dit profiel is verwijderd"
+   },
+   "DescriptionAccountcreated": {
+      "message": "Je profiel is aangemaakt. Je kunt dit tabblad nu sluiten."
+   },
+   "DescriptionAdaptergoogledrive": {
+      "message": "Synchroniseer bladwijzers via een versleuteld bestand dat is opgeslagen in je Google Drive. Het kan http-, ftp-, gegevens-, bestands- en javascriptbladwijzers synchroniseren."
+   },
+   "DescriptionAdapternextcloud": {
+      "message": "De legacy-optie is compatibel met ten minste versie v0.11 van de Bladwijzers-app. Het zal mappen emuleren met behulp van tags die het pad van de map bevatten. Het is niet aanbevolen om deze optie te gebruiken voor nieuwe profielen."
+   },
+   "DescriptionAdapternextcloudfolders": {
+      "message": "De optie 'Nextcloud Bookmarks' synchroniseert uw bladwijzers met de bladwijzer-app voor Nextcloud. Het kan alleen http- en ftp-bladwijzers synchroniseren. Zorg ervoor dat u de bladwijzer-app uit de Nextcloud app store in uw Nextcloud hebt geïnstalleerd."
+   },
+   "DescriptionAdapterwebdav": {
+      "message": "De WebDAV optie synchroniseert je bladwijzers door ze op te slaan in een bestand op de aangegeven WebDAV netwerklocatie. Er is geen bijbehorende web UI voor deze optie en je kunt het gebruiken met elke WebDAV-compatibele server. Het kan http, ftp, data, bestand en javascript bladwijzers synchroniseren."
+   },
+   "DescriptionAllownetwork": {
+      "message": "Floccus kan het netwerk gebruiken, naast het verbinden met uw synchronisatieserver, om extra informatie over uw bladwijzers te verkrijgen (zoals pictogrammen, etc.). Hier kunt u dit netwerkgebruik inschakelen."
+   },
+   "DescriptionAllowredirects": {
+      "message": "Schakel deze optie in als u omleidingsfouten krijgt tijdens het synchroniseren, die volgens u onterecht zijn."
+   },
+   "DescriptionBookmarksfile": {
+      "message": "een pad naar het bladwijzerbestand relatief aan uw WebDAV URL (alle mappen in het pad moeten al bestaan). bijv. personal_stuff/bookmarks.xbel"
+   },
+   "DescriptionBookmarksfilegoogle": {
+      "message": "de bestandsnaam van het bladwijzerbestand in je Google Drive (zorg ervoor dat deze naam uniek is in je Drive)"
+   },
+   "DescriptionChoosefolder": {
+      "message": "Stel een bestaande map in om te synchroniseren"
+   },
+   "DescriptionClientcert": {
+      "message": "Schakel deze optie in als uw server een clientcertificaat of cookies nodig heeft voor authenticatie. Dit kan onbedoelde neveneffecten veroorzaken, omdat floccus cookies deelt met uw normale browsersessies."
+   },
+   "DescriptionContributors": {
+      "message": "Deze mensen hebben geholpen floccus mogelijk te maken"
+   },
+   "DescriptionCurrentversion": {
+      "message": "Uw huidige geïnstalleerde versie van floccus is:"
+   },
+   "DescriptionDownloadlogs": {
+      "message": "Floccus logt al zijn acties in een logbestand dat u zelf kunt bekijken of naar de ontwikkelaars kunt sturen voor debugging-doeleinden. In bewerkte logbestanden worden map- en bladwijzernamen en URL's onomkeerbaar gecodeerd met een cryptografische hashing-functie. Wanneer je geredigeerde logbestanden verstuurt, zorg er dan voor dat je het gedownloade bestand nog steeds controleert op gevoelige gegevens die mogelijk niet zijn opgevangen door het anonimiseringsproces."
+   },
+   "DescriptionExport": {
+      "message": "Selecteer hieronder profielen die je wilt exporteren naar een bestand, zodat je dezelfde profielen eenvoudig opnieuw kunt aanmaken op een ander apparaat of in een andere browser."
+   },
+   "DescriptionExportBookmarks": {
+      "message": "Je kunt alle bladwijzers in dit profiel exporteren als een HTML-bestand dat compatibel is met alle gangbare browsers."
+   },
+   "DescriptionExtension": {
+      "message": "Uw bladwijzers privé synchroniseren tussen browsers en apparaten"
+   },
+   "DescriptionFailsafe": {
+      "message": "Soms kunnen configuratiefouten of softwarebugs leiden tot het onbedoeld verwijderen van gegevens, die dan verloren gaan. Om dat te voorkomen zal floccus niet meer dan 50% van uw bladwijzers in één keer verwijderen, tenzij u deze beveiliging hier uitschakelt."
+   },
+   "DescriptionFilesPermission": {
+      "message": "Zorg ervoor dat je floccus niet alleen toestemming geeft om de bladwijzer-app te gebruiken, maar ook de Nextcloud-bestanden-app."
+   },
+   "DescriptionFiletype": {
+      "message": "Je kunt kiezen welk bestandsformaat je wilt gebruiken om bladwijzers op te slaan in de cloud."
+   },
+   "DescriptionFunddevelopment": {
+      "message": "Het werk aan floccus wordt gevoed door een vrijwillig abonnementsmodel. Als u denkt dat wat ik doe de moeite waard is en als u elke maand wat geld kunt missen, steun dan alstublieft mijn werk. Overweeg daarnaast ook om floccus een waardering te geven in de browser Extensieswinkel van uw keuze. Hartelijk dank!💙"
+   },
+   "DescriptionGithubsponsors": {
+      "message": "Doneer regelmatig via GitHub-sponsoren om het project te steunen"
+   },
+   "DescriptionImport": {
+      "message": "Importeer hier een bestand met geëxporteerde profielen om profielen die op een ander apparaat of in een andere browser zijn geëxporteerd opnieuw aan te maken. Zorg ervoor dat u de juiste synchronisatiemappen opnieuw instelt na het importeren."
+   },
+   "DescriptionImportbookmarks": {
+      "message": "Een HTML-bestand met bladwijzers importeren in de huidige map"
+   },
+   "DescriptionKofi": {
+      "message": "Doneer regelmatig of eenmalig via Ko-fi om het project te steunen"
+   },
+   "DescriptionLiberapay": {
+      "message": "Doneer regelmatig via Librapay om het project te steunen"
+   },
+   "DescriptionLocalfolder": {
+      "message": "Bladwijzers in deze bladwijzermap worden opgeslagen als links op de server en links op de server worden opgeslagen als bladwijzers in deze bladwijzermap in deze browser."
+   },
+   "DescriptionLocaltarget": {
+      "message": "Kies hier of je browserbladwijzers of browsertabbladen wilt synchroniseren."
+   },
+   "DescriptionLoggedingoogle": {
+      "message": "Je hebt je Google-account gekoppeld om het bladwijzersynchronisatiebestand op te slaan in je Google Drive."
+   },
+   "DescriptionLogingoogle": {
+      "message": "Maak verbinding met je Google-account om het bladwijzersynchronisatiebestand op te slaan in je Google Drive."
+   },
+   "DescriptionNestedSync": {
+      "message": "Je kunt profielen koppelen zodat een bovenliggende map bij profiel A hoort en een submap bij profiel A en B. Wil je andere profielen toestaan om de map van dit profiel ook te synchroniseren?"
+   },
+   "DescriptionNoAccount": {
+      "message": "Maak een nieuw profiel om je bladwijzers te synchroniseren of importeer profielen van een ander apparaat of een andere browser."
+   },
+   "DescriptionNonhttps": {
+      "message": "Je hebt een server ingevoerd die een onveilig protocol gebruikt. Het wordt aanbevolen om alleen servers te gebruiken die HTTPS ondersteunen."
+   },
+   "DescriptionOpencollective": {
+      "message": "Doneer regelmatig via OpenCollective om het project te steunen"
+   },
+   "DescriptionParallelsync": {
+      "message": "Vink dit selectievakje aan om meerdere mappen parallel te verwerken om zo de synchronisatie te versnellen. Deze functie is experimenteel en maakt het moeilijker om de debuglogs te lezen."
+   },
+   "DescriptionPassphrase": {
+      "message": "Stel een wachtwoordzin in om je bladwijzerbestand te versleutelen, als je geen wachtwoordzin instelt, wordt er geen versleuteling toegepast."
+   },
+   "DescriptionPatreon": {
+      "message": "Doneer regelmatig via Patreon om het project te steunen"
+   },
+   "DescriptionPaypal": {
+      "message": "Doe een eenmalige donatie via paypal om het project te steunen"
+   },
+   "DescriptionRemoveaccount": {
+      "message": "Verwijder dit profiel (hierdoor worden je bladwijzers niet verwijderd)"
+   },
+   "DescriptionReset": {
+      "message": "Gesynchroniseerde map opnieuw instellen om een nieuwe aan te maken"
+   },
+   "DescriptionResetcache": {
+      "message": "Klik op deze knop om de cache te resetten zodat de volgende synchronisatierun gegarandeerd geen gegevens verwijdert en alleen de bladwijzers van de server en de lokale bladwijzers samenvoegt."
+   },
+   "DescriptionServerfolder": {
+      "message": "Bij het synchroniseren worden uw bladwijzers in deze browser opgeslagen als links onder dit pad op de server. Dit pad vertegenwoordigt een map in de Nextcloud Bladwijzers-app, geen map in Nextcloud Bestanden. Laat dit leeg om alle links in de bovenste map op de server te plaatsen."
+   },
+   "DescriptionStrategy": {
+      "message": "Deze optie bepaalt hoe de bladwijzers op verschillende apparaten worden gesynchroniseerd. Meestal wil je wijzigingen van alle kanten behouden als ze met elkaar in overeenstemming zijn, maar soms wil je wijzigingen overschrijven (inclusief toevoegingen en verwijderingen) van andere browsers, of wijzigingen die je lokaal hebt gemaakt overschrijven."
+   },
+   "DescriptionSyncDown": {
+      "message": "Wijzigingen downloaden van andere browsers & lokale wijzigingen overschrijven"
+   },
+   "DescriptionSyncNormal": {
+      "message": "Lokale wijzigingen samenvoegen met wijzigingen van andere browsers"
+   },
+   "DescriptionSyncTabs": {
+      "message": "Koppelingen die op de server zijn opgeslagen, worden geopend als browsertabbladen in je browser en bestaande open browsertabbladen worden opgeslagen als koppelingen op je server. Houd er rekening mee dat, afhankelijk van hoeveel links er op de server zijn opgeslagen en omdat ze allemaal als tabbladen worden geopend, bij de volgende synchronisatieslag je browser mogelijk overbelast raakt."
+   },
+   "DescriptionSyncUp": {
+      "message": "Lokale wijzigingen uploaden & wijzigingen van andere browsers overschrijven"
+   },
+   "DescriptionSyncinprogress": {
+      "message": "Synchronisatie wordt uitgevoerd."
+   },
+   "DescriptionSyncinterval": {
+      "message": "De tijdspanne tussen twee synchronisaties in minuten. Standaard is 15 minuten."
+   },
+   "DescriptionSyncscheduled": {
+      "message": "Dit profiel wordt binnenkort gesynchroniseerd. We wachten tot andere apparaten van jou, of andere profielen op dit apparaat, klaar zijn met synchroniseren."
+   },
+   "DescriptionUpdated": {
+      "message": "Gefeliciteerd, de nieuwste update van floccus is geïnstalleerd op uw systeem!"
+   },
+   "DescriptionWebdavurl": {
+      "message": "bijv. met nextcloud: https://example.com/remote.php/webdav/"
+   },
+   "Error001": {
+      "message": "001: Map om in te maken bestaat niet"
+   },
+   "Error002": {
+      "message": "E002: Bladwijzer om bij te werken bestaat niet meer"
+   },
+   "Error003": {
+      "message": "E003: Map om uit te verwijderen bestaat niet. Dit is een fout. Gefeliciteerd."
+   },
+   "Error004": {
+      "message": "E004: Map waarnaar verplaatst moet worden bestaat niet"
+   },
+   "Error005": {
+      "message": "E005: Map waarin aangemaakt moet worden bestaat niet"
+   },
+   "Error006": {
+      "message": "E006: Map om bij te werken bestaat niet"
+   },
+   "Error007": {
+      "message": "E007: Map om te verplaatsen bestaat niet"
+   },
+   "Error008": {
+      "message": "E008: Map om uit te verwijderen bestaat niet"
+   },
+   "Error009": {
+      "message": "E009: Map waarnaar verplaatst moet worden bestaat niet"
+   },
+   "Error010": {
+      "message": "E010: Kon de te ordenen map niet vinden"
+   },
+   "Error011": {
+      "message": "E011: Item in map volgorde is geen echt kind: {0}"
+   },
+   "Error012": {
+      "message": "E012: Bij het ordenen van mappen ontbreken enkele kinderen van de map"
+   },
+   "Error013": {
+      "message": "E013: Te verwijderen map bestaat niet"
+   },
+   "Error014": {
+      "message": "E014: Bovenliggende map waaruit map moet worden verwijderd bestaat niet"
+   },
+   "Error015": {
+      "message": "E015: Onverwacht antwoord van de server"
+   },
+   "Error016": {
+      "message": "E016: Request timed out. Controleer uw serverconfiguratie"
+   },
+   "Error017": {
+      "message": "E017: Netwerkfout: Controleer uw netwerkverbinding en uw accountgegevens"
+   },
+   "Error018": {
+      "message": "E018: Kon niet aanmelden op de server."
+   },
+   "Error019": {
+      "message": "E019: HTTP-status {0}. {1} verzoek mislukt. Controleer de serverconfiguratie en het logboek."
+   },
+   "Error020": {
+      "message": "E020: Kon de reactie van de server niet verwerken. Is de Bookmarks-app geïnstalleerd op uw server?"
+   },
+   "Error021": {
+      "message": "E021: Inconsistente serverstatus. Map is aanwezig in de kindvolgordelijst maar niet in de mappenstructuur"
+   },
+   "Error022": {
+      "message": "E022: Map {0} bevat waarschijnlijk een niet-bestaande bladwijzer {1}"
+   },
+   "Error023": {
+      "message": "E023: Kan het vergrendelbestand niet vrijgeven, overweeg {0} handmatig te verwijderen."
+   },
+   "Error024": {
+      "message": "E024: HTTP-status {0} tijdens het proberen om de status van vergrendelbestand {1} te bepalen"
+   },
+   "Error025": {
+      "message": "E025: De Bookmarks instelling naar het bladwijzerbestand mag niet beginnen met een schuine streep: '/'"
+   },
+   "Error026": {
+      "message": "E026: Synchronisatieproces werd afgebroken"
+   },
+   "Error027": {
+      "message": "E027: Synchronisatieproces werd onderbroken"
+   },
+   "Error028": {
+      "message": "E028: Kon niet aanmelden op de server."
+   },
+   "Error029": {
+      "message": "E029: Voorzorgsmaatregel: De huidige synchronisatierun zou {0}% van uw bladwijzers verwijderen. Uitvoeren is gewijgerd. Schakel deze veiligheidsmaatregel uit in de accountinstellingen als u toch wilt doorgaan."
+   },
+   "Error030": {
+      "message": "E030: Het decoderen van het bladwijzerbestand is mislukt. De wachtwoordzin kan verkeerd zijn of het bestand kan beschadigd zijn."
+   },
+   "Error031": {
+      "message": "E031: Kon niet aanmelden bij Google Drive. Maak opnieuw verbinding met uw Google-account."
+   },
+   "Error032": {
+      "message": "E032: OAuth-fout. Fout bij tokenvalidatie. Maak opnieuw verbinding met uw Google-account."
+   },
+   "Error033": {
+      "message": "E033: Omleiding gedetecteerd. Controleer of de server de geselecteerde synchronisatiemethode ondersteunt en of de URL die je hebt ingevoerd correct is en niet wordt omgeleid naar een andere locatie. Als de omleiding deel uitmaakt van je instellingen, kun je deze controle in de instellingen uitschakelen."
+   },
+   "Error034": {
+      "message": "E034: Het externe bladwijzerbestand is onleesbaar. Bent u vergeten een coderingswachtzin in te stellen?"
+   },
+   "Error035": {
+      "message": "E035: Het aanmaken van de volgende bladwijzer op de server is mislukt: {0}"
+   },
+   "Error036": {
+      "message": "E036: Ontbrekende rechten voor toegang tot de synchronisatieserver"
+   },
+   "ErrorFolderloopselected": {
+      "message": "Kan een map niet naar zichzelf verplaatsen"
+   },
+   "ErrorNofolderselected": {
+      "message": "Er is geen map geselecteerd"
+   },
+   "LabelAbout": {
+      "message": "Over"
+   },
+   "LabelAccountDeleted": {
+      "message": "Profiel verwijderd"
+   },
+   "LabelAccountcreated": {
+      "message": "Profiel aangemaakt"
+   },
+   "LabelAdaptergoogledrive": {
+      "message": "Google Drive"
+   },
+   "LabelAdapternextcloud": {
+      "message": "extcloud Bookmarks (legacy)"
+   },
+   "LabelAdapternextcloudfolders": {
+      "message": "Nextcloud Bookmarks"
+   },
+   "LabelAdapterwebdav": {
+      "message": "WebDAV netwerklocatie"
+   },
+   "LabelAdd": {
+      "message": "Toevoegen"
+   },
+   "LabelAddaccount": {
+      "message": "Profiel toevoegen"
+   },
+   "LabelAddbookmark": {
+      "message": "Bladwijzer toevoegen"
+   },
+   "LabelAddfolder": {
+      "message": "Map toevoegen"
+   },
+   "LabelAllownetwork": {
+      "message": "Sta netwerkgebruik toe"
+   },
+   "LabelAllowredirects": {
+      "message": "Omleidingen in server-URL toestaan"
+   },
+   "LabelAutosync": {
+      "message": "Autosync"
+   },
+   "LabelBack": {
+      "message": "Terug"
+   },
+   "LabelBookmarksfile": {
+      "message": "Pad naar bladwijzerbestand"
+   },
+   "LabelCancel": {
+      "message": "Annuleren"
+   },
+   "LabelCancelsync": {
+      "message": "Synchronisatie afbreken"
+   },
+   "LabelChange": {
+      "message": "Wijzig"
+   },
+   "LabelChooseadapter": {
+      "message": "Hoe wil je synchroniseren?"
+   },
+   "LabelChoosefolder": {
+      "message": "Kies een map"
+   },
+   "LabelClientcert": {
+      "message": "Aanmeldgegevens versturen"
+   },
+   "LabelConnect": {
+      "message": "Verbinden"
+   },
+   "LabelContinue": {
+      "message": "Doorgaan"
+   },
+   "LabelContinuefloccus": {
+      "message": "Doorgaan naar floccus"
+   },
+   "LabelContributors": {
+      "message": "Bijdragen"
+   },
+   "LabelCurrentversion": {
+      "message": "Huidige versie"
+   },
+   "LabelDebuglogs": {
+      "message": "Debug logs"
+   },
+   "LabelDeleteitem": {
+      "message": "Verwijderen"
+   },
+   "LabelDone": {
+      "message": "Gereed"
+   },
+   "LabelDownloadanonymizedlogs": {
+      "message": "Geredigeerde logboeken"
+   },
+   "LabelDownloadfulllogs": {
+      "message": "Volledige logboeken"
+   },
+   "LabelDownloadlogs": {
+      "message": "Logboeken downloaden"
+   },
+   "LabelEditbookmark": {
+      "message": "Bladwijzer bewerken"
+   },
+   "LabelEditfolder": {
+      "message": "Map bewerken"
+   },
+   "LabelEdititem": {
+      "message": "Bewerken"
+   },
+   "LabelExport": {
+      "message": "Profielen exporteren"
+   },
+   "LabelExportBookmarks": {
+      "message": "Bladwijzers exporteren"
+   },
+   "LabelFailsafe": {
+      "message": "Voorzorgsmaatregel"
+   },
+   "LabelFailsafeoff": {
+      "message": "Uitgeschakeld. Toestaan dat meer dan 50% van mijn lokale bladwijzers worden verwijderd zonder dat dit door mij wordt bevestigd."
+   },
+   "LabelFailsafeon": {
+      "message": "Ingeschakeld. Verwijder niet meer dan 50% van mijn lokale bladwijzers zonder het me eerst te vragen. (Aanbevolen)"
+   },
+   "LabelFiletype": {
+      "message": "Bestandsformaat"
+   },
+   "LabelFiletypehtml": {
+      "message": "HTML, een breed ondersteund, open formaat (experimenteel)"
+   },
+   "LabelFiletypexbel": {
+      "message": "XBEL, een eenvoudig, open formaat"
+   },
+   "LabelFolderNotFound": {
+      "message": "Map niet gevonden"
+   },
+   "LabelFunddevelopment": {
+      "message": "Ontwikkeling ondersteunen"
+   },
+   "LabelGithubsponsors": {
+      "message": "GitHub-sponsoren"
+   },
+   "LabelGoogledrivesetup": {
+      "message": "Aanmelden bij Google Drive"
+   },
+   "LabelImport": {
+      "message": "Profielen importeren"
+   },
+   "LabelImportExport": {
+      "message": "Profielen importeren/exporteren"
+   },
+   "LabelImportbookmarks": {
+      "message": "Bladwijzers importeren"
+   },
+   "LabelImportsuccessful": {
+      "message": "Profiel(en) succesvol geïmporteerd"
+   },
+   "LabelKey": {
+      "message": "Voer je ontgrendel wachtwoordzin in"
+   },
+   "LabelKey2": {
+      "message": "Voer je wachtwoordzin nogmaals in"
+   },
+   "LabelKofi": {
+      "message": "Kofi"
+   },
+   "LabelLiberapay": {
+      "message": "Liberapay"
+   },
+   "LabelLocalfolder": {
+      "message": "Bladwijzer map"
+   },
+   "LabelLocaltarget": {
+      "message": "Lokaal doel"
+   },
+   "LabelLoginFlowError": {
+      "message": "Aanmelden met Nextcloud mislukt"
+   },
+   "LabelLoginFlowStart": {
+      "message": "Aanmelden met Nextcloud"
+   },
+   "LabelLoginFlowStop": {
+      "message": "Aanmelden met Nextcloud afbreken"
+   },
+   "LabelLogingoogle": {
+      "message": "Met Google aanmelden"
+   },
+   "LabelMobilesettings": {
+      "message": "Mobiele instellingen"
+   },
+   "LabelNestedSync": {
+      "message": "Gekoppelde profielen"
+   },
+   "LabelNestedSyncNo": {
+      "message": "Nee, negeer de map van dit profiel in andere profielen"
+   },
+   "LabelNestedSyncYes": {
+      "message": "Ja, neem de map van dit profiel op in andere profielen"
+   },
+   "LabelNewAccount": {
+      "message": "Nieuw profiel"
+   },
+   "LabelNewfolder": {
+      "message": "Nieuw aangemaakte map"
+   },
+   "LabelNextcloudurl": {
+      "message": "Nextcloud URL"
+   },
+   "LabelNoAccount": {
+      "message": "Hier zijn geen profielen"
+   },
+   "LabelNobookmarks": {
+      "message": "Hier zijn geen bladwijzers"
+   },
+   "LabelOpencollective": {
+      "message": "OpenCollective"
+   },
+   "LabelOpenintab": {
+      "message": "Openen in tabblad"
+   },
+   "LabelOptions": {
+      "message": "Opties"
+   },
+   "LabelOptionsDangerous": {
+      "message": "Gevaarlijke acties"
+   },
+   "LabelOptionsFolderMapping": {
+      "message": "Map toewijzing"
+   },
+   "LabelOptionsServerDetails": {
+      "message": "Serverdetails"
+   },
+   "LabelOptionsSyncBehavior": {
+      "message": "Synchronisatiegedrag"
+   },
+   "LabelOptionsscreen": {
+      "description": "Title of the options screen. The placeholder holds the profile type.",
+      "message": "{0} opties"
+   },
+   "LabelParallelsync": {
+      "message": "Synchronisatie versnellen"
+   },
+   "LabelPassphrase": {
+      "message": "Wachtwoordzin"
+   },
+   "LabelPassword": {
+      "message": "Wachtwoord"
+   },
+   "LabelPatreon": {
+      "message": "Patreon"
+   },
+   "LabelPaypal": {
+      "message": "Paypal"
+   },
+   "LabelReleaseNotes": {
+      "message": "Lees de uitgavenotities"
+   },
+   "LabelRemove": {
+      "message": "Verwijder"
+   },
+   "LabelRemoveaccount": {
+      "message": "Profiel verwijderen"
+   },
+   "LabelRemovedkey": {
+      "message": "Wachtwoordzin verwijderd"
+   },
+   "LabelRemovekey": {
+      "message": "Verwijder wachtwoordzin"
+   },
+   "LabelReset": {
+      "message": "Opnieuw instellen"
+   },
+   "LabelResetCache": {
+      "message": "Cache resetten"
+   },
+   "LabelRootfolder": {
+      "message": "Basismap"
+   },
+   "LabelSave": {
+      "message": "Opslaan"
+   },
+   "LabelSearch": {
+      "message": "Bladwijzers doorzoeken"
+   },
+   "LabelSearchfolder": {
+      "message": "Zoek {0}"
+   },
+   "LabelSelect": {
+      "message": "Selecteer"
+   },
+   "LabelServerfolder": {
+      "message": "Server doel"
+   },
+   "LabelServersetup": {
+      "message": "Met welke server wil je synchroniseren?"
+   },
+   "LabelSetkeybutton": {
+      "message": "Wachtwoordzin instellen"
+   },
+   "LabelShareitem": {
+      "message": "Delen"
+   },
+   "LabelSlugline": {
+      "message": "Synchronisatie van privébladwijzers"
+   },
+   "LabelSortcustom": {
+      "message": "Aangepast"
+   },
+   "LabelSorttitle": {
+      "message": "Titel"
+   },
+   "LabelSorturl": {
+      "message": "Koppeling"
+   },
+   "LabelStrategy": {
+      "message": "Synchronisatiestrategie"
+   },
+   "LabelStrategydefault": {
+      "message": "Voeg altijd lokale wijzigingen samen met wijzigingen van andere browsers (aanbevolen)"
+   },
+   "LabelStrategyoverwrite": {
+      "message": "Upload altijd lokale wijzigingen en maak wijzigingen van andere browsers ongedaan"
+   },
+   "LabelStrategyslave": {
+      "message": "Maak lokale wijzigingen altijd ongedaan en download wijzigingen van andere browsers"
+   },
+   "LabelSyncDown": {
+      "message": "Ophalen"
+   },
+   "LabelSyncDownOnce": {
+      "message": "Eenmalig ophalen"
+   },
+   "LabelSyncNormal": {
+      "message": "Samenvoegen"
+   },
+   "LabelSyncTabs": {
+      "message": "Browser tabbladen"
+   },
+   "LabelSyncUp": {
+      "message": "Versturen"
+   },
+   "LabelSyncUpOnce": {
+      "message": "Eenmalig versturen"
+   },
+   "LabelSyncall": {
+      "message": "Synchroniseer alle profielen"
+   },
+   "LabelSyncbehavior": {
+      "message": "Synchronisatiegedrag"
+   },
+   "LabelSyncbehaviorsetup": {
+      "message": "Hoe wil je dat synchroniseren werkt?"
+   },
+   "LabelSyncfolders": {
+      "message": "Mapsynchronisatie"
+   },
+   "LabelSyncfoldersetup": {
+      "message": "Welke mappen wil je synchroniseren?"
+   },
+   "LabelSyncfromscratch": {
+      "message": "Start synchronisatie vanaf het begin"
+   },
+   "LabelSyncinterval": {
+      "message": "Synchronisatieinterval"
+   },
+   "LabelSyncmethod": {
+      "message": "Synchronisatiemethode"
+   },
+   "LabelSyncnow": {
+      "message": "Nu synchroniseren"
+   },
+   "LabelSyncserver": {
+      "message": "Synchronisatieserver"
+   },
+   "LabelTabs": {
+      "message": "Tabbladen"
+   },
+   "LabelUnlock": {
+      "message": "Floccus ontgrendelen"
+   },
+   "LabelUntitledfolder": {
+      "message": "Naamloze map"
+   },
+   "LabelUpdated": {
+      "message": "Floccus is bijgewerkt"
+   },
+   "LabelUsername": {
+      "message": "Gebruikersnaam"
+   },
+   "LabelWebdavurl": {
+      "message": "WebDAV URL"
+   },
+   "LegacyAdapterDeprecation": {
+      "message": "Dit oude profieltype is verouderd en wordt binnenkort verwijderd. Schakel over naar de nieuwe nextcloud synchronisatiemethode. Dit zorgt voor verbeterde prestaties en hogere nauwkeurigheid."
+   },
+   "StatusAllgood": {
+      "message": "Alles in orde"
+   },
+   "StatusDisabled": {
+      "message": "Uitgeschakeld"
+   },
+   "StatusError": {
+      "message": "Fout"
+   },
+   "StatusFailsafeoff": {
+      "message": "Voorzorgsmaatregel uitgeschakeld. U loopt het risico op onbedoeld gegevensverlies. Het wordt aanbevolen om deze maatregel in te schakelen in de profielinstellingen."
+   },
+   "StatusLastsynced": {
+      "message": "Laatst gesynchroniseerd: {0} geleden"
+   },
+   "StatusNeversynced": {
+      "message": "Nog niet gesynchroniseerd"
+   },
+   "StatusScheduled": {
+      "message": "Gepland"
+   },
+   "StatusSyncing": {
+      "message": "Synchroniseren"
+   }
+}

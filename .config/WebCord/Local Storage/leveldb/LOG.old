@@ -1,0 +1,45 @@
+2025/06/11-21:26:29.576 d00 Reusing MANIFEST /home/svel/.config/WebCord/Local Storage/leveldb/MANIFEST-000001
+2025/06/11-21:26:29.581 d00 Recovering log #16
+2025/06/11-21:26:29.581 d00 Reusing old log /home/svel/.config/WebCord/Local Storage/leveldb/000016.log 
+2025/06/11-21:34:31.445 d01 Level-0 table #21: started
+2025/06/11-21:34:31.459 d01 Level-0 table #21: 59631 bytes OK
+2025/06/11-21:34:31.467 d01 Delete type=0 #16
+2025/06/11-21:52:31.444 d01 Level-0 table #23: started
+2025/06/11-21:52:31.459 d01 Level-0 table #23: 40655 bytes OK
+2025/06/11-21:52:31.466 d01 Delete type=0 #20
+2025/06/11-23:08:31.445 d01 Level-0 table #25: started
+2025/06/11-23:08:31.459 d01 Level-0 table #25: 9886 bytes OK
+2025/06/11-23:08:31.466 d01 Delete type=0 #22
+2025/06/11-23:54:31.445 d01 Level-0 table #27: started
+2025/06/11-23:54:31.459 d01 Level-0 table #27: 38958 bytes OK
+2025/06/11-23:54:31.466 d01 Delete type=0 #24
+2025/06/11-23:54:31.467 d01 Compacting 4@0 + 1@1 files
+2025/06/11-23:54:31.473 d01 Generated table #28@0: 29 keys, 51045 bytes
+2025/06/11-23:54:31.473 d01 Compacted 4@0 + 1@1 files => 51045 bytes
+2025/06/11-23:54:31.480 d01 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/06/11-23:54:31.481 d01 Delete type=2 #21
+2025/06/11-23:54:31.481 d01 Delete type=2 #25
+2025/06/11-23:54:31.481 d01 Delete type=2 #27
+2025/06/11-23:54:31.481 d01 Delete type=2 #23
+2025/06/11-23:54:31.481 d01 Delete type=2 #18
+2025/06/12-00:45:31.445 d01 Level-0 table #30: started
+2025/06/12-00:45:31.459 d01 Level-0 table #30: 54388 bytes OK
+2025/06/12-00:45:31.466 d01 Delete type=0 #26
+2025/06/12-00:52:31.445 d01 Level-0 table #32: started
+2025/06/12-00:52:31.459 d01 Level-0 table #32: 39823 bytes OK
+2025/06/12-00:52:31.466 d01 Delete type=0 #29
+2025/06/12-01:12:31.445 d01 Level-0 table #34: started
+2025/06/12-01:12:31.459 d01 Level-0 table #34: 41899 bytes OK
+2025/06/12-01:12:31.466 d01 Delete type=0 #31
+2025/06/12-01:20:31.445 d01 Level-0 table #36: started
+2025/06/12-01:20:31.460 d01 Level-0 table #36: 70919 bytes OK
+2025/06/12-01:20:31.467 d01 Delete type=0 #33
+2025/06/12-01:20:31.468 d01 Compacting 4@0 + 1@1 files
+2025/06/12-01:20:31.474 d01 Generated table #37@0: 30 keys, 51221 bytes
+2025/06/12-01:20:31.474 d01 Compacted 4@0 + 1@1 files => 51221 bytes
+2025/06/12-01:20:31.481 d01 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/06/12-01:20:31.481 d01 Delete type=2 #36
+2025/06/12-01:20:31.481 d01 Delete type=2 #32
+2025/06/12-01:20:31.481 d01 Delete type=2 #30
+2025/06/12-01:20:31.481 d01 Delete type=2 #34
+2025/06/12-01:20:31.481 d01 Delete type=2 #28

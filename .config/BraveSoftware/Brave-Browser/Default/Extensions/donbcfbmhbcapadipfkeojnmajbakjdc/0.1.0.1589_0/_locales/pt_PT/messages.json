@@ -1,0 +1,119 @@
+{
+   "action_reload": {
+      "message": "Recarregar separador para aplicar alterações"
+   },
+   "description": {
+      "message": "Põe o Flash de volta na web, onde deve estar."
+   },
+   "grant_single_site_permission": {
+      "message": "Ativar permanentemente neste site"
+   },
+   "onboarding_page": {
+      "message": "Página de integração"
+   },
+   "open_player_page": {
+      "message": "Abrir Leitor de SWF"
+   },
+   "open_settings_page": {
+      "message": "Abrir página de opções"
+   },
+   "permissions_explanation": {
+      "message": "A extensão Ruffle funciona melhor se puder aceder aos dados de todos os sites. Isso permite-lhe ser executada quando qualquer site carrega pela primeira vez, permitindo assim convencer sites que fazem deteção do Flash Player a deixar o conteúdo do Flash ser executado imediatamente. Isso permite-lhe ainda carregar ficheiros SWF na sua página interna do leitor a partir de outros locais na web e permite-lhe carregar automaticamente links SWF dirigidos a essa página. Se não conceder esta permissão, precisará de ativar o Ruffle manualmente em cada site em que deseje usá-lo, clicando no ícone da extensão e ativando-o nesse site."
+   },
+   "permissions_grant": {
+      "message": "Conceder permissão ao Ruffle para aceder aos meus dados em todos os sites"
+   },
+   "permissions_not_granted": {
+      "message": "Precisará de clicar no ícone do Ruffle em todos os sites em que pretenda usar o Ruffle"
+   },
+   "save_settings": {
+      "message": "Gravar opções"
+   },
+   "settings_advanced_options": {
+      "message": "Opções Avançadas"
+   },
+   "settings_autostart": {
+      "message": "Reproduzir automaticamente sem ecrã inicial (depois clique para ativar o som)"
+   },
+   "settings_ignore_optout": {
+      "message": "Reproduzir conteúdo em Flash até em sites que não permitem o Ruffle"
+   },
+   "settings_log_level": {
+      "message": "Nível de registo"
+   },
+   "settings_log_level_error": {
+      "message": "Erros"
+   },
+   "settings_log_level_info": {
+      "message": "Informação"
+   },
+   "settings_log_level_warn": {
+      "message": "Avisos"
+   },
+   "settings_max_execution_duration": {
+      "message": "Duração máxima permitida para execução de ActionScript (em segundos)"
+   },
+   "settings_page": {
+      "message": "Página de Opções"
+   },
+   "settings_player_version": {
+      "message": "Versão do Flash Player a emular (entre 1 e 32)"
+   },
+   "settings_preferred_renderer": {
+      "message": "Renderizador preferido"
+   },
+   "settings_preferred_renderer_auto": {
+      "message": "Automático"
+   },
+   "settings_reset": {
+      "message": "Redefinir opções"
+   },
+   "settings_reset_confirm": {
+      "message": "Tem a certeza de que quer redefinir as opções do Ruffle para os valores originais?"
+   },
+   "settings_ruffle_enable": {
+      "message": "Reproduzir conteúdo Flash no Ruffle"
+   },
+   "settings_saved": {
+      "message": "Opções gravadas"
+   },
+   "settings_show_swf_download": {
+      "message": "Permitir descarregar SWFs pelo menu de contexto"
+   },
+   "settings_swf_takeover": {
+      "message": "Reproduzir ficheiros SWF no navegador em vez de descarregá-los"
+   },
+   "status_init": {
+      "message": "Lendo o separador atual…"
+   },
+   "status_message_init": {
+      "message": "Verificando o estado do Ruffle no separador atual…"
+   },
+   "status_no_tabs": {
+      "message": "Ainda não há um separador ativo."
+   },
+   "status_result_disabled": {
+      "message": "O Ruffle está desativado."
+   },
+   "status_result_error": {
+      "message": "Ocorreu um erro ao consultar a instância do Ruffle na página atual."
+   },
+   "status_result_optout": {
+      "message": "O Ruffle não pode carregar porque a página atual marcou-se como incompatível."
+   },
+   "status_result_protected": {
+      "message": "O Ruffle não pode carregar em páginas protegidas do navegador."
+   },
+   "status_result_running": {
+      "message": "O Ruffle está carregado e pronto para executar o conteúdo Flash no separador atual."
+   },
+   "status_result_running_protected": {
+      "message": "O Ruffle está carregado e executando o conteúdo Flash solicitado."
+   },
+   "status_tabs_error": {
+      "message": "Ocorreu um erro ao procurar o separador atual."
+   },
+   "swf_player_permissions": {
+      "message": "Deve conceder permissão a esta origem de URL para carregar SWFs a partir dela."
+   }
+}

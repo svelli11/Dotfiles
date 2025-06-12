@@ -1,0 +1,1662 @@
+{
+   "checksum": "4ad1eb1f8c5989f8a612b5e0bec6d268",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13378254894409442",
+            "date_last_used": "13389220986304910",
+            "guid": "f8587beb-c7e9-4e66-a8ea-9c5e9174f45e",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "monday",
+            "type": "url",
+            "url": "https://meet.google.com/pzc-emye-bmi"
+         }, {
+            "date_added": "13390276811152949",
+            "date_last_used": "0",
+            "guid": "d3b8d176-a784-458c-9282-0e8fecbec609",
+            "id": "6",
+            "name": "",
+            "type": "url",
+            "url": "https://bookmarkseparators.com/?i=colour-picker-dot#fabd2f"
+         }, {
+            "children": [ {
+               "date_added": "13390276577944335",
+               "date_last_used": "0",
+               "guid": "05fe6908-15d3-4c91-bc17-38cea4e0e012",
+               "id": "8",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Markdown Cheat Sheet | Markdown Guide",
+               "type": "url",
+               "url": "https://www.markdownguide.org/cheat-sheet/"
+            }, {
+               "date_added": "13389682159577682",
+               "date_last_used": "0",
+               "guid": "1e96a239-cd3f-4475-a2ce-9fde1b25c8bb",
+               "id": "9",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "CSS documentation — DevDocs",
+               "type": "url",
+               "url": "https://devdocs.io/css/"
+            } ],
+            "date_added": "13390276587300735",
+            "date_last_used": "0",
+            "date_modified": "13390276587300735",
+            "guid": "578dc85f-f790-4f61-96cf-9a085fb62ccf",
+            "id": "7",
+            "name": "cheatsheets",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13378766835569255",
+               "date_last_used": "0",
+               "guid": "254d85b6-55be-4f5d-ae51-a74e739bcf82",
+               "id": "11",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "20 essential Linux commands for every user | Opensource.com",
+               "type": "url",
+               "url": "https://opensource.com/article/21/9/essential-linux-commands"
+            }, {
+               "date_added": "13390201629360849",
+               "date_last_used": "0",
+               "guid": "3c920201-50ae-4445-8f14-893f43db9b00",
+               "id": "12",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "the art of unix progamming.pdf",
+               "type": "url",
+               "url": "https://cdn.nakamotoinstitute.org/docs/taoup.pdf"
+            }, {
+               "date_added": "13390202007088200",
+               "date_last_used": "0",
+               "guid": "712ed9da-fdb4-49b6-8a28-83a0382d2bf3",
+               "id": "13",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "The UNIX-HATERS Handbook.pdf",
+               "type": "url",
+               "url": "https://web.mit.edu/~simsong/www/ugh.pdf"
+            }, {
+               "date_added": "13390203553614257",
+               "date_last_used": "0",
+               "guid": "5af4d04f-5f0b-441f-ac9c-289cbea08014",
+               "id": "14",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "0bCdian/Hyprland_dotfiles at gruvboxy",
+               "type": "url",
+               "url": "https://github.com/0bCdian/Hyprland_dotfiles/tree/gruvboxy"
+            }, {
+               "date_added": "13390207731288142",
+               "date_last_used": "0",
+               "guid": "7c212dc0-0d7e-4da0-a504-4c84bdd15c30",
+               "id": "15",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "0bCdian/Hyprland_dotfiles at Cozy_Gruvbox",
+               "type": "url",
+               "url": "https://github.com/0bCdian/Hyprland_dotfiles/tree/Cozy_Gruvbox"
+            }, {
+               "date_added": "13390207742248157",
+               "date_last_used": "0",
+               "guid": "a2d8a636-1bc6-4053-9a00-870aa4982a73",
+               "id": "16",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "General-purpose dotfiles utilities - dotfiles.github.io",
+               "type": "url",
+               "url": "https://dotfiles.github.io/utilities/"
+            }, {
+               "date_added": "13390207747588189",
+               "date_last_used": "0",
+               "guid": "23572d44-07ca-404c-a9a1-647fe199d2e8",
+               "id": "17",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Git Guides - install git",
+               "type": "url",
+               "url": "https://github.com/git-guides/install-git"
+            }, {
+               "date_added": "13390208258959879",
+               "date_last_used": "0",
+               "guid": "59120ec3-487c-4df3-b4af-4e190c5d824f",
+               "id": "18",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "rEFInd flash drive (for emergency boot) - Linux Mint Forums",
+               "type": "url",
+               "url": "https://forums.linuxmint.com/viewtopic.php?t=389479"
+            }, {
+               "date_added": "13390272008974082",
+               "date_last_used": "0",
+               "guid": "85a6ab8f-9324-4cba-bd2b-16d47046f7b3",
+               "id": "19",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "How This Course Will Work | The Odin Project",
+               "type": "url",
+               "url": "https://www.theodinproject.com/lessons/foundations-how-this-course-will-work"
+            }, {
+               "date_added": "13390272021220485",
+               "date_last_used": "0",
+               "guid": "7f679289-9e3e-40da-8980-f573f3018040",
+               "id": "20",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "djyde/cusdis: lightweight, privacy-friendly alternative to Disqus.",
+               "type": "url",
+               "url": "https://github.com/djyde/cusdis"
+            }, {
+               "date_added": "13390275393247938",
+               "date_last_used": "0",
+               "guid": "326de7be-aeea-48da-926a-f61362d77ede",
+               "id": "21",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "wackyideas / AeroThemePlasma · GitLab",
+               "type": "url",
+               "url": "https://gitgud.io/wackyideas/aerothemeplasma/"
+            }, {
+               "date_added": "13390338479000088",
+               "date_last_used": "0",
+               "guid": "6c69ac7b-3ead-40bb-9bc0-b973c63d062b",
+               "id": "22",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Aylur's GTK Shell | AGS Wiki",
+               "type": "url",
+               "url": "https://aylur.github.io/ags-docs/"
+            }, {
+               "date_added": "13390363229570644",
+               "date_last_used": "0",
+               "guid": "0a77548b-24cc-4765-9669-43bb0491a173",
+               "id": "23",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "LGFae/swww: A Solution to your Wayland Wallpaper Woes",
+               "type": "url",
+               "url": "https://github.com/LGFae/swww"
+            }, {
+               "date_added": "13390363394812110",
+               "date_last_used": "0",
+               "guid": "76a17f6e-4359-4c99-a5b0-0bbf442e5d7b",
+               "id": "24",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "config organization",
+               "type": "url",
+               "url": "https://github.com/AhmedSaadi0/my-hyprland-config/blob/main/hyprland.conf"
+            }, {
+               "date_added": "13390368747460827",
+               "date_last_used": "0",
+               "guid": "957285a2-1b46-4826-872c-577fa28a7af3",
+               "id": "25",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "AGS",
+               "type": "url",
+               "url": "https://aylur.github.io/ags/"
+            }, {
+               "date_added": "13390368806890787",
+               "date_last_used": "0",
+               "guid": "485ae313-3948-4a5d-a7bc-2905fc10cef2",
+               "id": "26",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Learn TypeScript in Y Minutes",
+               "type": "url",
+               "url": "https://learnxinyminutes.com/typescript/"
+            }, {
+               "date_added": "13390368861440102",
+               "date_last_used": "0",
+               "guid": "61c68c92-4e8d-4cf1-b9fd-3f5c835dfb03",
+               "id": "27",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Introduction | Astal",
+               "type": "url",
+               "url": "https://aylur.github.io/astal/guide/getting-started/introduction"
+            }, {
+               "date_added": "13390393606242410",
+               "date_last_used": "0",
+               "guid": "be083389-3912-47eb-9642-92016a0e59f2",
+               "id": "28",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "System maintenance - ArchWiki",
+               "type": "url",
+               "url": "https://wiki.archlinux.org/title/System_maintenance"
+            }, {
+               "date_added": "13390398095424701",
+               "date_last_used": "0",
+               "guid": "6fda60f0-a6d6-4e4d-bc29-61931d4f0759",
+               "id": "29",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "The Ricing Guide | namishh",
+               "type": "url",
+               "url": "https://namishh.me/blog/ricing/"
+            }, {
+               "date_added": "13390398783280340",
+               "date_last_used": "0",
+               "guid": "19cc843e-9202-44e5-9db3-ab8abdeaab8e",
+               "id": "30",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "JavaScript to TypeScript 101: A Comprehensive Guide",
+               "type": "url",
+               "url": "https://www.turing.com/kb/migrate-javascript-to-typescript#what-is-typescript-and-why-transition-from-javascript?"
+            }, {
+               "date_added": "13390683828912908",
+               "date_last_used": "0",
+               "guid": "b4b54a60-4135-43b4-b589-34d61cbd55ee",
+               "id": "31",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Hyprland - ArchWiki",
+               "type": "url",
+               "url": "https://wiki.archlinux.org/title/Hyprland"
+            }, {
+               "date_added": "13390691534160758",
+               "date_last_used": "0",
+               "guid": "b413d750-f4d7-4ec5-86b5-07664a984191",
+               "id": "32",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Network configuration - ArchWiki",
+               "type": "url",
+               "url": "https://wiki.archlinux.org/title/Network_configuration"
+            }, {
+               "date_added": "13390691590507659",
+               "date_last_used": "0",
+               "guid": "2b836468-78c8-45b2-82da-6db04e74c3c3",
+               "id": "33",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Hyprland Wiki",
+               "type": "url",
+               "url": "https://wiki.hyprland.org/"
+            }, {
+               "date_added": "13390707892584260",
+               "date_last_used": "0",
+               "guid": "32c3c916-cb55-4a53-aa81-5c3163636ef2",
+               "id": "34",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "rEFInd - ArchWiki",
+               "type": "url",
+               "url": "https://wiki.archlinux.org/title/REFInd"
+            }, {
+               "date_added": "13390779932744191",
+               "date_last_used": "0",
+               "guid": "75d4f312-f0e5-4a8b-876f-c50338cd0f30",
+               "id": "35",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Arch User Repository - ArchWiki",
+               "type": "url",
+               "url": "https://wiki.archlinux.org/title/Arch_User_Repository#Getting_started"
+            } ],
+            "date_added": "13390276291975862",
+            "date_last_used": "0",
+            "date_modified": "13390779932744191",
+            "guid": "61ac9701-1c9b-46f6-b948-48b9bf9e6973",
+            "id": "10",
+            "name": "linux",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13390272496483752",
+               "date_last_used": "0",
+               "guid": "d890dea1-2dc3-4886-a311-c18b26a69208",
+               "id": "37",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "sample_d4352f0a73900d654f71b74d16ee1a988f31b67e.jpg (850×1314)",
+               "type": "url",
+               "url": "https://safebooru.org//samples/4355/sample_d4352f0a73900d654f71b74d16ee1a988f31b67e.jpg?5386261"
+            }, {
+               "date_added": "13390272506124629",
+               "date_last_used": "0",
+               "guid": "fd1e4eff-da48-42f2-b1ff-08f887d3f4ea",
+               "id": "38",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Safebooru - 1girl acrobatic silky (dandadan) ballerina building cityscape clouds cloudy sky dancing dandadan daodtt hashtag-only commentary highres long hair night on roof outdoors outstretched arms rain sky solo standing standing on one leg tutu | 5377166",
+               "type": "url",
+               "url": "https://safebooru.org/index.php?page=post&s=view&id=5377166"
+            }, {
+               "date_added": "13390272508671633",
+               "date_last_used": "0",
+               "guid": "d62d8be5-8112-43e6-a5b0-36652364d6b7",
+               "id": "39",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "sample_10fe409615b593f5a108fd86ed5724f0cb6b6ed1.jpg (850×464)",
+               "type": "url",
+               "url": "https://safebooru.org//samples/4/sample_10fe409615b593f5a108fd86ed5724f0cb6b6ed1.jpg?5391503"
+            }, {
+               "date_added": "13390272515982687",
+               "date_last_used": "0",
+               "guid": "568da11d-2e00-4bdc-95bd-8b8c147b2b49",
+               "id": "40",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Texas | Arknights Wiki | Fandom",
+               "type": "url",
+               "url": "https://arknights.fandom.com/wiki/Texas"
+            }, {
+               "date_added": "13390272522443834",
+               "date_last_used": "0",
+               "guid": "02b734b4-074b-4b41-9338-2d6a0b0f4d90",
+               "id": "41",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Amiya | Arknights Wiki | Fandom",
+               "type": "url",
+               "url": "https://arknights.fandom.com/wiki/Amiya"
+            }, {
+               "date_added": "13390272526044198",
+               "date_last_used": "0",
+               "guid": "36f0c55f-4b4e-46ba-8017-09308e8b6b5d",
+               "id": "42",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Arknights, Arknights, Amiya / \"Because it is there.\" - pixiv",
+               "type": "url",
+               "url": "https://www.pixiv.net/en/artworks/107806195"
+            }, {
+               "date_added": "13390272533081751",
+               "date_last_used": "0",
+               "guid": "54ae7120-1930-4726-bb47-91ecd887bb18",
+               "id": "43",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "(1) 唯@ｗ (@hoshieve) / X",
+               "type": "url",
+               "url": "https://x.com/hoshieve"
+            }, {
+               "date_added": "13390272540141884",
+               "date_last_used": "0",
+               "guid": "7a5936b0-668c-4915-b83b-16fd640b0fa8",
+               "id": "44",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Rosmontis | Arknights Wiki | Fandom",
+               "type": "url",
+               "url": "https://arknights.fandom.com/wiki/Rosmontis"
+            }, {
+               "date_added": "13390272558734913",
+               "date_last_used": "0",
+               "guid": "e30227f8-d165-4cc4-a425-39bbd0d89527",
+               "id": "45",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Savage | Arknights Wiki | Fandom",
+               "type": "url",
+               "url": "https://arknights.fandom.com/wiki/Savage"
+            }, {
+               "date_added": "13390272567532783",
+               "date_last_used": "0",
+               "guid": "2e5af7b4-4eb6-4f4d-85e7-dfeee79ddcb3",
+               "id": "46",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "QBU-88 - IOP Wiki",
+               "type": "url",
+               "url": "https://iopwiki.com/wiki/QBU-88"
+            }, {
+               "date_added": "13390272588426914",
+               "date_last_used": "0",
+               "guid": "09bba7eb-4023-484e-aa57-1023a8ac39b4",
+               "id": "47",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Desert Eagle - IOP Wiki",
+               "type": "url",
+               "url": "https://iopwiki.com/wiki/Desert_Eagle"
+            }, {
+               "date_added": "13390272595506869",
+               "date_last_used": "0",
+               "guid": "bc3ba49d-5d48-4085-bfa9-e641f68e9f7b",
+               "id": "48",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "C-MS - IOP Wiki",
+               "type": "url",
+               "url": "https://iopwiki.com/wiki/C-MS"
+            }, {
+               "date_added": "13390272616050909",
+               "date_last_used": "0",
+               "guid": "48106b09-e288-46d4-8429-dc2aa1b29397",
+               "id": "49",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "hachi (user wfze8448), hasumi (blue archive), blue archive, commentary request, korean commentary, 1girl, black hair, black shirt, black skirt, black thighhighs, black wings, blush, breasts, feathered wings, feet out of frame, forest, hair between eyes, halo, large breasts, long bangs, long hair, looking at viewer, mole, mole under eye, nature, neckerchief, pond, red eyes, red halo, red neckerchief, shirt, skirt, skirt set, smile, solo, thighhighs, torn clothes, water, wet, wet clothes, wings - Image View - | Gelbooru - Anime Art & Hentai Gallery - Free to Explore",
+               "type": "url",
+               "url": "https://gelbooru.com/index.php?page=post&s=view&id=11822497&tags=forest+pond"
+            }, {
+               "date_added": "13359693746995902",
+               "date_last_used": "0",
+               "guid": "75be3c25-2f47-4b5e-9180-ab34cd8ba538",
+               "id": "50",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "GREAT ARTIST",
+               "type": "url",
+               "url": "https://konachan.com/post?tags=ghostblade"
+            }, {
+               "date_added": "13359693814150597",
+               "date_last_used": "0",
+               "guid": "2795a753-f27d-4de0-babd-a3cb72b6f540",
+               "id": "51",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "this style with draogn drawing",
+               "type": "url",
+               "url": "https://konachan.com/post?page=2&tags=ghostblade"
+            }, {
+               "date_added": "13359699971203074",
+               "date_last_used": "0",
+               "guid": "ff9ffc6f-7fa2-4a7f-a965-8669c0c9e097",
+               "id": "52",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "good art to reference",
+               "type": "url",
+               "url": "https://manga.bilibili.com/detail/mc29481"
+            }, {
+               "date_added": "13359700070009749",
+               "date_last_used": "0",
+               "guid": "89d3144a-b39c-499a-bfad-5c5b05ec93a0",
+               "id": "53",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "ArtStation - WLOP",
+               "type": "url",
+               "url": "https://www.artstation.com/wlop"
+            }, {
+               "date_added": "13359700154702852",
+               "date_last_used": "0",
+               "guid": "1d126a0b-66c4-4c0f-99d6-64156352e9b3",
+               "id": "54",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "goldref",
+               "type": "url",
+               "url": "https://www.artstation.com/artwork/Ar9ozN"
+            }, {
+               "date_added": "13359700293695756",
+               "date_last_used": "0",
+               "guid": "bce16f1e-ec14-4280-8928-101500d831e9",
+               "id": "55",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Makeup2 by wlop on DeviantArt",
+               "type": "url",
+               "url": "https://www.deviantart.com/wlop/art/Makeup2-962104098"
+            }, {
+               "date_added": "13390277576334460",
+               "date_last_used": "0",
+               "guid": "84816d10-e9e4-428b-bf51-da36d8fe1be2",
+               "id": "56",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "website inspo",
+               "type": "url",
+               "url": "https://khcrysalis.dev/"
+            }, {
+               "date_added": "13390797865556167",
+               "date_last_used": "0",
+               "guid": "b97aa43f-cc39-4851-b7eb-367926b5615a",
+               "id": "57",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Gruvbox wallpapers",
+               "type": "url",
+               "url": "https://gruvbox-wallpapers.pages.dev/"
+            }, {
+               "date_added": "13390810351749228",
+               "date_last_used": "0",
+               "guid": "1025a069-d8a6-4b07-9c61-7c76dd0a1645",
+               "id": "58",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "akita neru, hatsune miku, kasane teto, kasane teto (utau), triple baka (vocaloid), utau, vocaloid, zako (vocaloid), absurdres, highres, &gt;3&lt;, &gt; &lt;, 3girls, ahoge, alternate costume, antenna hair, aqua eyes, aqua hair, bag, black skirt, black thighhighs, blonde hair, blue hair, blush, blush stickers, bow, bowtie, brown sweater vest, chair, cherry blossoms, classroom, closed eyes, closed mouth, crossed legs, curtains, desk, diagonal-striped bow, diagonal-striped bowtie, diagonal-striped clothes, dim lighting, double v, drill hair, full body, grey sweater vest, hair between eyes, hand on own chin, indoors, long hair, long sleeves, looking at viewer, miniskirt, multiple girls, night, night sky, open mouth, pink sweater vest, red bow, red bowtie, red eyes, red hair, school bag, school desk, school uniform, shirt, side ponytail, sitting, skirt, sky, sleeves past wrists, smile, squatting, standing, striped clothes, sweater vest, thighhighs, tongue, tongue out, triple ryuunen, twin drills, twintails, upper body, user ters7875, v, white shirt, window, yellow eyes - Image View - | Gelbooru - Anime Art & Hentai Gallery - Free to Explore",
+               "type": "url",
+               "url": "https://gelbooru.com/index.php?page=post&s=view&id=11845545&tags=-rating%3Aquestionable+-rating%3Aexplicit+-rating%3Asensitive+night_sky+curtains"
+            } ],
+            "date_added": "13390272505378498",
+            "date_last_used": "0",
+            "date_modified": "13390810351749228",
+            "guid": "875aca01-7e27-4593-b335-628ec56046fd",
+            "id": "36",
+            "name": "art inspo",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13379145161504853",
+               "date_last_used": "0",
+               "guid": "c299ce1f-29e8-4b4f-92ae-b4d2682361f8",
+               "id": "60",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "python - How to make input only accept a-z etc",
+               "type": "url",
+               "url": "https://stackoverflow.com/questions/30994738/how-to-make-input-only-accept-a-z-etc"
+            }, {
+               "date_added": "13379145625433019",
+               "date_last_used": "0",
+               "guid": "59df88cd-0cef-4418-ac66-1d7e6edc3352",
+               "id": "61",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Add text on image at specific point using imagemagick - Stack Overflow",
+               "type": "url",
+               "url": "https://stackoverflow.com/questions/23236898/add-text-on-image-at-specific-point-using-imagemagick"
+            }, {
+               "date_added": "13379145755101932",
+               "date_last_used": "0",
+               "guid": "3a631e71-ee84-4d0a-88d6-23013865700e",
+               "id": "62",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "python - How do I split a string into a list of characters? - Stack Overflow",
+               "type": "url",
+               "url": "https://stackoverflow.com/questions/4978787/how-do-i-split-a-string-into-a-list-of-characters"
+            }, {
+               "date_added": "13379147043467862",
+               "date_last_used": "0",
+               "guid": "563147e8-63f9-4b4a-93fb-0d9cc111528d",
+               "id": "63",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "NOT CREATE TASK - learn databases",
+               "type": "url",
+               "url": "https://www.dataquest.io/blog/sql-projects/#project3"
+            }, {
+               "date_added": "13379642426286305",
+               "date_last_used": "0",
+               "guid": "7eddb6a3-449e-4b6d-8379-36f33c84847a",
+               "id": "64",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "NOTFORTASK make a OTDriver plugin",
+               "type": "url",
+               "url": "https://github.com/OpenTabletDriver/OpenTabletDriver/wiki/Plugins/1d6485f80ed76c30c4a661d29220f20f555bef6a"
+            }, {
+               "date_added": "13379750524233120",
+               "date_last_used": "0",
+               "guid": "acfab180-8cb6-43f5-b6d2-f41460a10c54",
+               "id": "65",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "cool project idea",
+               "type": "url",
+               "url": "https://github.com/DubyaDude/WindowsMediaController?tab=readme-ov-file"
+            }, {
+               "date_added": "13388178345239494",
+               "date_last_used": "0",
+               "guid": "15e0407f-835e-4248-8bbf-c693326aa9b3",
+               "id": "66",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "GitHub - ParthJadhav/Tkinter-Designer: An easy and fast way to create a Python GUI 🐍",
+               "type": "url",
+               "url": "https://github.com/ParthJadhav/Tkinter-Designer"
+            }, {
+               "date_added": "13388191668252031",
+               "date_last_used": "0",
+               "guid": "8b5303c9-caf3-4889-8798-b6cd3af3f4f8",
+               "id": "67",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Axorax/tkforge: Drag & drop in Figma to create a Python GUI with ease",
+               "type": "url",
+               "url": "https://github.com/Axorax/tkforge"
+            } ],
+            "date_added": "13379145182895428",
+            "date_last_used": "0",
+            "date_modified": "13388191668252031",
+            "guid": "7efec2ca-f54c-4d89-a089-a8b8b04b11cd",
+            "id": "59",
+            "name": "CREATE TASK",
+            "type": "folder"
+         }, {
+            "date_added": "13390276821184175",
+            "date_last_used": "0",
+            "guid": "075308d5-5ec3-454b-9927-628bbcb64f6c",
+            "id": "68",
+            "name": "",
+            "type": "url",
+            "url": "https://bookmarkseparators.com/?i=colour-picker-dot#fabd2f"
+         }, {
+            "children": [ {
+               "date_added": "13367993770041032",
+               "date_last_used": "13390275745764882",
+               "guid": "dd81d826-278e-446d-bf4e-1f2c82781858",
+               "id": "70",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "(50) Touhou Caramelldansen 1080p60fps - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=raKFSNR7WlY"
+            }, {
+               "date_added": "13367995511562782",
+               "date_last_used": "0",
+               "guid": "13ab45b9-626d-4f1d-bdc5-6f9cb26411ef",
+               "id": "71",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Umauma caramelldansen Touhou by seinaruwolf on DeviantArt",
+               "type": "url",
+               "url": "https://www.deviantart.com/seinaruwolf/art/Umauma-caramelldansen-Touhou-78280034"
+            }, {
+               "date_added": "13361761653174668",
+               "date_last_used": "0",
+               "guid": "db460dd5-6ee0-4848-8859-7f43419cedf6",
+               "id": "72",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Watch woeywide choppers | Streamable",
+               "type": "url",
+               "url": "https://streamable.com/47vuih"
+            } ],
+            "date_added": "13367993782970755",
+            "date_last_used": "0",
+            "date_modified": "13367995511562782",
+            "guid": "c300e934-69b2-4752-a8e0-0bd635092b18",
+            "id": "69",
+            "name": "retro",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13361591605157349",
+               "date_last_used": "0",
+               "guid": "c3fe47dc-c18f-4da7-9ae7-acbe8bb7b494",
+               "id": "74",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "[SwayFX] Simple and clean Void linux rice : unixporn",
+               "type": "url",
+               "url": "https://www.reddit.com/r/unixporn/comments/1bv1nst/swayfx_simple_and_clean_void_linux_rice/"
+            }, {
+               "date_added": "13361788933628699",
+               "date_last_used": "0",
+               "guid": "4b311681-61f3-41f1-9d58-85fc1e38c242",
+               "id": "75",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "[Hyprland] Wallust all the way! : unixporn",
+               "type": "url",
+               "url": "https://www.reddit.com/r/unixporn/comments/1b71d3j/hyprland_wallust_all_the_way/"
+            }, {
+               "date_added": "13362885423446794",
+               "date_last_used": "0",
+               "guid": "15dd9033-14b9-4f68-ab51-b836af054858",
+               "id": "76",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "[i3] A breeze of bliss : unixporn",
+               "type": "url",
+               "url": "https://www.reddit.com/r/unixporn/comments/1d9aqeq/i3_a_breeze_of_bliss/"
+            }, {
+               "date_added": "13362885535325494",
+               "date_last_used": "0",
+               "guid": "eed48672-e783-4a0f-9783-7a8d64f51e5d",
+               "id": "77",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "jonaburg/picom: A lightweight compositor for X11 (previously a compton fork)",
+               "type": "url",
+               "url": "https://github.com/jonaburg/picom"
+            }, {
+               "date_added": "13362885545944325",
+               "date_last_used": "0",
+               "guid": "7db63d63-e245-4586-b933-abc5ceeb5df7",
+               "id": "78",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "polybar/polybar: A fast and easy-to-use status bar",
+               "type": "url",
+               "url": "https://github.com/polybar/polybar"
+            }, {
+               "date_added": "13388069198073885",
+               "date_last_used": "0",
+               "guid": "794d9ff0-54a6-4b11-894c-0e72325f9010",
+               "id": "79",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "[Hyprland] Cozy and Warm Gruvbox! : r/unixporn",
+               "type": "url",
+               "url": "https://www.reddit.com/r/unixporn/comments/13l4p6p/hyprland_cozy_and_warm_gruvbox/"
+            }, {
+               "date_added": "13390309242275672",
+               "date_last_used": "0",
+               "guid": "6790f2cd-b04c-4cb7-b514-0a4b8323fc92",
+               "id": "80",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "[Hyprland]NixOS is the pretty -ucking solid. I love nixos : r/unixporn",
+               "type": "url",
+               "url": "https://www.reddit.com/r/unixporn/comments/1ha3mjw/hyprlandnixos_is_the_pretty_ucking_solid_i_love/"
+            }, {
+               "date_added": "13390309270865640",
+               "date_last_used": "0",
+               "guid": "f74aed63-5fa1-4b31-a024-ff70dc48f28c",
+               "id": "81",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "maotseantonio/NixOS-Hyprland: ❄️ Shizuru❄️ . NOTE: This repo is fork from jakoolit but more nix way and more modularize. eg nixcord, nix4nvchad, stylix hyprland and plugin via hm and much more",
+               "type": "url",
+               "url": "https://github.com/maotseantonio/NixOS-Hyprland"
+            }, {
+               "date_added": "13390309298080710",
+               "date_last_used": "0",
+               "guid": "3b9a6c81-98f6-4676-8f66-228edd58dd45",
+               "id": "82",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "[XFCE] 🇨🇳 : r/unixporn",
+               "type": "url",
+               "url": "https://www.reddit.com/r/unixporn/comments/1k6q38v/xfce/"
+            }, {
+               "date_added": "13390309403294876",
+               "date_last_used": "0",
+               "guid": "0984363c-7cf1-4116-a2cd-d5f3c209ae80",
+               "id": "83",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Introduction - Wallust Guide",
+               "type": "url",
+               "url": "https://explosion-mental.codeberg.page/wallust/"
+            }, {
+               "date_added": "13390691677281991",
+               "date_last_used": "0",
+               "guid": "4c16c07c-597f-4d33-bb25-53a8ec9af655",
+               "id": "84",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "[Hyprland] - my second rice using ags : r/unixporn",
+               "type": "url",
+               "url": "https://www.reddit.com/r/unixporn/comments/187lz9l/hyprland_my_second_rice_using_ags/"
+            }, {
+               "date_added": "13390691713298320",
+               "date_last_used": "0",
+               "guid": "0e9f2f12-8f28-40dd-ab0f-4997bf44a5e0",
+               "id": "85",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "[Hyprland || AGS] AGS vs EWW vs any other BAR/Widget Manager what's performance difference? : r/unixporn",
+               "type": "url",
+               "url": "https://www.reddit.com/r/unixporn/comments/17j296c/hyprland_ags_ags_vs_eww_vs_any_other_barwidget/"
+            }, {
+               "date_added": "13390691720081357",
+               "date_last_used": "0",
+               "guid": "cdc4b578-72e7-46f6-ab2a-f6fe73e05fc6",
+               "id": "86",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "dots-hyprland/hybrid-summer/.config at archive · end-4/dots-hyprland",
+               "type": "url",
+               "url": "https://github.com/end-4/dots-hyprland/tree/archive/hybrid-summer/.config"
+            }, {
+               "date_added": "13390691724024117",
+               "date_last_used": "0",
+               "guid": "ac619c4d-48ce-4b85-9d46-d9455833f4b7",
+               "id": "87",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Hall of Fame | Hyprland",
+               "type": "url",
+               "url": "https://hyprland.org/hall_of_fame/"
+            } ],
+            "date_added": "13361591614482211",
+            "date_last_used": "0",
+            "date_modified": "13390691724024117",
+            "guid": "43ab66be-d30d-4451-abe6-2268f2525a3e",
+            "id": "73",
+            "name": "LinuxRices",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13363158826940975",
+               "date_last_used": "0",
+               "guid": "98043b88-b000-4309-a04f-ce18c28054a1",
+               "id": "89",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Wonderland Cup: Through the Looking Glass - Liquipedia osu Wiki",
+               "type": "url",
+               "url": "https://liquipedia.net/osu/Wonderland_Cup/Through_the_Looking_Glass"
+            }, {
+               "date_added": "13363308493028482",
+               "date_last_used": "0",
+               "guid": "e456fe7a-b3a2-40a9-8dac-79351ca82ca0",
+               "id": "90",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Stellar Series osu! Tournament 24 - Liquipedia osu Wiki",
+               "type": "url",
+               "url": "https://liquipedia.net/osu/Stellar_Series_osu_Tournament/24"
+            }, {
+               "date_added": "13363308498762419",
+               "date_last_used": "0",
+               "guid": "c661678c-50f0-4c54-b8dd-f2dc5cec7323",
+               "id": "91",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "osu! World Cup 2023 - Liquipedia osu Wiki",
+               "type": "url",
+               "url": "https://liquipedia.net/osu/Osu_World_Cup/2023"
+            }, {
+               "date_added": "13363308586099865",
+               "date_last_used": "0",
+               "guid": "92ffb7ee-8d5b-4bcc-8e21-d3f0c76170ec",
+               "id": "92",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "The Perennial 2024 - Liquipedia osu Wiki",
+               "type": "url",
+               "url": "https://liquipedia.net/osu/The_Perennial/2024"
+            }, {
+               "date_added": "13363308624856915",
+               "date_last_used": "0",
+               "guid": "e7c435ba-6212-431a-bd40-267159a41d4e",
+               "id": "93",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "KIRBY Mix Tournament 2 Main Sheet - Google Sheets",
+               "type": "url",
+               "url": "https://docs.google.com/spreadsheets/d/10NBipXgRSjytdNKHE0NhQ194yPo6w9B5en9K8NKWeFY/edit?gid=336604296#gid=336604296"
+            }, {
+               "date_added": "13364879255476809",
+               "date_last_used": "0",
+               "guid": "28f62ea8-41d1-4f1e-bb7d-d461a3ef4540",
+               "id": "94",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Multiplayer commands - upsetdavid's osu! blog",
+               "type": "url",
+               "url": "https://osu.upsetdavid.com/tournaments/multiplayer-commands/"
+            }, {
+               "date_added": "13364879292506742",
+               "date_last_used": "0",
+               "guid": "64f0e4f6-a101-4134-98f7-70cc5af78087",
+               "id": "95",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "The Perennial 2024 - Google Sheets",
+               "type": "url",
+               "url": "https://docs.google.com/spreadsheets/d/12G7pVvQaTj4JTCZgUkWRCnNWaV2IL3mD4phDQwXvSuc/edit?gid=1162000135#gid=1162000135"
+            } ],
+            "date_added": "13363158839857528",
+            "date_last_used": "0",
+            "date_modified": "13364879292506742",
+            "guid": "9942cf60-eadb-4105-89af-f5ccaf153e70",
+            "id": "88",
+            "name": "osu mappools",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13362124242876957",
+               "date_last_used": "0",
+               "guid": "66d091fc-07e7-4f52-89e8-6c4da873b45d",
+               "id": "97",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Blood on the Tracks Manga Online - [Latest Chapters]",
+               "type": "url",
+               "url": "https://blood-on-the-tracks.com/"
+            }, {
+               "date_added": "13360588829523711",
+               "date_last_used": "0",
+               "guid": "66dd3d20-8adb-4aa0-8856-97e93e391bf7",
+               "id": "98",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Forbidden Scrollery, Vol. 1 by ZUN, Paperback | Barnes & Noble®",
+               "type": "url",
+               "url": "https://www.barnesandnoble.com/w/forbidden-scrollery-vol-1-zun/1127532600"
+            } ],
+            "date_added": "13362124255047596",
+            "date_last_used": "0",
+            "date_modified": "13362124255047596",
+            "guid": "7de2e3c4-b2b3-4e14-84f0-500b39e029bf",
+            "id": "96",
+            "name": "manga",
+            "type": "folder"
+         }, {
+            "date_added": "13390276792012932",
+            "date_last_used": "0",
+            "guid": "c8949ee2-cdd0-45eb-b2c2-5997c5807446",
+            "id": "99",
+            "name": "",
+            "type": "url",
+            "url": "https://bookmarkseparators.com/?i=colour-picker-dp#fabd2f"
+         }, {
+            "date_added": "13364878862902860",
+            "date_last_used": "13370505975832973",
+            "guid": "3eaafbb8-5472-437b-a0d4-e42e39f45921",
+            "id": "100",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "ImgBB — Upload Image — Free Image Hosting",
+            "type": "url",
+            "url": "https://imgbb.com/"
+         }, {
+            "date_added": "13359973699558410",
+            "date_last_used": "13390276180935660",
+            "guid": "a59e7eb2-9c94-4aeb-8a0f-81220d11dbd7",
+            "id": "101",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Pomf.lain.la",
+            "type": "url",
+            "url": "https://pomf2.lain.la/"
+         }, {
+            "date_added": "13390276871388026",
+            "date_last_used": "0",
+            "guid": "4f41bb58-abe4-4a4e-b852-51a4d1095563",
+            "id": "102",
+            "name": "",
+            "type": "url",
+            "url": "https://bookmarkseparators.com/?i=colour-picker-dp#fabd2f"
+         }, {
+            "date_added": "13339693316319781",
+            "date_last_used": "13390867396387686",
+            "guid": "5855f8f5-52aa-4776-b5c8-7db9ca99471c",
+            "id": "103",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "太鼓ウェブ - Taiko Web",
+            "type": "url",
+            "url": "https://ouo.269seahorse.me/"
+         }, {
+            "date_added": "13390033248787195",
+            "date_last_used": "0",
+            "guid": "89e45222-513f-4b14-8a87-6fd1dd86d6b2",
+            "id": "104",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "nguyenminhhao9988/EFI-thinkpad-T14-gen-2-AMD: EFI Thinkpad T14 gen 2 AMD Ryzen 7 5850U",
+            "type": "url",
+            "url": "https://github.com/nguyenminhhao9988/EFI-thinkpad-T14-gen-2-AMD"
+         }, {
+            "date_added": "13390208695489195",
+            "date_last_used": "13390276948663793",
+            "guid": "c7c75b58-91b9-4db6-8124-2150defdba4f",
+            "id": "105",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Nekos.moe",
+            "type": "url",
+            "url": "https://nekos.moe/"
+         }, {
+            "date_added": "13361770630292575",
+            "date_last_used": "13390275676229785",
+            "guid": "1b5c96b1-a354-40b6-9244-2a5b101d1495",
+            "id": "106",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "creper turn into hoodie\\",
+            "type": "url",
+            "url": "https://www.amazon.com/Minecraft-Creeper-Costume-Pajama-X-Large/dp/B0CJ19FH9Q/ref=sr_1_4?crid=27XAGS5ZKH9XJ&dib=eyJ2IjoiMSJ9.5w4lAuW3rptkaZT1oRWUhQZFOcS87p1wklNbTwu9htD2v4wXBZyWRbkZEYGXIZ5xyE8XZH0AYJSgE_ujqkYLLnPjtbF8WduoeyZqDAp2QvUBNp9WdCM4sv0w0HZbSAQsLf9aSdEIHGBwMeMOSVybf-ni2RWsOQeJ__Se2HkHqBAOQIQ6LE1cKLQFH5zQRMEVdeO4W93tzrbuVgOHHHNF6C6_GpU8OTH2FFWEBFeelbBtPOmIbbCsSJX20bOucfYuXL9ejmDmut3J_D-wOREE3bntCY5NCIuSrz1ZW3k7XKw.gIAz9WizsZgBGpCqws0yiOomkFeNW17QemKcoxADBfk&dib_tag=se&keywords=creeper%2Bhoodie%2Badult&qid=1717297005&sprefix=creeper%2Bhoodie%2Badult%2Caps%2C128&sr=8-4&th=1&psc=1"
+         }, {
+            "children": [ {
+               "date_added": "13390277837160894",
+               "date_last_used": "0",
+               "guid": "e58cf503-a91d-4203-b9b5-e2ade109378d",
+               "id": "108",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Twitch",
+               "type": "url",
+               "url": "https://www.twitch.tv/"
+            }, {
+               "date_added": "13390277872776890",
+               "date_last_used": "0",
+               "guid": "cfd6de82-9b07-4343-a771-c4b57a5b32be",
+               "id": "109",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "(43) YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/"
+            }, {
+               "date_added": "13390401776886864",
+               "date_last_used": "0",
+               "guid": "94a5dfc0-87cf-4d54-9bd5-bc1c5b2aa9b0",
+               "id": "110",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Home - Google Drive",
+               "type": "url",
+               "url": "https://drive.google.com/drive/u/1/home"
+            }, {
+               "date_added": "13390542318451257",
+               "date_last_used": "0",
+               "guid": "2b702327-b2b9-457e-9d7b-89e4ff3cde89",
+               "id": "111",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Facebook",
+               "type": "url",
+               "url": "https://www.facebook.com/GamePlayMD"
+            } ],
+            "date_added": "13390277860514695",
+            "date_last_used": "0",
+            "date_modified": "13390542318451257",
+            "guid": "5da59f09-ec2b-436e-bafa-e8773dbb4359",
+            "id": "107",
+            "name": "autocomplete",
+            "type": "folder"
+         }, {
+            "date_added": "13365234668026385",
+            "date_last_used": "0",
+            "guid": "369967f8-0a32-4936-87a9-391f4785f320",
+            "id": "112",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "voygoal",
+            "type": "url",
+            "url": "https://www.youtube.com/@pipluptiny"
+         }, {
+            "date_added": "13357026029364691",
+            "date_last_used": "13390275880865162",
+            "guid": "90d6df11-698c-454b-a568-90c075cf78d2",
+            "id": "113",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Anime JK Hakurei Reimu Cosplay Beach Face Bath Towel Cartoon Girl TouHou Project Facecloth Washcloth Soft - AliExpress",
+            "type": "url",
+            "url": "https://www.aliexpress.us/item/2251832732194983.html?gatewayAdapt=glo2usa4itemAdapt"
+         }, {
+            "children": [ {
+               "date_added": "13355637298792701",
+               "date_last_used": "13355892987195994",
+               "guid": "0551c34d-f4f4-4ac1-ae1b-a63142b73a76",
+               "id": "115",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "japingguidguidde",
+               "type": "url",
+               "url": "https://www.reddit.com/r/LearnJapanese/wiki/index/startersguide/#wiki_what_is_japanese.3F"
+            }, {
+               "date_added": "13355705195961102",
+               "date_last_used": "0",
+               "guid": "3734eee4-94fd-4394-b473-07c3ac361d01",
+               "id": "116",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "jpaing doc",
+               "type": "url",
+               "url": "https://docs.google.com/document/d/10bRzVblKVOsQJjTc2PIi1Gbj_LrsJCkMkh0SutXCZdI/edit#heading=h.ff9mg4fv0ytd"
+            }, {
+               "date_added": "13355817468240136",
+               "date_last_used": "0",
+               "guid": "208c5639-47ef-461c-bd23-77cb8c21de98",
+               "id": "117",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Kana Invaders",
+               "type": "url",
+               "url": "https://learnjapanesepod.com/kana-invaders/"
+            }, {
+               "date_added": "13355882818422513",
+               "date_last_used": "0",
+               "guid": "43f87426-0bb8-4801-b8a5-6a499d9e184d",
+               "id": "118",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Genki Textbook and Workbook 1 , 2 , Answer Key ( Third Edition) , Hiragana and Sentences Chart: Eri Banno, Yoko Ikeda, Ohno Yutaka: Amazon.com: Books",
+               "type": "url",
+               "url": "https://www.amazon.com/Textbook-Workbook-Answer-Hiragana-Sentences/dp/B08XK12S14/ref=sr_1_1?crid=7UZ9OEC6SWUL&dib=eyJ2IjoiMSJ9.BfxuFhQXXSrNQ-tWr_9VZNMUBUlt6uRScgcpy1FDo1n6VJifTdSqSytZgDZZr4Lh1wBes4C41jHDnaU0hqMd4UVo1dFZTFJPAMmK1AlwclZzwjZkF8FtY8pQDt7D_XfmsbLvDfhZJPsJMkaqr7aJ_L7r0_YO__M5XluHqnlEqSIbizOuNupwOs0cojBNEZ3jQZD4xCCMkPSdpl3fv11_0mzrbW3RGGpLu6lWir4EpDQ.P-G6mNSm-1oTtm7C9jP5JpIe9GONZjHTnAIkdi3jkHQ&dib_tag=se&keywords=genki+textbook+bundle&qid=1711409204&sprefix=genki+textbook+bundle%2Caps%2C53&sr=8-1"
+            }, {
+               "date_added": "13355882939295694",
+               "date_last_used": "0",
+               "guid": "b8103ded-d360-4347-9694-bba642a7d86e",
+               "id": "119",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Genki Exercises - 3rd Edition | Genki Study Resources",
+               "type": "url",
+               "url": "https://sethclydesdale.github.io/genki-study-resources/lessons-3rd/"
+            }, {
+               "date_added": "13355884856052590",
+               "date_last_used": "0",
+               "guid": "0244404c-5c5d-4d54-9737-7305522013bf",
+               "id": "120",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "About – Learn Japanese",
+               "type": "url",
+               "url": "https://guidetojapanese.org/learn/complete/"
+            }, {
+               "date_added": "13355885296823462",
+               "date_last_used": "0",
+               "guid": "9152111a-8774-473c-b3f7-ce6466b752dc",
+               "id": "121",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "A Year to Learn Japanese - Google Docs",
+               "type": "url",
+               "url": "https://docs.google.com/document/d/10bRzVblKVOsQJjTc2PIi1Gbj_LrsJCkMkh0SutXCZdI/edit"
+            }, {
+               "date_added": "13355885363698215",
+               "date_last_used": "0",
+               "guid": "162ab8ba-07ab-46ed-bb52-cdef036bf5a4",
+               "id": "122",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Learn Japanese fast and effectively - Kanshudo",
+               "type": "url",
+               "url": "https://www.kanshudo.com/"
+            }, {
+               "date_added": "13355892914931280",
+               "date_last_used": "0",
+               "guid": "1bae7599-2295-4df0-8542-40f013073ce9",
+               "id": "123",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "(354) JAPANESE Read and Write : Hiragana A I U E O + Vocabulary and Listening Practice - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=mBcRjX7cYSM"
+            }, {
+               "date_added": "13355955922563422",
+               "date_last_used": "0",
+               "guid": "9208a725-2ae7-48da-88b8-87b72ffc199d",
+               "id": "124",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "(355) How to Write and Read All Hiragana | 30 minutes | Learn Japanese - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=z4qh8BVrb3w&list=WL&index=1"
+            }, {
+               "date_added": "13355718618803313",
+               "date_last_used": "13355892983316046",
+               "guid": "0696198c-ad2e-46e9-b79e-168ae5358a0a",
+               "id": "125",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "index/startersguide - japign",
+               "type": "url",
+               "url": "https://www.reddit.com/r/LearnJapanese/wiki/index/startersguide"
+            }, {
+               "date_added": "13355968943604097",
+               "date_last_used": "0",
+               "guid": "258afa43-a57e-4c4c-8233-9cdbe3788e4f",
+               "id": "126",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Kanji Koohii",
+               "type": "url",
+               "url": "https://kanji.koohii.com/"
+            }, {
+               "date_added": "13355969026823952",
+               "date_last_used": "0",
+               "guid": "81386c10-b68e-48e6-bdb8-4c303480ce3b",
+               "id": "127",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "How to Learn Japanese Kanji the Fun way (Heisig) - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=sspUdoV9Il0"
+            }, {
+               "date_added": "13355969412942649",
+               "date_last_used": "0",
+               "guid": "4edfec91-3a07-443a-9bc5-0103998f07e4",
+               "id": "128",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Ringotan - Learn Japanese Kanji | Free App",
+               "type": "url",
+               "url": "https://www.ringotan.com/"
+            }, {
+               "date_added": "13355969584400747",
+               "date_last_used": "0",
+               "guid": "6383bbda-a24d-467f-badd-f6c422bbaa39",
+               "id": "129",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "What They Never Told You About Kanji: 六書 - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=HOj4zOcNdak"
+            }, {
+               "date_added": "13355970394195905",
+               "date_last_used": "0",
+               "guid": "75f42dfb-2351-4164-b0bd-e8c92ad7a868",
+               "id": "130",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Japanese Study Now : Onyomi And Kunyomi (Kanji) - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=4FA_s_Cgu_k"
+            }, {
+               "date_added": "13355970404601798",
+               "date_last_used": "0",
+               "guid": "499dea92-cac7-4887-9a1e-a3a4b5b2271a",
+               "id": "131",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "wordorder",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=d6Vwiuq5k4M"
+            }, {
+               "date_added": "13356481868886931",
+               "date_last_used": "0",
+               "guid": "01c53f03-0ce9-4ba0-be03-afbc48fbc2da",
+               "id": "132",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "(367) Learn Hiragana in 10 Minutes | Easy Hiragana Mnemonic Method to Learn Hiragana Fast 2020 - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=ggi3ClAbVgY"
+            }, {
+               "date_added": "13356482556133107",
+               "date_last_used": "0",
+               "guid": "c60621e4-ef22-4573-9a22-4c3222e44890",
+               "id": "133",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Top 60 Nintendo Switch Games for Learning Japanese (TIER LIST) - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=0E6ojcCS22k"
+            }, {
+               "date_added": "13356485143804457",
+               "date_last_used": "0",
+               "guid": "149c07ab-d135-4f61-8dfb-c42a831bb03a",
+               "id": "134",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Amazon.com: MATEIN 17 Inch Travel Laptop Backpack, Extra Large Business Backpack with USB Charging Port, Water-Resistant Computer Bag Daypack for Men Women Work Anti-Theft College Backpack, Grey : Electronics",
+               "type": "url",
+               "url": "https://www.amazon.com/Backpack-MATEIN-Business-Resistant-Weekender/dp/B0BW5F4X7F/ref=sr_1_8?crid=2WTUON2UXS6MF&dib=eyJ2IjoiMSJ9.iC8JYz9eYDWAvdrYO5OadrD4tKgIHNkIZkCLMsmdUVZgU9eYgkNmfiCWm6HmD0VGHTqTKwa1KzfOBxKWWXScoH7UGdK5jpYY4M2zU8b92pxZC5LeITRxg0iA_fPnqE-gUntIef_G-JXc24UlN3hEkhs2Zd_hVrfEgsiTZ9u13fndHR7ztCfCrJPMFOtlgEAIvjXV0mAP-wtqRlsfr0Hpld3BqB1YSF3XBnQTzx9_DHM.RrsOy17hq1Ju_nQdyeXOeP3F20zyoaeHYXmJLJZk7vY&dib_tag=se&keywords=laptop%2Btop%2Bbackpack&qid=1712011480&sprefix=laptoptop%2Bbookbag%2B%2Caps%2C57&sr=8-8&th=1"
+            }, {
+               "date_added": "13356500429912599",
+               "date_last_used": "0",
+               "guid": "7eead945-9984-436d-94bb-7d4af99ad0f2",
+               "id": "135",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Practice Hiragana & Katakana",
+               "type": "url",
+               "url": "https://kana-quiz.tofugu.com/"
+            } ],
+            "date_added": "13355892939965555",
+            "date_last_used": "0",
+            "date_modified": "13356500429912599",
+            "guid": "9cf7a8c0-df84-4d84-9230-30379b33ea93",
+            "id": "114",
+            "name": "japeni",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13390491554592381",
+               "date_last_used": "0",
+               "guid": "ea22e2c9-fc12-45d1-8aa1-6c42c1aeee26",
+               "id": "137",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Complete History of 4chan - Tanasinn.info",
+               "type": "url",
+               "url": "https://juniors.neocities.org/4chan"
+            }, {
+               "date_added": "13390515832594863",
+               "date_last_used": "0",
+               "guid": "ac8e2c9b-0cff-42f4-81d9-5f468bcfe6ac",
+               "id": "138",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "List of websites, ebooks, downloads, etc. for mobile users and people too lazy to read the sidebar. : learnmath",
+               "type": "url",
+               "url": "https://www.reddit.com/r/learnmath/comments/8p922p/list_of_websites_ebooks_downloads_etc_for_mobile/"
+            }, {
+               "date_added": "13390515840781903",
+               "date_last_used": "0",
+               "guid": "6f5be33b-06ef-43c1-93e9-6e2c786559a1",
+               "id": "139",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Types of programming : learnprogramming",
+               "type": "url",
+               "url": "https://www.reddit.com/r/learnprogramming/comments/utih5/types_of_programming/"
+            }, {
+               "date_added": "13390515861272802",
+               "date_last_used": "0",
+               "guid": "72f72b1c-dc7d-4adb-8926-ad98e2a30975",
+               "id": "140",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Search | MIT OpenCourseWare | Free Online Course Materials",
+               "type": "url",
+               "url": "https://ocw.mit.edu/search/?d=Mathematics&s=department_course_numbers.sort_coursenum"
+            }, {
+               "date_added": "13390515975816773",
+               "date_last_used": "0",
+               "guid": "40a84f4d-f463-4b19-80fe-eebc1c6ae56a",
+               "id": "141",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "faq - learnprogramming",
+               "type": "url",
+               "url": "https://www.reddit.com/r/learnprogramming/wiki/faq#wiki_what_is_the_difference_between_computer_science.2C_computer_engineering.2C_software_engineering.2C_programming.2C_and_coding.3F"
+            }, {
+               "date_added": "13390520380816547",
+               "date_last_used": "0",
+               "guid": "821266de-5706-40d4-a07d-808409fc8924",
+               "id": "142",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "Julia Evans",
+               "type": "url",
+               "url": "https://jvns.ca/"
+            }, {
+               "date_added": "13390520511635229",
+               "date_last_used": "0",
+               "guid": "809fa0a0-3c04-4848-ae32-f606286f3bb8",
+               "id": "143",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "How Git Works",
+               "type": "url",
+               "url": "https://wizardzines.com/zines/git/"
+            }, {
+               "date_added": "13390520601839018",
+               "date_last_used": "0",
+               "guid": "1f675847-5014-43d6-bb6c-be3d4d450311",
+               "id": "144",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "FOSS Weekly",
+               "type": "url",
+               "url": "https://fossweekly.beehiiv.com/"
+            }, {
+               "date_added": "13390520640970940",
+               "date_last_used": "0",
+               "guid": "db776059-517f-4a7b-bf46-6a1530a48b5c",
+               "id": "145",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "It's FOSS News",
+               "type": "url",
+               "url": "https://news.itsfoss.com/"
+            }, {
+               "date_added": "13390575819075292",
+               "date_last_used": "0",
+               "guid": "febaec9b-8705-4726-aff4-886b2f4278e0",
+               "id": "146",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "All Paths | The Odin Project",
+               "type": "url",
+               "url": "https://www.theodinproject.com/paths"
+            } ],
+            "date_added": "13390288358861300",
+            "date_last_used": "0",
+            "date_modified": "13390575819075292",
+            "guid": "cebe3b02-1486-4480-beb9-53c0da60d7a2",
+            "id": "136",
+            "name": "cool articles",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13390369843644881",
+               "date_last_used": "0",
+               "guid": "0b186ca9-17e6-4112-89e0-a6cb68ceb5c4",
+               "id": "148",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "AUR (en) - tofi",
+               "type": "url",
+               "url": "https://aur.archlinux.org/packages/tofi"
+            }, {
+               "date_added": "13391066258675696",
+               "date_last_used": "0",
+               "guid": "76b4d052-c5e7-4e3e-ae14-029288d30613",
+               "id": "153",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "starship/starship: ☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell!",
+               "type": "url",
+               "url": "https://github.com/starship/starship"
+            } ],
+            "date_added": "13390309235877638",
+            "date_last_used": "0",
+            "date_modified": "13391066258675696",
+            "guid": "654e8573-d099-40ee-99bd-3380f69aa77a",
+            "id": "147",
+            "name": "Linux Util",
+            "type": "folder"
+         }, {
+            "date_added": "13390565396239138",
+            "date_last_used": "0",
+            "guid": "2df5c746-cec6-4e22-953a-00da8354213d",
+            "id": "149",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Amazon.com: LINKEET Wired Number Pad 26 Keys Numeric Keypad with Calculator Key and Financial Currency Symbols Portable Mini Numpad for Windows, PC, Computer, Laptop, Notebook, Desktop (Black) : Electronics",
+            "type": "url",
+            "url": "https://www.amazon.com/LINKEET-Calculator-Financial-Currency-Portable/dp/B0DXP8XTPW?crid=1NPKWZ45TEE75&dib=eyJ2IjoiMSJ9.Hx_KCSF5vJvd0Xkgz2bycWHndU0ugoH3jtr5UG75_PamGOEKTxbCn1Z4168TLWyRIIw4GXHb-A7koQ1JGui9A6VxJttLLovKOuhenhpd3mI1BI9UitEeAXHnDkNTn-qX-qWFKBrhHjQkgUkAoBG19QxpNbDqiUBQ8E2J1AlEn0xFoxl46q8ltTwfsGjsbYsz2pQ2QehiwaR-Z-MRy8ZtfgurZccQhNMPATY_S17yG-dlrXstrOUZghdNlwoQv-09iAdC5Eu4x_lawUbCHckmIphr3OqVHHAFxJ_xLT9-X_g.EQJtK-ePm_rWXXZQ41P5_UtqOrGXNWUesh0UzV1WlGw&dib_tag=se&keywords=numpad+scissor+switch&qid=1746066338&s=electronics&sprefix=numpad+scissor+switch%2Celectronics%2C73&sr=1-51&xpid=6v-o4nRA2FX1q"
+         }, {
+            "date_added": "13390587367793138",
+            "date_last_used": "0",
+            "guid": "b03a8625-e1bb-45ca-bdb4-b4d063368e31",
+            "id": "150",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Pablo Virgilio David - Wikipedia",
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Pablo_Virgilio_David"
+         }, {
+            "date_added": "13390597674175406",
+            "date_last_used": "0",
+            "guid": "acbd0af2-e06a-4def-adc2-64dd08195cf6",
+            "id": "151",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "How to Build Your First Python Game: A Step-by-Step Guide to Creating a Simple Shooter with PyGame - DEV Community",
+            "type": "url",
+            "url": "https://dev.to/lovelacecoding/how-to-build-your-first-python-game-a-step-by-step-guide-to-creating-a-simple-shooter-with-pygame-f0k"
+         }, {
+            "date_added": "13391315839171574",
+            "date_last_used": "0",
+            "guid": "6a70b1a7-3ba5-45ea-9946-1e043dddd466",
+            "id": "155",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Vectors | Precalculus | Math | Khan Academy",
+            "type": "url",
+            "url": "https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:vectors"
+         }, {
+            "date_added": "13391316446628162",
+            "date_last_used": "0",
+            "guid": "a8f48593-544a-4645-ba0f-bf31548d8fea",
+            "id": "157",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Bunnyhopping from the Programmer's Perspective",
+            "type": "url",
+            "url": "https://adrianb.io/2015/02/14/bunnyhop.html"
+         }, {
+            "date_added": "13391316449945899",
+            "date_last_used": "0",
+            "guid": "bb2e0a02-1644-4129-a8ca-4ab644a790dc",
+            "id": "156",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Vector projection - Wikipedia",
+            "type": "url",
+            "url": "https://en.wikipedia.org/wiki/Vector_projection"
+         } ],
+         "date_added": "13390867208245478",
+         "date_last_used": "0",
+         "date_modified": "13391316449945899",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13390867208245481",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13390867208245503",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CooBChAIiIECEgrIiJX/1mUAAAAAEgAaWFdoQ21TK2ZDZ3BiYVNTdS9ySlJ6a2ZDRmF6VGRCdkt0TkpaMHU0WDFoU0JMZTRuWSsxek5iaHpKQXBFcmZpYzg4K0JWYk9EUENCVFBUTWxxV0Yyai9RPT0qGFJaZWQ2TlJhNFNWMWxIdlZ3dWNtWEE9PUgDErEBCJ0BEqsBChxKa3RCTU1icEpsanl4ek91aHZSMmdZb2RSdW89EiQ1ZGVmY2ZjNi1lOGFjLTQ0YWMtOGNlYy1jNjExNGMxZTM4ZmMYACAAKAAw9arKv+syOKSLyr/rMkCki8q/6zJKHFVHTGpOSmdqaVBtSWRXMHFEUldnYjFMVFdadz1aJyIl/////wAAAD7vU254OE0xcloyTkZCTFdPMXNZZC96WklzYlFjPWUAAAAAErEBCJwBEqsBChxLalE3RGNSZXNHUEhibXlOSFBiUjlmMUpuNzg9EiQ1Y2NiOTgwMy1kYTM4LTRmNDgtODhkNy04ZDVkNmFiMWEwN2UYACAAKAAwpMTKv+syOJqlyr/rMkCapcq/6zJKHE1FbmNoZlJFcFY5WXVjRjZVNVlKUzFFcllWVT1aJyIl/////wAAAD73S21sUUZ0SThBY0Y1ZFVRbDhVTktXZTNsVHFFPWXhLlkQErABCIgBEqoBChxUUTN1VmN6Z0dhc1lLTjFkckh6ZEk5ZkNCa2M9EiQzNDBkNmZiMy1kNWUzLTRiOTYtYmZkZC0xNWFhMDUxYzJjZWQYACAAKAAwmeKs1ecyOM3LrNXnMkDNy6zV5zJKHFVHQVJKYjhUUUk5Y0RtbUFlL1Vua1FjZy9OWT1aJiIk/////wAAAD43ampUejVqSHBPKzBBNWNmMWRkNWxzOWJOWGM9ZQAAAAASqgEIgQESpAEKHHgwWW10SUU0WTdLci9RcTNMeGxJbTMzZWpZRT0SJDgxMjU4MDExLWM0NGQtNDE0OC1iZmUyLWVmMzc4OTEzMzRlNBgAIAAoADCRhvHo5zE4kerw6OcxQJHq8OjnMUocbGRXVXFON1ZpN3c4amQ3TFNmTEltaHhCOWN3PVogIh7/+1lSWExKL2JiWnZXb0pzZUQrTk1GNjFSeWVvND1lOPk5MxKwAQiVARKqAQoceEZLTzNvV29UOGk2bk5zbzhrR0FFeFdwNnpzPRIkZjhjY2IzN2QtMmMyNi00NTVjLTg5OWQtMDA2NjM2ZWJlZTU2GAAgACgAMI6DutnoMjiPzrnZ6DJAj8652egyShxNSk5aR1RTZ1VJMXdiZGl4dWVyM2Q4UmFsMjg9WiYiJP////8AAAA+Z2xlL2wzMWpCbDhwM0ZpVTMrbjVXM240Z3pNPWV1vjVSEq8BCGgSqgEKHGtrSnZLUlRyTGRuUmNYSDRGTWVYODBiTlV5QT0SJDEyMTViYWYyLTMxZjItNDFiYy04MTdmLTI5ODc2YjI3MTRhZBgAIAAoADDWkNrb5jI4lPTZ2+YyQJT02dvmMkocZXRTa2ZTRUtFdGdrY0hyR2k4aktDWmpiTmE4PVomIiT/////AAAAPE9MUDdZWEd4R1pnREt2RWJETzNXQnB6S0hMYz1lyPM/uxKoAQh3EqMBChw4dXBiUGZpaTVvcFNYeExETHU2Mm1sOGtsZHM9EiRhMTU1NGQwMC1mNjNjLTRlMzktYWM3Mi04ZWY3YWI1ZjE4ZmMYACAAKAAwvOmvxOcxOJ+3yL/nMUCft8i/5zFKHGE4REhKWmwzbFp0M09kN0dXTDlxa0hSS1ROMD1aHyId9nZGUFk0NGlZdHg5Y0FJME1jbDVvenpRaGVpcz1lDKSx9RKpAQiQARKjAQocb1ovb0ZidmFpUDhKN09nakJoUVo3OXFHZ2hvPRIkYmM1YWQwNTUtNjQ1MS00MWMxLTllYWQtOWMyNjBlYWI2MzYyGAAgACgAMPngi8ToMjjvyYvE6DJA78mLxOgyShxnSXZGeFVrZnYweDJnclZKb2RqOVMzY0xBOGM9Wh8iHf0xNlovOFo5UGxkQUpPeVJWN0hLVGZUdllXS2M9ZQAAAAASpwEIbxKiAQocL0R2UEJaV1RLbm5ydUpHWkFMZkpyUEZmVHpjPRIkZDQyOGRkNmEtMjg4NC00OWU3LWI1M2EtNjNlZDY1YTAxZDc0GAAgACgAMNvmuc7oMjjzhrnO6DJA84a5zugyShxVTjByTHBYd2ViWDhYZkM4T3pkcGc3ZGZVMDQ9Wh4iHEdiM05PY2psbktXVmp0ODBKMWdHOEwrejZKQT1lRAj9fRKrAQiHARKlAQocZ1VTekNOSkxOcU9weEtCT3Rib01FdDdCZnhzPRIkZTNmZTk1NDktMWE4OC00YTczLWI3ZjUtZjNhNWQxM2Q3NWI2GAAgACgAMP6VgebpMTjZiIHm6TFA2YiB5ukxShxSNE8rc0hpcVlkQzFZclJ5ajRQbWU0QVRtdDA9WiEiH///6TBXbmF6WkxPWWRJNmViQWRpVDZvMW5FWXo1QT1lvFS85BKrAQiGARKlAQocSW01UGorUFQwU2JEeWNJZ1Y4M0YxcC9iRmNZPRIkODFlZDhmZTctNThlMi00NmE2LThlOGMtZWYyYjUyZjY4MWQzGAAgACgAMO+d3N7pMTj8idze6TFA/Inc3ukxShxaMitmMlFlcVM5U0dSN0ljdWFucjBlc2doaVU9WiEiH///0mdRenhGWlZuQ2FOMjZ5ay9mbHJrakNEclM2dz1ldb41UhKoAQiJARKiAQocVUdZdEpxNW9BSVhUSnhsaCs5Si9nYkxWUjhFPRIkODIyYzFjMmItNmI1MS00YWNhLWE2YzEtODI3Y2I0MWE0M2JiGAAgACgAMOW0oLboMjih1p626DJAodaetugyShxZa2c1UGp6UWYzK3k2TU1lYkQwd3F0NHhEbDQ9Wh4iHFlVQld5RTc0cXVVbExOMlVyMzdLYTdZdjd4RT1lAAAAABKnAQhZEqIBChxZeFY1L1MwYWNuRXVOU2JNM1VVYncvc1gvaWc9EiQ4MGMxNWEyOC02M2Q0LTQ2MzEtYWQzYS0zODIxYTRmMTg1NjAYACAAKAAws6X+zIIyOL2v/cyCMkC9r/3MgjJKHEVBYVRmdkxmZ3JrVzNMbE5SbGE2ZSszRmdoOD1aHiIcZFVVK09kSkxDZktsK2ZQVzhySjllcEFzMFNJPWWQdPSLEqkBCJEBEqMBChx6T0xBL0hPb2ZqdjhPOXIxYWc2c1B4cUhtSzg9EiRkOTUwNzBmMC1iN2EzLTQ0MTgtYWQxNS05YTY5NmQ2MzIzMTEYACAAKAAwyZKOxOgyOMv7jcToMkDL+43E6DJKHGZKUU1aRmJ0UTZLNkw0SG9TZHJxcmtNUGp2RT1aHyId/jd6OXhCV0htZUlyRStnZ0FkTEsyQ1pTSnpZND1lxweFgRKqAQiDARKkAQocVnZzTDRVdW1Wem9RbXQzdHNMckpqVXRMSmVBPRIkZWZhZWVmYWMtZDI3Yy00ZGQ4LWJhNTctMDBiNzY3YzFiZWU2GAAgACgAMIfzvtHnMjj68aLp5zFA+vGi6ecxShxkcHFmTWVqTjNZa1NUT1lDNk8xaTdQdEVmblE9WiAiHv/+VXIzZXp1QkVoZlltdmlFcGErMUZJVXRoL1NvPWU4+TkzEqgBCHYSowEKHDhYY0xzRFU0eUduaTVTc0M5dDMxeGgwTG9JST0SJGFkZGI5MWNjLTFmM2UtNDcxMS05NzgwLTVlNjQ1NzllMmEyNxgAIAAoADCm6a/E5zE49obBv+cxQPaGwb/nMUocS1Q2UGpEQ1RkR1M0ZkRWY1NGTkxjai80QWw4PVofIh3tUDdNWDVhRzlYeVRUVHhZdlFVa3UreW12dFBzPWV1vjVSEqcBCHMSogEKHFViTjZ1UTdicDgwTUIwN0svUCtrdXNLNzJTZz0SJGFjZmM1ODQwLTNhNGUtNGVmZS1hZGM0LWVhYTk2ZjQ3MWE3MBgAIAAoADCV6a/E5zE46Ny3yuYxQOjct8rmMUocYXRVdVhRTUF2bUQxVzc1MzZTM2JrSFc1K213PVoeIhxuT1dvamtvMWlFMmZoemJJNnVvcmtWM2hhUjg9Zewb5kkSqgEIggESpAEKHG9ydUM3UWV6ZWdTd2VzM0VoVTFMME9ob3Btbz0SJGYxYWM4OGM4LTk3YmYtNGZjZS04ZGY5LTdkMjUxY2FkMmE4ZBgAIAAoADD0vKLp5zE41KCi6ecxQNSgounnMUocSnRyZUV3RUVYRDBVZ2U2eEZNQ2J6RVdSbjY4PVogIh7//VAyTUY1NmJpcFhJeTIzakcvYWxkbFZmcERqRT1lOPk5MxKqAQiEARKkAQocdFEyaytxbHJ2NWxJRWgzbCtJZnh5ZC9OM3ZFPRIkYjNkNTczYjYtZjFjMC00M2FkLTkwNGEtODljNGRiZmM4NWNjGAAgACgAMI7dlN3pMTjXmJTd6TFA15iU3ekxShxUcUpZQ010YVpleHR4MHNmRzlBbm5KMlROcDA9WiAiHv//SnUxWmxQMUI0WnhMaGxIZktqdDNCaUlIVjRJPWU4+TkzEqkBCJkBEqMBChxsekhnTFRSY2NMS3BOWWk3RnRIRnF6QjBZOEk9EiRjYmQxYWQ2NC1hNzM4LTRiNjItYThhNC1hMGFmYjQyNDA4ZjYYACAAKAAw+aqkyOoyOPXpo8jqMkD16aPI6jJKHDFob2pqakpqSCs5SkVJVDdWV0U2YXlTVjB2QT1aHyIdmDBLaHJURU8rWmt3eUZTR0Nxd1djMU1oSjA2cz1lyPM/uxKqAQiAARKkAQocalM5aXIzNnBYMlFEWU1ZSm9CeTZpYjN1TzBnPRIkMDExMzU0ZGMtYjUzYy00NmU3LWJjZDgtMmMxNzNmMmRmMGNmGAAgACgAMOnK5ujnMTjOrubo5zFAzq7m6OcxShx2OXpOQWYxR1hQZTdZQk1CUHIxNVFGSVdJTU09WiAiHv/3T3J5UFB0SFNBb3A3Unk5L0lDeU84cU9YckJFPWVIo7mzErABCHISqwEKHFF5aVU4ZTJQRlQwZmpOaDRmVEpCL3BCMnN2Yz0SJDkwNzNhMjVkLTg2NjMtNGY2ZC04OTA4LWU4MDIxYjRjY2ViYxgAIAAoADCrgNLP5zI4vemqxOcxQL3pqsTnMUocbTFMMDZLUE5ISVFicTF3RmQ5cnd3NmFUVTFnPVonIiX/////AAAAPf05MHhEUGFaaTZHaUI5a3BpRk9tYy8vZk4vVHM9ZQAAAAASqAEIUhKjAQocM1JmdmhwTlNOZlNrQkFwc2lzVzlDOGNRSW5RPRIkYWU4YzVlNDAtYTJkNy00MmI2LWFmZmYtNmVjOGY0Njc1MzFhGAAgACgAMPrnqt/nMjigz6rf5zJAoM+q3+cyShxwR2RxL2N4Qi9zeS96U0tpd2FxVW9IVlVyZ2M9Wh8iHf42dTB1K3FmVGtXV1FzRUpPdzJLU3ExeEdLK2M9ZcAr9PASqAEIexKjAQocdFhTNmhXWDM2Q2ZBeWQ5c05SUWs0ZGpXK1A4PRIkMjQ3N2IwYjItODk5MS00Nzc2LTk0ZjgtN2FhNGU0NmRlZmFkGAAgACgAMKHpr8TnMTjzpanE5zFA86WpxOcxShx4RmdwMmZIcTJ4YitMQmlFOGdUMVJwL1U2bk09Wh8iHf84ekoyVUFHSmVCZlVyVUFmVzE4U1F4eUMwRVU9ZTj5OTMSqAEIfBKjAQocSXBRT29hUXdST2RmbEg4WWVTQnA4aVlTcm5BPRIkZTJjNDUwYjgtZmQzNS00YzIxLTk3NWMtNTlmNTNhM2M5NGM1GAAgACgAMJXjteLnMTiE/a7i5zFAhP2u4ucxShwzM3BESk9qcldqVkdOOXNJVDJhSFVKMDQ0VWM9Wh8iHf9yMUhHSUFjQ2dPeVp2QWt3WVhqd2lGc1h6dVE9ZTj5OTMSqAEIdRKjAQocYVQvanA3aUxSaWtEcE9OK2hHaWovZ1dzMHg0PRIkZjI1YWE1YjMtODQzMy00MWI4LTkwMjgtMTA0NjNjZDUwMjI2GAAgACgAMLLpr8TnMTjQsqyg5zFA0LKsoOcxShxSck1oZW1tQmp2dExEYWZZZS9MN0JSS3VMczg9Wh8iHdtwRXBhNmJRdzRYbG1ITERCNVh4UjBzb25GWVU9Zb5hHGESrwEIcBKqAQocdjV6Nzh0VEk5VDZ2YmI0ZmtKTFFHNTE2cHM0PRIkYjIxMzIzMjMtZTMxNC00MmY4LWI2YWEtZDhlOTI0YjMzM2I3GAAgACgAMMDvhe/oMjj70+iqijJA+9PoqooyShxpU29BdE1acDRIb3hzS3cxelhleE0xRlZObFE9WiYiJP////8AAAA9MGcxeEsxYXNWeWxOL1ZOTlM1V2xzVmxZVStBPWX9nIxKEqcBCG4SogEKHFNYU2RYZ0FJejVWVFEwRDRhNDZUWWc4bmhpUT0SJDA1NWVmYTM1LTZiYmQtNGIyOS05NzQxLTMxOTFmNmE3MWQwZBgAIAAoADCE8L2L6DI494m3i+gyQPeJt4voMkocT25QZlhrOVlLK0p5cFpxSEYxZDc4RlBNK1IwPVoeIhxDS3oraXZuWE9lUTBhUEdndy9WWVFEeXBlMTg9ZfqR3tsSpwEIYhKiAQocdXY0SGEzY0IyN2NiV2xDNkJsSGdHY2hYNFd3PRIkNTMyODA4YmYtYmZlZi00OGY4LWJmMGUtODk1MDM0ZDQxMzYwGAAgACgAMNq/0s/nMjjUlsGD+TFA1JbBg/kxShxQekVsM1BrT3BRMTYrSllSbVNSN2ZWaHRoazQ9Wh4iHHp5RXlzQ1lKWElidDdTbXMrOCtzMFBhZ29xQT1laYc9WRKoAQhfEqMBChxEVGJiQVc0ekNVZGtkcE9kVDZtWUhydUViTkE9EiQ2NjI5MmYwOC00ODgwLTQwOTgtODZlMC05NGFlZTI5ODk2MDYYACAAKAAwsK2ugYkyONugroGJMkDboK6BiTJKHDRBWVIvN3dUKzZLV1d1aHEvMHNsUGpOVzNWMD1aHyId9zArWlhINC9YdG1aR24wQ08wbTE5bmlwVzVZUT1lvivuRxKoAQiKARKiAQocSWpxaGQ4b1gxbFBvK29PQW5DRFFmVlpyRS93PRIkNjExODc1YzktZjM5MC00MTRmLTk4ZWQtNmEwMzkwNzJhNWExGAAgACgAMMzU6MHoMjiTvujB6DJAk77owegyShxUUFdNODB6cUVvQkN4bStEdTdsajhiemRFekk9Wh4iHHJxZUtEVXZtcUc3ODVjbFNPQlBVeEJ2Si93WT1l7BvmSRKnAQhtEqIBChw1TXE5dUJvZjVaK0M2YXRNanlMZjdhaEtadUE9EiQ0YjZkZmY2Ni03M2MyLTRjN2MtYjVjOC00ZDQyY2M3MzZjMGUYACAAKAAwmt+s0OcyOInJrNDnMkCJyazQ5zJKHG83OFVrZ0lOQXd0T1JITEJ0T0huRTdOMENKQT1aHiIcOVZFc0dJa3NkNUtDbmRPYzY2RzhIRTFPZjJVPWX9nIxKErABCGkSqwEKHFdlS05JRmZRTHRXcldrLzF3aThVeGNBWVV6Zz0SJGZiYTFkMDc5LWQ5N2UtNGRhNS04M2MzLWNhOWYxMTI5MzYxORgAIAAoADCgoPTP5zI4wqmur+cyQMKprq/nMkocVjA4Mm1LaU9MdjVkeWFQUTZJVlhWb0lraXF3PVonIiX/////AAAAPFhsSU5KUmdBZllPS1FyS3ZNbmN2RVpXUFJlWlE9Za3BD6cSqQEIRRKkAQocOWo3K21jUmRIK3h0aTRGNzBjR1lhUVU2RzVzPRIkOGVlODU0M2MtMzdjMC00NTcwLThjMTEtYjZlODZmMWU1YWQ0GAAgACgAML758s/nMji71bvOlDJAu9W7zpQyShxNS1JWNFN4ZUFwTFpsU09objZxUVRrSHlHckk9WiAiHvm7MnhGWFJzS0ZqOG9zeExmWjcrSEg4b2k4b3MwPWUAAAAAEqgBCJQBEqIBChxiK0xyeFdRRGt1aEtvTlFXdTh5ZCtVWG83VVU9EiRhMDY0NWJmMy1jMjIzLTQ2MjQtOGViOS1kZWRjZjAyM2RjMzAYACAAKAAwqcSa/OcyOL2DmvznMkC9g5r85zJKHE9rcVNuak04UUhTY1N4OWxOV1kvTnRvcUdaOD1aHiIcMU5yZkJlUjJJV2pWT3o3Qm80MEpZQkpWUTdvPWVLYQq7EoMBCAMSfwocbmpnRHU4OGVDcnZYcDg2cEQ3ZkhHY3FGcDg4PRIkNGI3YWU0YzQtZWUwMy00NTE3LWEzN2QtMTNkNjUxNGE5OWNlGAAgACgAMAE489CNj40xQPPQjY+NMUoceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAAASqAEIZRKjAQoceStxTGJldEFYbEFWd3ZyRUVXU2pHT1V1N1NBPRIkZGM1OGVjZWYtYjJkNy00MWZmLTg2NDAtZGQ3MzBjZDY0NjRiGAAgACgAMPHfz8/nMjjmz5je9jFA5s+Y3vYxShxKUTF1NElHb1c2UExTL3pZRTZTOUxyLzBHTzA9Wh8iHf5NMXhTRFUrUWtqd3FMMlhRQUQ2ZFlrN1ZDVXc9ZW3oB6cSqQEIZBKkAQocTDZWY0lVQWRDMWY5aTMvTTF0b2lOd3V0UGZrPRIkYzM4MDZhZDEtZmNhNS00MWIxLWFlODgtYzg0ZTJmOTllNTYzGAAgACgAML3578/nMji4hJSBiTJAuISUgYkyShxLajBYcFZ0UlpmUnJPWTkwOU1BSUZKWXBXZkk9WiAiHv2MWC9TNHYweXlQbjBnK253YlNBU3drMUdLaTU4PWVJeu5pEqkBCH4SpAEKHDVGZVR6eEhUQUwxRlVtbmFpellVZ2xSYXdzbz0SJDRlNGRmNTkxLWU4ZjUtNGZiMC1hYTFiLWVlYWY2ZTYyZDY5NRgAIAAoADD798no5zE49NvJ6OcxQPTbyejnMUocNUpyaGVUZmJEQTBRWmFJNkhCaEhLVUE3cDNVPVogIh7/3FVNQlhFcWJidjV6Y1Y3eklBUys0OUJka1dwST1lVQ59XxKoAQhcEqMBChxodE1hRk5QQVlTUjZ4ZHZ4TVQ1clQ5N0ZBVXc9EiQ5YTExOTdmOC0zYzQ3LTQzMjItOTcyZi1lZjIzNmQyODZhZGMYACAAKAAwvoOylIMyOPT4sZSDMkD0+LGUgzJKHFRqM1FuN3pkdFpDM1FQV0s2REFES01xKzRBRT1aHyIdumdwMjlrUS9qZGUxcTVIczBsZkFoeDM5V0NqYz1lkHT0ixKoAQh4EqMBChwxdlpDYWtaRmo0NlF6OWtlZGJmRUdKNllFNmc9EiRlYTE4YWE3MC1kOWY2LTRlY2EtYjc0Yi00YTFjOGM0NzUxOWEYACAAKAAwj+mvxOcxOPS1vcDnMUD0tb3A5zFKHHFHWDlRdFhEOVJZK3AyUkcwNzZZbHRGLzNOQT1aHyId+1RaTHlXYkpBdFJPYWRGZUxCVGttVDhzK3RxRT1lScYLIRKpAQhYEqQBChxCSHpoekRUNURMWThvLzdvNTlnL3ZEdW55NUk9EiRiNzE4ZmRhZi1lMmIxLTQ2MjAtYTE4Yy1hYWIyYjMwNmEwYzYYACAAKAAwqJvHz+cyOLGU/syCMkCxlP7MgjJKHGJ4WkFsRmtrYU9uYlJ6S1ZMNFlvMEpUci9aaz1aICIe+dlZSEc1aU9xd1F6bUhqcTBNYWxmYkNGbVdxaDA9ZQAAAAASqAEIYBKjAQocS2RnVkhTRFNCMHBreTA2UDU4aFQrb1pxNGhVPRIkYmIzOTQ1ODUtNTMxMS00ZjAwLWJjY2EtZTNmMzM2NjlmZTkyGAAgACgAMKfi8KqKMjjHjtTf/jFAx47U3/4xShxGV1J5b2kyRENia2dCaUkydVdyNGoxNE1pYXM9Wh8iHfoxWS94NDVwUXo0UldiM2Y4QVVKcWw4OHFWam89ZQAAAAASqQEIVhKkAQocNnlBZkttNU5wNVF1dXBvQ2VkUEk3QWp3MkhZPRIkMzNhM2M3N2QtNjAwZC00NDgyLTkyZGMtZmIyYjUyZjliYzBmGAAgACgAMJ3915XpMjiR59eV6TJAkefXlekyShwrTEJyM2wxaU9TMit0QWJvUkY5bVd5aUsxNGc9WiAiHv/teHd4c0tTWlQxc3NCdis5cXlBRmwxT0Z1SmZFPWXI8z+7EqgBCF4SowEKHEpPa3FwZUwzOFVsYksxQ3loS1gwZEVNY0pwQT0SJDE2NDk2YWJhLTIzZWYtNDNlNi05YWY3LTgzOGE2YWQyNjQyYhgAIAAoADD3l6yBiTI4tf+rgYkyQLX/q4GJMkocK3B4WmpxWXZyMzhrMVVNeUNnVkxvZUR3NVlZPVofIh3ub2FiR1lFaHVSZWNvQzhULzRHQnhVQ01JeXVvPWXL5azAEqkBCFcSpAEKHFRwUUNCVDgvSDJFaXNCS25JU0lIdUozcFZUYz0SJGFlZmZiMzEzLThiOTQtNGNlYi04NTUzLTc2YzNlNWM2OTI3ORgAIAAoADCCnNiV6TI4+IXYlekyQPiF2JXpMkoccVhHY0JwZUVRdm1rcnZXTGFaY0Erd2VwUE9FPVogIh7/9mhZUWdQYnd6Y3cxcmlEZHkrY2p1Z3ZjU3kvdz1lEC0pYxKpAQiMARKjAQocNUxsUGRkdGZTQTl5bzVkaFUwb0ZYNlZjdld3PRIkMmZjZmNhYTktNDg1Mi00ZWNiLWExZGMtNzNmMjVlNmUzYTAwGAAgACgAMLW06sHoMjiZnurB6DJAmZ7qwegyShxDR2ZxVUlwclgwNCtmMXQyZEVRUXNwN0Z0YUU9Wh8iHdwyNzkwajdGS2wrMkcvOEpkU09UYlF1M3dZREE9ZTvGgU0SqQEIVRKkAQocZ1V5ejhkRlg0cW1oOXFLMG03eXRoY0daZXZvPRIkZGYwNWEzODItMzliNi00YWM5LWE4NzMtN2M4OGY3MmIxZTVjGAAgACgAMMjC15XpMjiSsteV6TJAkrLXlekyShxHOEZENHNiRWs4VE5yZHZ5bHFUc2lxNklLOE09WiAiHv/aaFJEQ09lZ09oRnVDdWJEaHFFb2dvb3ovMjBFPWXAK/TwErABCHESqwEKHEdueDhCby9pc2JMeHMyNFQyM1BWOWc2WTdTTT0SJGJiZTIyNjNkLTk2Y2QtNDQxMy05ODhhLTNlMjVlNjY0OGExYRgAIAAoADCDrbPP5zI4tY7R4OsxQLWO0eDrMUocVE5BZEtPamdQWUc0UzJTSi96cURqVkcyejhrPVonIiX/////AAAAPftGMklsb1JRcjFIUm0rQjUyYmF4RGdTSTd6OE09ZV+ZXLcSqAEIUBKjAQocODdNUjF1cUdjc25aSWcrN1BOSmZoUnd6Vk9ZPRIkYzNmNmIzYjktZGM1Yy00Yzk5LTk3NTMtMjg2ZTVjYTUyY2NmGAAgACgAMI/rqN/nMjikm6ff5zJApJun3+cyShxTOWJOUjZGNWpBMTIxc084ZEpTNUgrOWNUeWc9Wh8iHfozL3NKZXp6Z2t5aHJxS0ZlNk8vc21TS3FuVEk9ZcAr9PASqAEIZxKjAQocQlJJaU02MFluS1ZwQTdoMzNtaUdBOWlCN0lNPRIkMjYwMDc3ZmYtZTU4My00YzI5LTkwYWYtMTdlODk4ZDg1MDUzGAAgACgAMLbB0M/nMjjgoeCXqzFA4KHgl6sxShxER0xhSElHVTFLZTZVbWJmM3k3R3pXeHRXaFE9Wh8iHf5kOWdUazhibDJmS1JrOUxTR1pMaDJ3Qmw5UWc9ZWV4TKcSqQEIjQESowEKHGFhcXM2b1pxbVZaQk1Hem94K0piYmgrbE1GQT0SJDFhMmE4ZjUyLTNmYjYtNDZiNi1iODJhLTE3MzJiMGQwMThkMBgAIAAoADCys/HB6DI4iZ3xwegyQImd8cHoMkocbmFGdUc1Q1VCdkpRdEVocWx5akpJY1c3aFI0PVofIh3udFBXTjZkbnRaZ3JTNHRDUVdRME1YamdIY0ZvPWXsG+ZJEqgBCE8SowEKHHBjSWloenJ5ODNBOGdEUWVBTkVBTEIxMm9YVT0SJDc4MmY1ZTAxLTEwMjYtNGY0YS1iOTM3LTdkZDE3NmE0NTdmZBgAIAAoADDLiI/I6TI4+uGVs98yQPrhlbPfMkocR0RKeDNwNVd6Yld6T3pJaXJIRGxsQkhRdG9FPVofIh31cE9hU1U2cnl2dkRrVUxDZmlSVy81K3JSUFlFPWXsG+ZJEqkBCGYSpAEKHDFXOU42YzRpbGRIMzRCeXhnTUFzRSsveW1Jaz0SJDhlOWYwZDYzLThjODMtNDczZC1iZTUwLWE4YTlkMjI1OWZhMhgAIAAoADD5z+/P5zI43Lnvz+cyQNy578/nMkocZFpQdXVVUmxPR09KcDZ5bTdudUx6TW9QbzZvPVogIh7+WGlOMTU3MERvd2dnNEdVdkw0K1FIRGd4eFplaz1l8Bv7khKoAQhOEqMBChxqcUxLSGprTjlDY0NkdloxMGtqR252bGdwazQ9EiQ4NTY3ZjM1My0wZDYxLTQ1MzEtOTZkNy1hMGEzZTQ2ZTc0OTEYACABKAEwgJmy6ekyONjP1cqBMkDhlbLp6TJKHDlpUGtJZmFJeVM2YVRlaXhMTlNtVzFCTnNiUT1aHyId6jFHcmNybWNQK2phU1N4bVJLVFJ5dlZCNHlLST1lyPM/uxKnAQhLEqIBChxFa0kyeHBNQnJVZ1lMSVdxYVl3a1pQQkF5b0U9EiRlMjQ4NWJjMS04MzExLTRiOTItYTUzMy05MjVmZTBlMDlhNzUYACAAKAAwgoaXl/4xOP3b4b/9MUD92+G//TFKHExOdkgyTVNWdkgrVlRJSVpYWi9OeDBsYU5tVT1aHiIcUXBKS0tRZm5mTHhPbXJWNWdPSGNyam9lSHRzPWXsG+ZJEqcBCEoSogEKHEJldTJEYlpyRUNLVVFvV0djWm9nN3dGNEdWZz0SJDQ1YWU4MTlkLTM1ZTYtNDFmYy04Y2UyLTlmMzgzYmFiYzY1NBgAIAAoADCex9bh/DE4pd/V4fwxQKXf1eH8MUoccitBZkJ2YW9rK3dLdWtHcnZaU0NUQnZ0TGFvPVoeIhw5RGl6eFhmUGZhc1VWZW5mUXRJcThsUEFOYXM9Zewb5kkSqwEIhQESpQEKHEYyMk1ZbVM4MlFTcDRmWWxaVGdkei9wbGNvdz0SJDUzYmNkZGQ1LWQ0MmQtNDJlMi1hMWZhLWE4NDkzYzNkYzA5YxgAIAAoADDGpb7d6TE45ZG+3ekxQOWRvt3pMUocbHFjSVR4cFRuWEZBdVl6Q2NIQlVwbkpDRmEwPVohIh///6VFVXFySnNncFgwR0p3S0YydEp3dmYrK3gxZGc9ZTj5OTMSqAEIOxKjAQocLzdmYzJzMWRuV3FrdFQwUC82NFBIQ29STVFFPRIkM2RkNWJmY2UtNzg3MS00MTE4LWE4YTgtNTQ1ODVlNTA4ZjQ1GAAgACgAMIHWzs/nMjivje+TvjJAr43vk74yShxCR2FXMU05ZklEa0dTZ0Q3TlNnKzR3eU1DTGc9Wh8iHfhOeFZ3K3owamc3UjlkL0tRaEVGOFE5emVmVzg9ZQAAAAASqQEIjgESowEKHHEwalVqWkVZbGVMN3l2a2hwdW9LaDFrR3JjST0SJDMyNzZjMzE2LTYyMGEtNDlmOS05NzFhLTY2ZjA5NDdlZDc1YhgAIAAoADDWof7D6DI4kIv+w+gyQJCL/sPoMkoccXVCL3loakF5eU5KZE5PZTIwbG1DdGl3VVNVPVofIh33dHhqd0I3UDNxcmgvRDZaL3AxWWtyRG1scGNBPWUbUzenEqgBCHkSowEKHGVpWnFsRUNMbndyZmVGdCtqTE0welNibVp2VT0SJDU3OWRiOTliLWM3M2MtNDE0ZC05OTJmLWMxZjBhOTgwNmUyYRgAIAAoADCt6a/E5zE4t6nYwOcxQLep2MDnMUocbUZhWksrQ2VYWGhmN0xlYWlLSWdVNGgrSmhNPVofIh39YTlRK3dHMUVHSjlwL1Z2S0J5QkNPdEtBZnhFPWU5xrawEqkBCEkSpAEKHHVZaDlyOUNwTWpnU3FpMFpaQVJpamFIdGpNYz0SJDY4Y2QzNzA4LWI4ZGQtNGE5OS04ZTAwLTI1MGY2YzYxYzFjMRgAIAAoADCum8fP5zI4kqjW4fwxQJKo1uH8MUocb1NDbktob0VXcUNndEVzWnlLNytBdkduN1ZjPVogIh75xUp0RmpwblhMY0FCQmRtRTNQSU81S1dHOFlxTT1lAAAAABKoAQhMEqMBChw3Y3kwOTBpZUcvQXNPS3BtdThBZENZTE5mWk09EiQ2NTEwMDYyMC1hZDIzLTQ4NWMtOTNkOS02ZDUyYzVlMzllODcYACAAKAAwy67OyoEyONeSzsqBMkDXks7KgTJKHDdKTmJCWVFMeUxBVFJVMWNYYzFKR2J6NWZFYz1aHyIdqE1JNzU1Z012YWlNMTdjT3drR0R2RmE1N0JrND1l7BvmSRKqAQghEqUBChxncGtlMVBsU1dabzUrN1Y1N0tkNkc1NzZOeWs9EiRiNjkwZjU3My1hNDI1LTQwNDMtYWQ1OC1jZTA3MDQxZjRkYTMYACAAKAAwu4nQlekyOOvyz5XpMkDr8s+V6TJKHHIxRlIvQUhvNWl3ZmV0KzlMUkU1ZG40dWZDND1aISIf///acWVadWVjSm5IRkttaVV3UlZ4bkt1RVU3ZzRvPWXwzX+8EqgBCGMSowEKHDVlNldXOFlFTERJMjZPSE1yU2YvT3k4dGt0cz0SJDdhNWFlNWQ1LTQzZDctNDAxOC1hNGEyLTFkMTlkNmY0MjhlZRgAIAAoADD34+rP5zI4zc3qz+cyQM3N6s/nMkocV0hBeWRsN2pWaHhxZkNaSWEwZTEyYWxJMm1JPVofIh39b2tTR0ZBQVpLS2ZuOHowZnRqRkxmVUxLRTV3PWXwG/uSEqgBCEgSowEKHCttMC9TcDQxbEZwYnNlZGx4VU9ma0RsUXRtYz0SJDVhNDVmZDIwLTY0YzAtNDNjNi1iMzE4LWEzMGRiYThhMzNiZRgAIAAoADDbwfPP5zI4t9Pgsv0xQLfT4LL9MUoccWxIRTJkTkJZdGp6Q2FidHhjZmNuOWs2eVB3PVofIh27NXJraFQ5dnppQTJGR1llYnV0SGY1TzV3eGIwPWVSfPWKEqkBCB0SpAEKHElxN3J0WVYreXE4TUZveE1Sa2lMektTMFlTcz0SJGE1NTA5NTE2LTFhMDktNGI5Ni1iOTM4LWNjYTBiNTQzMTAzORgAIAAoADCww9aJ6DI4wbDWiegyQMGw1onoMkocREZMWkRGOHRFd3hLc3RobUFWalRTWmVsUldJPVogIh7//XEyYTNGekRQNFVob2dSR0FRU01reFN2Q1BYMD1lVJaDaxKnAQhHEqIBChxvc2poNGo1NW5VdjV6Z085T0ZvUmpscXJxQnM9EiQ2M2Y5NzZkMC1jYjEwLTRmMjAtYjI3NS1jYWQ1YjEyYzZlMjIYACAAKAAwr/ylz5QyOIuWpc+UMkCLlqXPlDJKHDNoMEpEM1VBNi9uZ1RJb3lSUm9uVVYxUEdHMD1aHiIcd2hYVE5lSVBtRlpGTitmSTRBRlFpVCtJU3d3PWWtvg9/EqkBCI8BEqMBChxmSU5sbFp6TmVVbzhjd1ZTdEhIcU5DNzZoTTQ9EiRlZDRhZDZhZS1hOGZhLTRiYjktOWNiYy02NTc3NjU1YjQ0OGIYACAAKAAw4Z+GxOgyOJOJhsToMkCTiYbE6DJKHFZMN002ZnltVUNuU0QzWFNjNDdMdnN4K3paaz1aHyId+3grSENPaFd0NWJ4VTk2c0RKWVFQbmd3MVdTST1lG1M3pxKoAQhBEqMBChxscGdPS2NteWh0M3RRUWlCWkxaSHNGSVdTekE9EiQ3ODE3YzBhOC0yMDFjLTQyYzMtYmFjNS05YmQxMWZjNTc4Y2UYACAAKAAw887EtMAyOMmawrTAMkDJmsK0wDJKHCtBZGdXT2Z3OG55dWs4cm1oSnNIVVVveUY2Zz1aHyId+3N4SWhJdm9uREdlU0JxYTBLaTdmNm00N3gycz1lFVD5iRKoAQgTEqMBChxCL1F1QnkvWnFZMWwrK3F6RVlJL3lubVp4TWc9EiQxMDk5MWI2NC0xZjI4LTQzYWQtOTdiYi1kZTBmOTI4YjNmODcYACAAKAAw+dDNz+cyOI7Wxs3nMkCO1sbN5zJKHFJmTTBpeXp0My90TnZWRFRmU3JTUVAvaXhjdz1aHyId/nNNVlFyTG5xYmJqdnpYcmUxQS9GRWp0SE9BYz1lOHtgGRKoAQhdEqMBChx6Nlo2SldXQ2VjdlBGWXMxYjJIMlNXdTgyaE09EiQ4MWFiMjIyNS1hMDRkLTRjZTktYWU0YS03ZWRlODEyZDdiZDkYACAAKAAw0MG0lIMyONmntJSDMkDZp7SUgzJKHDU5VGJjM2pJOTR6bGZDN2I1TXdzelRtM3B5ND1aHyId3Vg1MXBkRjMyNlpzSjVYMnFOT1ZYUVBEVkRtYz1lvivuRxKoAQhAEqMBChw0N2JyZnpmZEhuTWNBdDVVM0liN1Q5WGdtc009EiRhNzA0YTk3Yy03N2VmLTRmYzItODQ0MS1mN2Q4N2ZlM2MzZjkYACAAKAAwq/X9gMAyOK63/IDAMkCut/yAwDJKHFN3aEN6M3F4OUtFWDVzWkJ6cUkxWXBGakRTYz1aHyId9kFxcG5QSTVhRmJPWlc4M2R2c0FYSnkwRTFLND1lyPM/uxKoAQg/EqMBChxtbGE1OTNMTUUwblBXczZQS1lLTDNPVTVyYTg9EiQ3Mzc0NmFjZS1mMDg3LTQxZTYtODI5My0yZmU1ZDg1MDJlNDEYACAAKAAwnpPilL4yOIzV4JS+MkCM1eCUvjJKHGFqRlVyWUVEZXVPdTJJdENxSjd0VnYxK2Y5TT1aHyId7HZ6NEJ6c2ZaTWF0emJWWGo5Wk02REVPVWhkQT1l9XQKFBKoAQg+EqMBChxqZVRlL2NwVitFUHc2WWFOUnIvTzRYN2V1bjg9EiRjZDdmMWJiMi04MDIwLTQxYTktOWEzYi02MmE4NmJlNTAyM2YYACAAKAAwxKmSlL4yON6DkpS+MkDeg5KUvjJKHHZmOUd6b3BTV0thaW1wQ2NKbVFMQjgwSURnYz1aHyId2WRONlVHQnozZ3RQaERQQjRxWXFkdllPaHFrOD1lD8w0FBKoAQg9EqMBChxtWHB4ZldOV1ZUNE9OTTRERkJxOUNaVXpqenM9EiQ2ZDE0NjhlYS1lZjliLTRkODgtOTU2ZC04NDY2NTM1YjJkMjEYACAAKAAwnbSKlL4yONmOipS+MkDZjoqUvjJKHCtwdDl1d082a1Z1ajhEU2VsaERjdFEzTEpRUT1aHyIdsmRYOHpTZkpqcUkvUHRxMVIxQjF4dEhDNE9DRT1lD8w0FBKpAQg6EqQBChxrOXM1L2czVkM4Qmt0c0dEVmYwQUtaVkYrTlk9EiQ0ZmZiNDgwZS04NzM0LTQ3Y2YtYjU2NC1lZTViNTRhZjM2NGEYACAAKAAwkc6gzukyOIXBoM7pMkCFwaDO6TJKHGM2S0dSeHA4VVArL2xackMrSkp1Y2dYRHlHUT1aICIe//9DTUVtUGwvMVBHVFY2VzVybTdKd0FCSzNqY289ZfmL7iESqQEIHBKkAQocbGNMWnlzaDRiKzY4MzNndUIvZVRKTmE5TVlVPRIkNDg2Y2UzZjQtOTFhZC00MGUxLWJlZGItYmVjYWNlMzFiMWFlGAAgACgAMLTZxIfoMjjisMSH6DJA4rDEh+gyShxMYjRZVGEwbFFtN25SVTNCc2ZWMTJpS0s5MGM9WiAiHv/7L2ZiK0lzaytPWTE5Y1FOL0sxRGtmQjdRc1pzPWVLYQq7EqgBCFESowEKHGRlMDdGbFNocUNiejNBM1VKWStDZkNuUFRMTT0SJGJlZTY2NmM4LWEzZWYtNDgzOC1iNjk4LTE0YWJiYWM5MjYxZRgAIAAoADC/kqnf5zI40vqo3+cyQNL6qN/nMkocbCtwaEMzMWtpSGYrNk9EekVsbDdOOWFrNFBBPVofIh39S21aR0xzV2E1N3J5dTdDRm94bkZRMmMxZkY0PWXI8z+7EqkBCH0SpAEKHFFpTnArMzVEcFAvYVQ5dHprRGRJY00vSzdjUT0SJDkyNTg0NjI1LTQ5MjUtNDQ4ZS1hYWU2LTViNmNkNjM5ZjRhZhgAIAAoADDOi8no5zE4s42b8eYxQLONm/HmMUocaTRwWjRUbTRVZ2lWZHpDM2I5aXhZWjFpT0JJPVogIh7/uWJSMHBQY3g1Tzc0SEszMHFKMko1d3lPOFZYaz1l7BvmSRKpAQg4EqQBChxtZWw0QjY3RVlsWXJCZVhBMWlGNUtNYTExK3M9EiQ4MjMwZTYwZS1jMzdhLTRkNWYtYWY2Yy00YzVjNTE5NzIwY2YYACAAKAAw1KOb0OcyOI69mtDnMkCOvZrQ5zJKHDhXNVFSSVhPK2lYQXlvblc3VzMxTWlhemlNYz1aICIe//1XdUdpZ2VlVkM2MUl0YXZKU3EvY1NJaW90K1E9ZSmDvEMSpwEIJxKiAQocL20xNkVXVWM2c3Jab1hHWTNDVW96UnA1VWFFPRIkNzM1NGMyNmUtMzYzNS00MGE2LWE0Y2UtODBiMGM3MzQwZjhiGAAgACgAMJOo5c3nMjiAluXN5zJAgJblzecyShxQemtvUGJGSVJENnZySmdwaHJTYldHYWVwMWc9Wh4iHGVwRm41M2tSQTYyY0diVnl5MFFFQWJvOXRRUT1l5sIkVBKnAQglEqIBChxXVTdnLy8ybUNtQy9UQWcwdFNteDB0S0YxZEE9EiRiNmYyNmQ4MS01OGEwLTQ2Y2ItODNmMy1mYjAyMTQxY2E1OTYYACAAKAAwoZLlzecyOOS25M3nMkDktuTN5zJKHExsZUJGMm52eWsrWGlYaVVaYnRrR1ZsaXJsMD1aHiIcOXJ2UHd0ZHZZQU5Cc3JGR1BZcFFRcE1yQVNrPWXmwiRUEqkBCDUSpAEKHGZWTVk2bEp6Z1BYKzNqaXF5Q3YxL0hvQWx2Zz0SJDgyNDhkOTNmLTdkMTAtNGJiZC04N2RkLTNhZmYyZDc0OTlhYRgAIAAoADCD8KTP5zI4+szb2/UxQPrM29v1MUocMGlnazNEbUpLMGM4ZmFScExjSWRJNGFxTHZnPVogIh7/60x1OXRTaG1aV2ZBZXZpeXgyaFVQcHFnbzUrVT1lhbeGsxKpAQgzEqQBChw5QUYxMTVuQWNrYVJ0NEVjSGdxN0t3RTdNd2c9EiQyNzU0ODY1Mi1mN2RiLTQ2MGYtOTE3NC1lZmVmZjMzZjljOTMYACAAKAAwkvCkz+cyOIbj3dj1MUCG493Y9TFKHDV2RVNDU3c1VDV2eDR5MFJaRGoyOThpSTBERT1aICIe/60zREF4bm1NcWNjc3F6WXdIdW56KzQvcHk4UUk9Zc4dF3YSqQEIGBKkAQoceHFWTkxQdHB5cnJPWm9DVVJJbHFxdnpmSXMwPRIkZjM1YmRhNmItMDc4OC00OTliLWFhYWUtNDAzN2RkODRmNzEyGAAgACgAMOKHkfnnMjj8tZD55zJA/LWQ+ecyShxvN3BTU2ZMNGZOYk1kdVc3NEorTjB0aWY1R0U9WiAiHv+1MWp6bmdhWXJETW0ycG1Lb3hqd2dBaXM5c2w0PWXI8z+7EqgBCC8SowEKHDhiV3lqL3FRRGQ2dk5TSFhZMFExVjQzVjEydz0SJGFkN2Y3M2UyLTVhYTAtNDJkMS1hOGY3LWFiZTIyOWM2MDk0OBgAIAAoADCUm+rN5zI4i4XqzecyQIuF6s3nMkocUkt1RVJLV1Z4bWJTME9YaVNzQm5uVzI5R3owPVofIh39dVRNUVF5UGtldW11Z2ZnM1E2aytoV2tmN2s4PWXBJHLsEq8BCGoSqgEKHGNLdnQybWFuNlpMNEZLekhvMHJnWGRqUEJrZz0SJGU2YTc5MWRhLTQ0ODUtNDJlNi05MWQ2LWE1MWM0NDZkNjM0MBgAIAAoADCcj8/P5zI4lcmEt/0xQJXJhLf9MUocbEhtcjE0c1pkdWtIYit3SWVqdDQzZjJUWWRnPVomIiT/////AAAAPGEwNStZSDhqV3FNcGlGYmtBRHFmeEFzUHpQST1ldb41UhKnAQg8EqIBChxUVmw0QVJjSE12ZVBFSVN4Um9Gc0RzWWVJcjg9EiRiOTU1NzEwMC01YzJiLTRjYTgtOWExNy01YzkxYWFiYjU0MmUYACAAKAAwhbPvk74yOKHm7ZO+MkCh5u2TvjJKHGkvQ29mRXFvM0RZSTVuTGEvU1lXT3dYZlNGST1aHiIcZUhqY2tGcis1bzNpWGtUbTNwcW5PODdFSjZNPWUPzDQUEqgBCAoSowEKHFp3bWJQa2o1TFVjZjdqSzU0YW5CemdmVzZ3bz0SJDhjZTA4ZDUyLWI2YTItNDM1ZS1hMGFiLWI0OGRiNzFmMDgwZBgAIAAoADDb6s3P5zI4iIvMz+cyQIiLzM/nMkocbFRUdHkxU0tzU3EwZ1BWUXEyZFpYb0lZeEV3PVofIh0IK1lzeFdoNjBKR2svRmxpMTFWVXBMcHYyVER3PWUAAAAAEqgBCBISowEKHDg2c09qZFZ1aEgyTmljK2g5ZU9yeU1nTkg5VT0SJGI1NDU0ZGM4LTA1MDktNGE2NS1iZDA2LTMzMjViMDNjMzM4YRgAIAAoADDj0M3P5zI4kNeTr+cyQJDXk6/nMkocdE1mc215eW5yZHppRWtNQTZzVE5aT0tTd3RFPVofIh39czNBTlZ2ZEJPSTFiL214R1padEpOZGE4VXprPWXHPrGuEqgBCCwSowEKHGtyK0ZnTm5pZHlURHdFRU5NYitoRGN2dFZwUT0SJGEzOGE0NzNlLTVkMzUtNGE5Yi04OTg3LTFhMjAyMzE0NTA4ZhgAIAAoADCdmOfN5zI47ovnzecyQO6L583nMkocK2tCcGpwTzZiKy80cDJDclh5ZGhTcnd2TkZRPVofIh3uV2lZWlBCanZRaDVrM1dKc3F0WHE1YnEyQkF3PWX6x8pgEqgBCA8SowEKHFFkWlhoTVJ5MFdsSVRrbjM2Mjg2Qkk2dlJERT0SJDgyYWE0ODQ1LWY2ZTYtNDM5MS1iNWRhLTRkOTc5NTJkYzI2NhgAIAAoADDx0M3P5zI42LzzrucyQNi8867nMkocNWtPQ1ZyVGRYL3ZWMWJiWTErMElrTVNhTVl3PVofIh3qYWJOQ0N1b2lsbFRDQi9oeEJ6ZytSNEtIOERjPWXI8z+7EqcBCEYSogEKHDR5SWFZcFdGUVY4WUlReUVIMzUwS2p6U1NVTT0SJDEwZjRkYzRkLWJkMzQtNDg0Ni1hOGVmLWYzZjg3M2Q5MGZmORgAIAAoADCrgKvP5zI4ufC6zpQyQLnwus6UMkocaHVuUXJsZE1ZSU8yRjc5akNpM1crRFU1c3p3PVoeIhxYcE1yQ09ORy92cE9CS2hYdVNwU1BlWDhWdFU9Zf2cjEoSqAEIUxKjAQocRnZyRVJxbCtxeWVBNSt0UFRuYitqUUxvOVVJPRIkYWM2N2NmNTUtYmMzZS00Mjc4LWEwNjItZjNkZmJlNGI3MjFjGAAgACgAMJidsd/nMjifhbHf5zJAn4Wx3+cyShxMdlZoSjlMdE56Njh1VUFqbTZwanpTSS9iSWM9Wh8iHf9rbExyRWFXSzh5V094aTQzZmJ0ZThPS2Z2bzA9Ze54EjISqAEILRKjAQocaVhoSFlIUU5rZ3BCUVFxWWUydHZQZFB6YWVBPRIkZDVkOWM3ZjgtMTZiNy00YWQzLWI2ODQtMzkyODY1NDZhODIwGAAgACgAMPSy6M3nMjiPnejN5zJAj53ozecyShx1WWsrM2MrK3EyTFJva0JrUTlpUmlieXF3UTA9Wh8iHfc3amNTWHpSbGdMMVYxS2QvNWFPalpvL3NsSFk9ZfrHymASqQEIORKkAQocSUIxYXhQS0FpVm9weG1TZDBLdGRtMmMzTDVzPRIkNzdkNjczZGEtNGY3NS00ZDYxLWE4N2QtYjI0NWM5Mzg3NWViGAAgACgAMKy0p8jpMjjUtKbI6TJA1LSmyOkyShxTNXZqZml3Rk9OMjNzczZ3MlZyUVJOZ2ZrNWM9WiAiHv/+bUhjeThiTitxakIveUdLNXVlSGRLQmxYTmM4PWUAAAAAEqgBCCoSowEKHHhoVVl5b3BJQ3hESDJNRUU3R2lGaDlwckMybz0SJGY0YTg1Yzg3LTEyMjktNDRiZC1hMjdjLTQ2N2FhNmUxYjJmZRgAIAAoADDUs+bN5zI43J3mzecyQNyd5s3nMkocUWxKeGlNeDh4ZjFRVGpETWl0ZG82cUhBLzRZPVofIh27amhoOW9SS2wzMkcwT2xuQ0hCN0VzaXNRbXc0PWVM9mpzEqgBCHQSowEKHFhmRFg4QUM5c3Q5ZUduVUdRV2VWN2gxRXdVdz0SJDQ2YjFlYjIwLTcwNTItNDY2NC1iNjQ1LTU0M2ZjOWJkYTY3YRgAIAAoADC36a/E5zE4uevn6uYxQLnr5+rmMUocVzhlbkF2ckRKbU5LVWJBeCtQSWNleVlIK2hFPVofIh23RlBRbjlmUlhlZkpvTmtMS3lRcllGazRHSUdRPWU5xrawEqgBCDISowEKHEtJeFIvMUJBR0FrMVFKZXQ3ZlpZbUNiTUdtcz0SJGYyZjJlNTg1LTU0MDMtNDQwMC1hYTkyLTg3NzY5MzQ3YmRiNBgAIAAoADCI8KTP5zI4tNbZ2PUxQLTW2dj1MUocVmdZOU5xS2RjdCsrQ0VtWnhoWW5UUVNjQ2cwPVofIh3/WlhZTzZjSEdMN0ZWcTRSU1krTGxuaFFtYyswPWXOHRd2EqcBCGwSogEKHFNxbGZ4TjVORzc1MGtQQi91U0t5MzNqcDArcz0SJGQ2NDM3NTBmLWMzODctNDRlMy05ZTIyLWRmM2ExNmU4ZTA0MRgAIAAoADDI/6vQ5zI46bKq0OcyQOmyqtDnMkoceEZBSjhiVXYwZTZDMSsva2IyYUtBRjNzWGRnPVoeIhwwZG4yQ1Vsd21xSGVDdldscHAyNUhkcWhLbjg9ZeOAymoSqAEILhKjAQocWWFRZDg2MzRNMnVsSVUvdzNjSGY4bUZwTTdnPRIkMGFlZjRmOWUtODU1NC00YjU3LTkyNDktMTZlMDc0MTMxZjI5GAAgACgAMMr36M3nMjjt4ejN5zJA7eHozecyShw0V0UwVjFOU3VuWGQ1SXBUZ1FuLzhRc0FKaGc9Wh8iHftpaTFCMHNjNWZGMDdmMm9Vam1aWjNTUXlWZ1U9ZcEkcuwSpwEIJBKiAQocTUFRY3ZZRGlaalBBVzc5eWo3MEx0WVB0N1BvPRIkMDQ3YjMzMmYtODJhZC00NDQxLWFkNjYtMGY2ZDhmYTIzYjVlGAAgACgAMJSAx8/nMjii/OTN5zJAovzkzecyShx4ekY3R1hsOHBMZm1Tb2ZRM2kyeVlrbUUzOFk9Wh4iHFN0NjFGZWtpK3d6ZVpLMENTTjkyVzJaeWVaMD1lAAAAABKpAQgGEqQBChxWWkFaS3MvNzNyRmdvSEFiMEZqR2IrSWZIcHM9EiQ1ODNkZmQxZS01MjBjLTQ1OGQtOWNjOC00NzNmYWZmNGZiZjYYACAAKAAws/nrz+cyOJHj68/nMkCR4+vP5zJKHFhzOElwM040SUV6UEI0ZDJvRndua0cycVhnWT1aICIeB5J3V3BpU2Y4ZlBCalgwN21ONVN6Y1NmTnNrc2s9Zco1Nb8SpwEIKRKiAQocL2FpVWhLRkx3bVFDSTRpS1gwNVkrbDV4M1FzPRIkMjhiNWM2MDMtYzQ4Yi00MzUzLWJjYjAtZGIxMjg2ZWEyNTIyGAAgACgAMLeX5s3nMjjMgebN5zJAzIHmzecyShxmajBDMWZDNEs2RnhscGxPVXBvKzVoV0ZkWjA9Wh4iHHY5UW5wcVlLeFAvUk8rNEVKUTA2QkFkQWVzTT1l+sfKYBKnAQgMEqIBChxGcnQ5dSs0SHcvTHRrVGltWUJlRDB0Ym10MnM9EiRjYjk5NmY4OS00NjcyLTRjMjMtYjU3MS02Y2RhNWFjZDc4YzQYACAAKAAw6NDNz+cyOLOF/6vnMkCzhf+r5zJKHDBUOERmbktDaUo1STZiMFM3TkpNdW8vRUpQVT1aHiIcV0d2UHV4aUp3VElBRnF1bVlRYm9GREtWNXNnPWUAAAAAEqkBCFQSpAEKHHBYVDAvSWRYc3c2b2FHamp5SXdPNmUxRWx0TT0SJDc0OGNiZGU0LTlmOTYtNDkxNy1hYWQ3LWU5OWM5YjYwYzI4ZRgAIAAoADCktteV6TI44pjVlekyQOKY1ZXpMkocL3ZBZm1kbExtaWJkSTJnZXZOUHdvbEwyNC9FPVogIh7/tWZxUDNqYk5JMjAxb3lnUEJyWlc2K09FblA0QT1lwCv08BKpAQgaEqQBChwzK3h2b2RHSDIyYnJjVmYvemR0ckY0SllIMFU9EiRkOGZlNjhiNi03YTM3LTQ1NmQtYmI1OC02Y2M4NDQ4MDk4NmIYACAAKAAw8fva++cyOOvf2vvnMkDr39r75zJKHHV5OXYwYjNYbitXd0E4V2hVU25DWVEydTFzQT1aICIe/+1HMk1WT2lPVk9TbEFWcDFVYlh0cTNLVGl0Y2s9ZSaAzpISqAEITRKjAQocNGFnVTc2bk5lbmJ5MzFRaGRaZmFnTjRkVlNJPRIkNWY4Mzg4Y2QtOTZkYS00YTNhLTk4ODgtODM5YTU3YTMyNjA0GAAgASgBMPuYsunpMjje/NTKgTJA4ZWy6ekyShw1N0MyaXZ0U3NsMkJkaFZQbTROcUZ0RkY0TGs9Wh8iHdQ0WjRWQzNLZGNzb0VEZXNwYzJvMFpma0hOR1U9ZcjzP7sSqQEIiwESowEKHGI5SU0rbnBZQWVYSTA0WGNuY2U2YTdTc1JITT0SJGM1NmFlMTQwLTFkYzYtNDg0MS1hYzNmLTVkODY0MjYwMGNiYRgAIAAoADCilOnB6DI4jv7owegyQI7+6MHoMkocYkhEZytoSyt6ZDY3b0RqclBkZlNEQWlNc0hZPVofIh25R1pJVWwvVGZrVFNITEd3U1FYQzBVUnVyZmVVPWXsG+ZJEqoBCCMSpQEKHHcrL29TTkkxN2VYZDJqeXFrRDdIenFEcGVQYz0SJDY5OTI3MDhmLWJkZDItNDU4NC05NDgwLWRmNTRlM2JlMWE3ZBgAIAAoADCIjuC/6TI4yPDfv+kyQMjw37/pMkocS1VSTUFkd1N1MHE4REJ4WVl5MXhHand4ZzdRPVohIh////ZDSllDMTBGMFRRY2xMT1hLWDRjeFpRengvd009ZUthCrsSqAEIFRKjAQocejRZUVZsemR0a2FjN1ZIWGlwS3RkTStGZUtVPRIkODczMDQ1NjgtNWQzOC00OTE2LTlkMjEtZDFkNzA3YjA5MjRhGAAgACgAMN/Qzc/nMjjgnZXP5zJA4J2Vz+cyShxSYTliNnZ2ZUVHd1UzNHhTRmovRXNqV2JBMXM9Wh8iHf9kRnRuS1lvYXQ4TVFrdm5hT2tZdXVsSDZndGs9ZbiVLd8SqAEIRBKjAQoccGJMVERJamZTMEtNYlFNZ09mZldJQU1MODM0PRIkYTdlMDBlMjAtN2U3NC00YzdkLWIwZjQtNDk3YzEzNzZkYjY3GAAgACgAMLzH7M/nMjjAsezP5zJAwLHsz+cyShxvTU0vK3JncXFYcU1mRS9UQ3NXOEpzcDVKME09Wh8iHfhtc0NOTjdZUUZKMWI4Q3I2MldJanpaYnZrUzA9Zco1Nb8SqgEIIBKlAQocbCtkcE5iMGRsSDhCTlVPTytSeUJicmxtb3E4PRIkNDFjYzc2MTItOTVlMC00MTJlLWE1N2UtMzkxMWY2ZmVkODY3GAAgACgAMKzSzJXpMjjQusyV6TJA0LrMlekyShwxd2hYM05VblBmN2NPWFU0QWo5clZzNitRTjA9WiEiH///tTZqN3NaMWEzOTFPNno4ZGR4RDEzcnNoV0N5WT1lS2EKuxKpAQiSARKjAQoccFVucmE5NkFhLzNuWTA5MVNnWlhOUm40c0FVPRIkZTAyOTljNzgtZjZiNC00OTAxLTgzMDctZjcwMmQwN2JlZGJlGAAgACgAMMCTtt7oMjjD4rXe6DJAw+K13ugyShxvYlBlUHFxKzExZG1scDYxalA1NTZoMTZQMzA9Wh8iHf9ReWFKZzRhM2lVaXlnTkZxalRDcC8wdDN0YVk9ZTh7YBkSqQEIHxKkAQocYzVYb2NlYW1LcWhZeTl5Ri8xYmJaQWZIdm1NPRIkOTE3YjJlMzAtN2M2Mi00YTE5LWIzN2QtZDE0NGE3OGVkMTA0GAAgACgAMODO9pHpMjixlfaR6TJAsZX2kekyShw4eEJVRnVwcHRJc3BhS1hZbEJqZjZhSkVYUXM9WiAiHv//amVoTUtjTENyUjRZTkgxV1ZUZHhOTEk2V1VzPWVLYQq7EqoBCCISpQEKHFN6WmthRldqWkR2MlZFbGppcnM3K2hlOTJSTT0SJDI5ZDFhNDY0LTkyY2EtNDcwMS1iYmRiLTlhMWYzMzBjMmYzYRgAIAAoADCoo7Od6TI46PKynekyQOjysp3pMkocTk82K0RGc2F5UjFtZVpLN2xGVjQ2TWtMUW40PVohIh///+1EYUhPcVJady9KZlBSR2JWeURDbkhZRk5HaGs9ZUthCrsSqQEIGxKkAQocRUVvRWVPMmtUM2FBb2RCWHI2L0gxSEhTalB3PRIkNWYwYjE2NjYtYTc5MC00OTkyLWFmYjYtZTA0M2RlZmQ2MDRiGAAgACgAMMSd3vvnMjiAit775zJAgIre++cyShxFc3Y4WGxrU3c3YVZPaElzOXM2UW13Z29XZ2c9WiAiHv/2MS82UEdoRm96QmkvQ2FGZFhjdTV0SllkZnJzPWUnhwPLEqkBCDYSpAEKHGVCelNmM2UrVW84aUpXSVFHSDhpMGMzREs5dz0SJGZmNjA0ZjFhLTZkYzctNGMzNi04MDkxLTU3NzQxZDMyMDk5ORgAIAAoADCY8KTP5zI4z+Lg2/UxQM/i4Nv1MUocQ0hrd2xhMXhoSlMyYUVnRU9mcjhSdW5NTzZ3PVogIh7/9VBMLzBZaGZFWkxKb21xeHRTd28yMDN4cmlnVT1lhbeGsxKnAQgmEqIBChx4MWR2YU9MSzNUWUZaRGszZjQyRzh2OEJlU2c9EiQyZjFmZjg2Ni1iMjZmLTQxYWUtOGIwOS02Mjk0Y2ZkY2U4Y2MYACAAKAAwqJLlzecyOI2C5c3nMkCNguXN5zJKHEdDTDhCYnh6bi92WFk1SkNOVU1yTHVYSjRjZz1aHiIcRjV0MnVvaHpjSG9uakJNVjYzeitWVk9XRFBvPWXmwiRUEqgBCDASowEKHG5VbFpiVGxnSWo0dXNmTVVnS0FIeXE5QzJocz0SJDg3ZjZmZGFjLWY4OTUtNDg5OC1hYzViLThmNDkwZWQxOWMzNRgAIAAoADDx0urN5zI4s7zqzecyQLO86s3nMkocQ2F2OERpelpCRzZ4T0JIZHluMHkzYmJ4bDlRPVofIh3+dVhvUlI1WjFQNmJZZGw1c3FKMGQ5eHIwcXlBPWXBJHLsEqkBCB4SpAEKHFRPTlNUcWdWbkh5dyt6L0h2RFgzSUxtamlDRT0SJGQ3OGUxNjk0LWQ1OGYtNDMwNC04N2M1LWMxZGFlZWNmZjY3YRgAIAAoADCvwYCK6DI4sK6AiugyQLCugIroMkocSlhEaGN6K2c1QlhPK095U0dpZ0RDUXlQZzh3PVogIh7//m15RFdxVExOaVU4akczSmN4K0N2R2M4dHZkND1lGVE/2hKoAQh6EqMBChx0SlA0eEI2SDRwU2dWakdpVGRvS2J1QTlUaWc9EiQzNTRmMjA4OC0wMWJkLTRhMTQtYmJkMi03YjNkMTFkMTAyZGIYACAAKAAwm+mvxOcxOPKz3MDnMUDys9zA5zFKHFQ0RkorY2NiOXJnMmlZd2lQSkFZTXFpNVBSZz1aHyId/lBrMjFXUGRUaFBNZVZXRDhXa2RwWWNJOTJXaz1l1Wje3hKpAQgZEqQBChxFY1dselZMUGhoYXIxVjFaSmVxdEFJMEtGUjg9EiQyNjM2N2I0NC0xYTE5LTQ4ZWQtYTJmMy1hMWRlMzA5ZjhjYjIYACAAKAAwoKvX++cyOMWP1/vnMkDFj9f75zJKHHpFdUp0Ri96Y0U0ZEowaW1aZmh4MXFXamgrcz1aICIe/9pyQW1rZ2wvY0lCNzRKdFg2OUVPQzd4R1EyUFU9ZSeHA8sSsQEIlwESqwEKHGQ3ZVU4dlVzbGhMajFLY2tVY2dtS0huTjNzdz0SJDQ0YWVkNDRiLTFlNWEtNGY3Ny04MDMyLTVhYmQyNjdkNTE5ZBgAIAAoADDj7Ovo6DI4v9nr6OgyQL/Z6+joMkocNDdiT3RBYU1ic2xTcTVqWkx6eFRoRjltK1pnPVonIiX/////AAAAPr1XYUl3b281VklRcDhSemRESDZaaVp3eitOV0E9ZQ4Mo0ASqAEIFhKjAQocVkJoZ09qUTAyWkcrOHRkbmpVeit1a0xKSndJPRIkNTBmNDhjMjEtYzczNi00ZGIyLWFiNmEtN2Q2OWE4Mjk3YzU4GAAgACgAML7pn+3nMjiY15/t5zJAmNef7ecyShx5T0pTcTJkNGRzWkJ6L05pbXBOcDdIRy8xMGs9Wh8iHf9lSXdadndqclhOWG9pU1RwQ0I3MmZNaDJhL2c9ZZ27+kESqQEINBKkAQocODZZQ042cHFDZjV4ZW9KWnNoZy91Sy9qZ3FjPRIkM2RhY2VjMDYtZGFhZi00MDc5LWExYmYtNGQ1Y2ViZTdlZTdjGAAgACgAMIzwpM/nMjiDydXb9TFAg8nV2/UxShxJSnpGUi9WeFE5Qnl2d1U2dlZaZHdSTkxZL289WiAiHv/WSGpVVlZ6YUoySmJzU0NFNmFrV2N2cVNPQ2EwPWXF9OGAEqgBCBQSowEKHEUzY1B1ZVNDNUM5V1NRcVhMSHB2Nit5V0llZz0SJGVjODdmMzkzLTUyMjgtNGM5ZS1iZjc3LWY4MDcwZjlhMDA5MxgAIAAoADD90M3P5zI45LXHzecyQOS1x83nMkocem42M1FZVzJ1N1V2WElibk1QbGZRbTV3VWlZPVofIh3/UmxzY3h4ZmhJRlhRUnJrZ2N0MlNXamVzVUZzPWXI8z+7EqcBCFsSogEKHG1Bblpiakczbm9yTlhGY2RJNEpWaVpib0g2cz0SJDVkY2MwMzI1LTUxNjMtNDgwNS1hODMyLWIzNzU3ZmJhNzQyMBgAIAAoADC06KyUgzI4ys6slIMyQMrOrJSDMkocbHBjbllGMjg3MU53TTU5YXJ3TDh1Vys0bnFVPVoeIhx0OGoxKzN1eDdnVmR1c240aXc2K3JrakI4STQ9ZZB09IsSqQEIfxKkAQocQis4ZHZ5YnRUaUZzNS9kb0pIaC9LQTI4UXFVPRIkZGE5NzMzNzgtNmYxMi00ZTE4LTk5ZTMtNTEyMzIzNTkwOTUzGAAgACgAMIaCz+jnMTiI5s7o5zFAiObO6OcxShxtNTY1NVdzT1FXWHBSOSt1L1FPRS9yZFVuTDQ9WiAiHv/ubVlPOTRmV2wxNUpOeFE2M0J5SzJGcllNK2lBPWU4+TkzEqkBCAcSpAEKHDNqV1orRU0yRmVxWXRyeGNDa3BsRnEvUERwUT0SJDNjNGViMjA3LTNiMjgtNGI2ZC1iZjIxLTkzZTdhNDgzZDM5MhgAIAAoADDS597P5zI4pI7ez+cyQKSO3s/nMkocekJJLy9ZZ1lEa05oS2NocDJ5Tms0VDNWMVVZPVogIh4HrEUzdGx2SHgxQisvR0dEUDNlV1BtM056UmNxQT1lAAAAABKoAQgREqMBChxhM2xPK1BCeDZJdStqazFOeXN5N2s1KzNWUlk9EiQ1ODkyNGU3Ni0wZDQxLTRmODUtOTYxNS1iNzk0MmFlZWJkYTkYACAAKAAw9dDNz+cyOIS89K7nMkCEvPSu5zJKHHhESW1tN1oxa1Btc2Rucmtiak80cWh2eDNxMD1aHyId+ktGRzUyQlVlSkR0dllUbTJvazBRQ1A5SSszbz1lyPM/uxKoAQgOEqMBChxyWFdFaDIwSkQvdWlNZDJWSTZTaWZneWhMTzA9EiQwYTlkNGUzNy1lNTM0LTQ0OTktYTI2OC01N2IyYzdkYjBhNzEYACAAKAAw29DNz+cyOM++9KznMkDPvvSs5zJKHGNaVHRyY2NvUEU4L2RmM05ibU9uOU9KVXNrTT1aHyId1W1IVWI4VnR4YkhtRnJMTVo0MEpHSmQ4OSthMD1lyPM/uxKnAQgIEqIBChxGMGhTWG1FZEI4R2lGTzNyWTVBRnhIdW14U2s9EiQxZTAxMWExZi1lN2E0LTQ2YzktYmMwYy0xOTllYjA1MWFiOTAYACAAKAAwuqTez+cyOJjF3c/nMkCYxd3P5zJKHHJqbitYenl4VnBxcy93dG9MZTl0Vk1DNm5lYz1aHiIcak5ubHlEaklKbXlJMjlWYmNaLzVNWG96MHhzPWVVXQdAEoMBCAISfwocWWNTVG9udkVTUHdxQ3M0TDJjclZodjY4TDk4PRIkNjFiYWRiMGEtNmNjZi00MDliLWE4NTgtZWRlNzIwYjUwNzA2GAAgACgAMAE489CNj40xQPPQjY+NMUocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PVoAZQAAAAASqQEINxKkAQocZjdPWDBxODVwMi9ZcS9lY3RVSGZXOFFXRFdBPRIkZWE0YjYxMmMtMjgzNC00OWFjLTkxMWItN2IyNjk3OGQ2MjA3GAAgACgAMJ7wpM/nMjjAoOnb9TFAwKDp2/UxShxPc0JxSCtYd1FWM2N5dmdSZ0tmRWxabzd2enM9WiAiHv/6T0JWWDQrNi9XNjFGUW1nZ05XdlZRL3NuS25JPWWtvg9/EqcBCCgSogEKHEdlbmRvbnlqZzg5TDlqdFlwZHQ5blpvMVlQVT0SJDc5ZTQ4NGI0LWFmYjUtNDc2ZC05MDA1LTM1ZDdjNjAyOTNiMxgAIAAoADDr5OXN5zI4j8/lzecyQI/P5c3nMkocVFlIWVpsSUlzKzcyTEIrZkM5TndRTi9Zc3d3PVoeIhx0L3JpUGR6Sy9CeU11RThVTFJVRDVDeVJ4ZEE9ZfrHymASqAEIEBKjAQocUDhSVEk1TllIL2NvdUxSS0JaaTlwKzhZMGRZPRIkNjU2N2ZlZjUtMzAxYi00ZjAwLTkyYmMtNjNhMDEwOGE4MTc4GAAgACgAMNbQzc/nMjiokvSu5zJAqJL0rucyShx4bmZTR28wRThwSGtJSXFFa2M1NTJ2R2hZQTg9Wh8iHfVjY3pNMU0yWjFKK0ErcW43M1FBV1J1Nm04SGc9ZQRRdS0SqAEIKxKjAQoceUo0bFFJOENPeS90djZ0UnV0eTRrNlQ1YTlvPRIkOGY3OGE5YWYtYmNkYy00YWY3LWEyM2UtZWVhOTk1NGEzMzZlGAAgACgAMODq5s3nMjja1ObN5zJA2tTmzecyShxSRktNalQ3a0JyOHZvR2lWdEJXVUFrSXp2Snc9Wh8iHd1YNktBVnpqYTc2T3dMb3BRMUVyMm0yOU5vUEk9ZRZKZN8SsAEIlgESqgEKHFBxZ2RDSnY1YWhBbnhGeGtWVVptbzF3aFlpST0SJGMyZDA4MmIwLWExMzUtNGI5OC04ZTIyLTkzMjliZjg4NGFhYhgAIAAoADDLjvfj6DI48dL24+gyQPHS9uPoMkocWTBwazV5MmN3RWJpTEJDeGdlN1E1aHh5UDNnPVomIiT/////AAAAPno2ajdSc2hHbkRLZFMwc09pRHVJZWFKTThFZz1l4S5ZEBKwAQiTARKqAQocUzVNdEhjVDdIQmJlTkdhbFY0aEM0TENaRnNRPRIkNzc0YmI2NzgtYmIyZC00OTFhLTg3YzUtZjZhYzE2MTBiNTJjGAAgACgAMOeBp9/nMjil6abf5zJApemm3+cyShxIWmhtTlJNT1JCM3BjQ3ZZemNVSDh1b2V5THM9WiYiJP////8AAAA+TjUzWDlUYjdUL3EwWUZHQmZFVlhmaXVTMitjPWUAAAAAEqcBCAsSogEKHDNGbmFGdEpuamJiWUdscXFiZW54Uis4RkdwZz0SJGI5N2JiMGRiLWNjMTAtNDI1Mi1iMzMwLTEzZWY0MTFiYWVlYxgAIAAoADDN0M3P5zI48c6637wyQPHOut+8MkocVDJIbjEwZnNadUpteVQvTXMvbXpVdTNFUS9rPVoeIhw5bE5JUjFnYmwyeU1kVXM3WnJqcHk0a2JRdFk9ZeoQhwYSqAEICRKjAQocazc5dHpKa2sreDdZSngwNTRoT3Y0dG5OV01FPRIkZWViNGU5ZDUtMDI1Ni00Mjg1LWE2Y2UtNjRkMjQ3MWQ0NTA0GAAgACgAMOWE9M/nMjjaj6W05TJA2o+ltOUyShxnbksySU9NNDlLZy93THRQT2Z2Sks2K2hlT1E9Wh8iHbVRWlhXaFcwSmFRKzc4NWtqb3ZVWi9VZ2o0Z2s9ZUjcmFkSsAEIaxKrAQocbHpjdnk4ZU51V0tjOEJhaVB6Vy9wUUowK21VPRIkNzczZGI4MTEtMDBkZi00YTYwLThjM2EtZjI5YmU4NTJmMDk2GAAgACgAMLTdwNHnMjii6avQ5zJAoumr0OcyShxvWHg5SWFFZ1RMTHFPVWI4L0hlR0tuU3RPWHM9WiciJf////8AAAA8sFlML29WdFJHZStXWVhsRkJsU3lNYTBCNFY3MD1lAAAAABKnAQhaEqIBChxWQjlzdXJKdnJtYlY5dnpMWXNkc2xDRWlISnM9EiRlN2RjNDlmMS05Njk3LTQ2NzMtYThlYi1mZWU3YzRhZWE0ZTQYACAAKAAwq8yslIMyOOShrJSDMkDkoayUgzJKHEYrVThkSDVJSVFCQlp5dEh3c2daRDJSbHU1RT1aHiIcZGVZOWRFaTBDOU80Wk80cUpqS1JCN3dvcjZNPWWQdPSLErEBCJsBEqsBChxoWit6ZXp5am9yUmkzRXZ3aW13VDdxWC9BSHM9EiQxYjFiMjIyMi03ZmFmLTQxNmYtYjdiMS03OWFkNTQyMmNhOWIYACAAKAAwv76lv+syOMOBpb/rMkDDgaW/6zJKHDZlU2JLbWZMQkptUDRxSnpYQWNHSDdaeWpycz1aJyIl/////wAAAD7eWXlaMU9tZnFuc29ncTE4OG1rWGZOdzdLV3FJPWU2JNhrEqgBCA0SowEKHG9tcDB2RnJ3dFBJaXpxMHJEaHoyY1pTbWFHZz0SJDU1M2M2ZGRkLTQ5ZDUtNDhkNS1hOTgzLTZjYThmNTcwM2JlYxgAIAAoADDS0M3P5zI4sIyWrOcyQLCMlqznMkocckJIZTJLZ3BlSkJLV1FkM296RWdtTVhjOWxvPVofIh2rNHBYWVhmNmxLSnVScmgzazNEcTZ6U1padEdRPWXSOpKtEqgBCDESowEKHFlRY2xRdk8yR2xXamxUZDlEWWFJTC9Mc0JWdz0SJDRlYjI0OTU3LThmMjQtNGUyYS04ODgzLTgyNTIwZjk2MGRhNxgAIAAoADCX8+vN5zI489zrzecyQPPc683nMkocM0p3MjZ0UkNCNUdaNHoraFNJSDFPdUJ6Qk1ZPVofIh3/UHYzTHRVUWoxVVlKLzFvWDlVSWkyd1duYlBBPWX5i+4hEqcBCGESogEKHGt0ZnVaY3Z2QU04WkFSWGdFelMxbythRWVyOD0SJDUxMjU0OWMzLTY4YTctNDU4MC05MGE0LTcwZmQyYWQ2NzJjZRgAIAAoADDhoNTf/jE4va/T3/4xQL2v09/+MUocL01xWDdOa2p0Z2Q4Tm42d3g3TVFqUlU4aGhJPVoeIhxQMndFaWRCSW1EQStVaFBJT3dMQlBSOUlpazA9ZXMaTn0SqAEIQxKjAQocMDNpR21zeld0eUlUQzgyVEU1MjFsSHZUSTRVPRIkNWExNWVlYWItNDQ5Zi00MGFlLWJmOWUtYjAwMWM1OWNlZTc0GAAgACgAMIn3yO3fMjic4Mjt3zJAnODI7d8yShxMVkVGYit4MERtYmQvMnJ0SytKaXE2U0dHWHM9Wh8iHf5WYmZLS2JMVlliUjQ3MDBCNHB0SmRPeHk2Nm89ZcjzP7sSgwEIARJ/Chx5eEovNmZ2a2VjcjdrcDVFUXpCNHRXTHBkYkU9EiQ1YWQ3YjJkZS0xZDI2LTQzZDctYWEwOC03YzNmZWNkZThjNDEYACAAKAAwATjz0I2PjTFA89CNj40xShxhUkNXTGdoRjliNUlucUtJRHZ1Si9qdlFrRmM9WgBlAAAAABKoAQgFEqMBChxQYTRkZkFoY1BPb3N6MVdEd1hWTGlTNG1JbVE9EiRjYjgwZGJmMS0yZDM4LTQ0ZTgtYWNjNi1mMTJkNjA0NzdiMWQYACAAKAAwgpLxz+cyOMqarOu6MkDKmqzrujJKHC8zZlpibU05ZzlBSFNHRnlHbjI3aFJHQVJmQT1aHyIdB1lzbWE5VHRoMTJ0LzlBOHFGMlZTeHVZN205QT1l9CL1GxKoAQgXEqMBChxoL1ErelQ1UnVJeXc1ZG1mVTRqSk5kTVh0cjA9EiQ2MWM2MjU1YS0xZjBmLTQ3Y2ItOWQwZS1kODc2NWU0N2RmYTYYACAAKAAw9LaG+ecyOIKrhvnnMkCCq4b55zJKHG11Qm5Fd1NwS1NhUzBHUkhRTzg4d24xTVZHND1aHyId/2pQaHY2ZDBDVG10QmtRMVFyRkg1YlFRVWdZVT1lyPM/uxKoAQhCEqMBChxHMkFqcytDMGYxNjJDUlJmdkp0NU9xMTVNaTg9EiQxMTA3NzI0Ny1kNDllLTRkNzItYmUzYi01MGVjZjUwOTc4MTQYACAAKAAw2/eb598yOJfKm+ffMkCXypvn3zJKHG55QWFpaW5aWi8vUnN4OVdFMnM2emNIbzlYUT1aHyId/WdLSjJEbWh5blRFNERQRUt1WFJzMTIwWWllOD1lyPM/uzABOAA=",
+   "version": 1
+}

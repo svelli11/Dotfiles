@@ -1,0 +1,1656 @@
+{
+   "Add": {
+      "description": "Button to add an anime/manga to user list",
+      "message": "Добавить"
+   },
+   "All": {
+      "description": "All",
+      "message": "Все"
+   },
+   "Anime": {
+      "description": "General translation of anime for places like drop downs",
+      "message": "Аниме"
+   },
+   "Cancel": {
+      "description": "Cancel",
+      "message": "Отмена"
+   },
+   "Discord_rpc_browsing": {
+      "description": "Discord rich Presence text if on overview page",
+      "message": "Просматривается $Page$",
+      "placeholders": {
+         "Page": {
+            "content": "$1",
+            "example": "Mangadex"
+         }
+      }
+   },
+   "Emby_Authenticate": {
+      "description": "Emby Authentication",
+      "message": "Для работы MAL–Sync нужно ключ Emby API. Больше информации $Link1$Here$Link2$",
+      "placeholders": {
+         "Link1": {
+            "content": "\u003Ca href=\"https://github.com/MediaBrowser/Emby/wiki/Api-Key-Authentication#creating-an-api-key\" target=\"_blank\">",
+            "example": "\u003Ca>"
+         },
+         "Link2": {
+            "content": "\u003C/a>",
+            "example": "\u003C/a>"
+         }
+      }
+   },
+   "Error_Authenticate": {
+      "description": "Update version - Text 3",
+      "message": "Пожалуйста авторизуйтесь $Link1$Here$Link2$",
+      "placeholders": {
+         "Link1": {
+            "content": "\u003Ca target=\"_blank\" href=\"$1\">",
+            "example": "\u003Ca>"
+         },
+         "Link2": {
+            "content": "\u003C/a>",
+            "example": "\u003C/a>"
+         }
+      }
+   },
+   "Error_Blocked": {
+      "description": "Error message when the user is blocked on a website",
+      "message": "Ваш IP забанен на $Page$, измените ваш IP или подождите пока его разблокируют. Вариантом также может быть и временное отключение.",
+      "placeholders": {
+         "Page": {
+            "content": "$1",
+            "example": "MyAnimeList"
+         }
+      }
+   },
+   "Help": {
+      "description": "Help",
+      "message": "Помощь"
+   },
+   "Load": {
+      "description": "Button to load content",
+      "message": "Загрузить"
+   },
+   "Loading": {
+      "description": "Loading",
+      "message": "Загрузка"
+   },
+   "Manga": {
+      "description": "General translation of manga for places like drop downs",
+      "message": "Манга"
+   },
+   "No": {
+      "description": "No",
+      "message": "Нет"
+   },
+   "NoEntries": {
+      "description": "No Entries",
+      "message": "Нет данных"
+   },
+   "Not_Found": {
+      "description": "Anime/Manga Not Found",
+      "message": "Не найдено!"
+   },
+   "NothingFound": {
+      "description": "Nothing Found",
+      "message": "Ничего не найдено"
+   },
+   "Ok": {
+      "description": "Ok",
+      "message": "ОК"
+   },
+   "Package_Description": {
+      "description": "Description MALSync",
+      "message": "Добавляет MyAnimeList/AniList/Kitsu/Simkl/Shikimori на различные сайты, с авто обновлением просмотренных серий."
+   },
+   "Remove": {
+      "description": "Button for removing entry from MAL...",
+      "message": "Удалить"
+   },
+   "Reset": {
+      "description": "Reset",
+      "message": "Сбросить"
+   },
+   "Search": {
+      "description": "Button to open the site search links on mal, anilist ...",
+      "message": "Поиск по сайтам"
+   },
+   "Select": {
+      "description": "Select",
+      "message": "Выбрать"
+   },
+   "Show": {
+      "description": "Show",
+      "message": "Показать"
+   },
+   "Synchronize": {
+      "description": "Button to Synchronize state with mal...",
+      "message": "Синхронизировать"
+   },
+   "UI_Chapter": {
+      "description": "Chapter",
+      "message": "Глава:"
+   },
+   "UI_Episode": {
+      "description": "Episode",
+      "message": "Серия:"
+   },
+   "UI_Rules": {
+      "description": "Rules text for the correction UI",
+      "message": "Правила"
+   },
+   "UI_Score": {
+      "description": "Score",
+      "message": "Ваша оценка:"
+   },
+   "UI_Score_Appalling": {
+      "description": "Appalling - Score",
+      "message": "(1) Хуже некуда"
+   },
+   "UI_Score_Average": {
+      "description": "Average - Score",
+      "message": "(5) Более-менее"
+   },
+   "UI_Score_Bad": {
+      "description": "Bad - Score",
+      "message": "(4) Плохо"
+   },
+   "UI_Score_Fine": {
+      "description": "Fine - Score",
+      "message": "(6) Нормально"
+   },
+   "UI_Score_Good": {
+      "description": "Good - Score",
+      "message": "(7) Хорошо"
+   },
+   "UI_Score_Great": {
+      "description": "Great - Score",
+      "message": "(9) Великолепно"
+   },
+   "UI_Score_Horrible": {
+      "description": "Horrible - Score",
+      "message": "(2) Ужасно"
+   },
+   "UI_Score_Masterpiece": {
+      "description": "Masterpiece - Score",
+      "message": "(10) Шедевр"
+   },
+   "UI_Score_Not_Rated": {
+      "description": "Text if nothing is selected in the rating dropdown",
+      "message": "Нет оценки"
+   },
+   "UI_Score_VeryBad": {
+      "description": "Very Bad - Score",
+      "message": "(3) Очень плохо"
+   },
+   "UI_Score_VeryGood": {
+      "description": "Very Good - Score",
+      "message": "(8) Очень хорошо"
+   },
+   "UI_Status": {
+      "description": "Status",
+      "message": "Статус:"
+   },
+   "UI_Status_All": {
+      "description": "Dropdown text to show all anime on the users list",
+      "message": "Все"
+   },
+   "UI_Status_Completed": {
+      "description": "Completed",
+      "message": "Завершено"
+   },
+   "UI_Status_Dropped": {
+      "description": "Dropped",
+      "message": "Брошено"
+   },
+   "UI_Status_OnHold": {
+      "description": "On-Hold",
+      "message": "Отложено"
+   },
+   "UI_Status_Rewatching_anime": {
+      "description": "Status to rewatch anime",
+      "message": "Пересматриваю"
+   },
+   "UI_Status_Rewatching_manga": {
+      "description": "Status to reread manga",
+      "message": "Перечитываю"
+   },
+   "UI_Status_planTo_anime": {
+      "description": "Plan to Watch",
+      "message": "Запланировано к просмотру"
+   },
+   "UI_Status_planTo_manga": {
+      "description": "Plan to Read",
+      "message": "Запланировано к чтению"
+   },
+   "UI_Status_watching_anime": {
+      "description": "Watching",
+      "message": "Смотрю"
+   },
+   "UI_Status_watching_manga": {
+      "description": "Reading",
+      "message": "Читаю"
+   },
+   "UI_Volume": {
+      "description": "Volume",
+      "message": "Том:"
+   },
+   "Update": {
+      "description": "Update",
+      "message": "Обновить"
+   },
+   "Yes": {
+      "description": "Yes",
+      "message": "Да"
+   },
+   "anilistClass_authentication": {
+      "description": "The token has been obtained and saved",
+      "message": "Токен сохранен, теперь можно закрыть страницу"
+   },
+   "back": {
+      "description": "Back button",
+      "message": "Назад"
+   },
+   "bookmarksItem_Day": {
+      "description": "Day",
+      "message": "день"
+   },
+   "bookmarksItem_Days": {
+      "description": "Days",
+      "message": "дней"
+   },
+   "bookmarksItem_Hour": {
+      "description": "Hour",
+      "message": "час"
+   },
+   "bookmarksItem_Hours": {
+      "description": "Hours",
+      "message": "часа"
+   },
+   "bookmarksItem_Year": {
+      "description": "Year",
+      "message": "год"
+   },
+   "bookmarksItem_Years": {
+      "description": "Years",
+      "message": "года/лет"
+   },
+   "bookmarksItem_ago": {
+      "description": "Text for time in the past",
+      "message": "$time$ назад",
+      "placeholders": {
+         "time": {
+            "content": "$1",
+            "example": "2 days 1 hour"
+         }
+      }
+   },
+   "bookmarksItem_min": {
+      "description": "min",
+      "message": "минуту"
+   },
+   "bookmarksItem_mins": {
+      "description": "mins",
+      "message": "минут"
+   },
+   "bookmarksItem_now": {
+      "description": "Now",
+      "message": "Сейчас"
+   },
+   "bookmarksItem_sec": {
+      "description": "second",
+      "message": "секунду"
+   },
+   "bookmarksItem_secs": {
+      "description": "seconds",
+      "message": "секунд"
+   },
+   "close": {
+      "description": "close",
+      "message": "закрыть"
+   },
+   "correction_DBRequest": {
+      "description": "Popup that shows up when the user corrects an anime and asks if this change should be sent to the dabase for correction",
+      "message": "Отправить запрос на исправление?"
+   },
+   "correction_NewOffset": {
+      "description": "New Offset",
+      "message": "Новое смещение ($offset$) установлено.",
+      "placeholders": {
+         "offset": {
+            "content": "$1",
+            "example": "6"
+         }
+      }
+   },
+   "correction_NewUrl": {
+      "description": "New URL",
+      "message": "Новый URL '$malUrl$' установлен.",
+      "placeholders": {
+         "malUrl": {
+            "content": "$1",
+            "example": "https://myanimelist.net/anime/19815/No_Game_No_Life"
+         }
+      }
+   },
+   "correction_NewUrlReset": {
+      "description": "URL reset",
+      "message": "MyAnimeList URL сброшен"
+   },
+   "correction_NoEntry": {
+      "description": "No entry on MyAnimeList",
+      "message": "Нет данных на $page$",
+      "placeholders": {
+         "page": {
+            "content": "$1",
+            "example": "MAL"
+         }
+      }
+   },
+   "correction_NoMal": {
+      "description": "Anime/Manga not found in MAL",
+      "message": "Если аниме/манга не может быть найдена на $page$",
+      "placeholders": {
+         "page": {
+            "content": "$1",
+            "example": "MAL"
+         }
+      }
+   },
+   "correction_Offset": {
+      "description": "Episode Offset",
+      "message": "Смещение серий"
+   },
+   "correction_OffsetReset": {
+      "description": "Offset reset",
+      "message": "Смещение сброшено"
+   },
+   "correction_Offset_text": {
+      "description": "Episode Offset - Text",
+      "message": "Если у аниме 12 серий, но использует цифры от 0 до 11 вместо 1–12, то просто введите «+1» в смещение серий."
+   },
+   "correction_Search": {
+      "description": "Correction Search",
+      "message": "Поиск нужного тайтла"
+   },
+   "correction_Search_text": {
+      "description": "Search text",
+      "message": "Это поле предназначено для аниме, когда вам надо исправить «MyAnimeList URL» указанный выше.\u003Cbr>Чтобы начать поиск, просто напросто начните вводить название тайтла и лист с результами автоматически появится при наборе."
+   },
+   "correction_WrongUrl": {
+      "description": "URL is Wrong",
+      "message": "Меняйте этот URL только если оно ведет на неверную страницу тайтла на MAL."
+   },
+   "discord_rpc_view_anime": {
+      "description": "Discord view anime button",
+      "message": "Посмотреть аниме"
+   },
+   "discord_rpc_view_manga": {
+      "description": "Discord view manga button",
+      "message": "Посмотреть мангу"
+   },
+   "filler_filler_confirm": {
+      "description": "Question if the user wants to skip the filler",
+      "message": "Этот эпизод отмечен как филлер на MyAnimeList, желаете пропустить?"
+   },
+   "filler_recap_confirm": {
+      "description": "Question if the user wants to skip the recap",
+      "message": "Этот эпизод отмечен как рекап на MyAnimeList, желаете пропустить?"
+   },
+   "fullscreen": {
+      "description": "fullscreen",
+      "message": "полноэкранный режим"
+   },
+   "installPage_Description_paragraph1": {
+      "description": "paragraph one of the description",
+      "message": "Быстрые ссылки - это кнопки, которые открывают выбранный вами сайт для просмотра/чтения - они находятся на каждой странице обзора любого аниме/манги."
+   },
+   "installPage_Description_paragraph2": {
+      "description": "paragraph two of the description",
+      "message": "Например, если вы любите смотреть аниме на Crunchyroll, то быстрая ссылка Crunchyroll появится на каждой странице аниме. Это удобный способ получить доступ к любимым сайтам одним щелчком мыши!"
+   },
+   "installPage_Howto": {
+      "description": "Header for how to use section",
+      "message": "Как пользоваться?"
+   },
+   "installPage_Howto_Anime_Description": {
+      "description": "When the sync is executed for anime",
+      "message": "Синхронизация будет ждать пока хотя бы 85% видео не просмотрено."
+   },
+   "installPage_Howto_Description": {
+      "description": "How to use description text",
+      "message": "Синхронизация срабатывает только когда вы открываете серию или главу на любой из $Link1$поддерживаемых страниц$LinkEnd1$ - не волнуйтесь, у нас определенно есть ваш любимый сайт!",
+      "placeholders": {
+         "Link1": {
+            "content": "\u003Ca target=\"_blank\" href=\"https://github.com/MALSync/MALSync#supported-pages-\">",
+            "example": "\u003Ca>"
+         },
+         "Link2": {
+            "content": "\u003Ca class=\"open-settings\" href=\"#\">",
+            "example": "\u003Ca>"
+         },
+         "LinkEnd1": {
+            "content": "\u003C/a>",
+            "example": "\u003C/a>"
+         },
+         "LinkEnd2": {
+            "content": "\u003C/a>",
+            "example": "\u003C/a>"
+         }
+      }
+   },
+   "installPage_Howto_Manga_Description": {
+      "description": "When the sync is executed for manga",
+      "message": "Синхронизация срабатывает при загрузке страницы и в течение нескольких страниц ждет пока хотя бы 85% главы не прочитано."
+   },
+   "installPage_Howto_Notes": {
+      "description": "The synchronization settings can be changed later",
+      "message": "Синхронизация может быть изменена позже в настройках - не стесняйся настраивать ее как тебе хочется!"
+   },
+   "installPage_Links": {
+      "description": "Header for the quicklinks section during the install",
+      "message": "Выберите предпочтительные быстрые ссылки - ваши любимые сайты на расстоянии одного клика"
+   },
+   "installPage_Login_Successful": {
+      "description": "Text after the user successfully authenticated",
+      "message": "Прекрасно, $Username$! Теперь вы вошли и готовы к работе.",
+      "placeholders": {
+         "Username": {
+            "content": "$1",
+            "example": "lolamtisch"
+         }
+      }
+   },
+   "installPage_Mode": {
+      "description": "Header for the MAL-sync provider dropdown",
+      "message": "Выберите какой сайт для отслеживания вы хотите использовать"
+   },
+   "installPage_Start_Description": {
+      "description": "Start description text",
+      "message": "Давай проведем легкий инструктаж для начала работы - это займет меньше минуты!"
+   },
+   "installPage_Wrong": {
+      "description": "Header of the wrong section on the install page",
+      "message": "С синхронизацией произошла ошибка?"
+   },
+   "installPage_Wrong_Description": {
+      "description": "Description of the wrong section on the install page",
+      "message": "Вы можете легко исправлять ошибки в трекинге как на гифке, показанной ниже. На этой странице также можно установить смещение серий."
+   },
+   "kitsuClass_authentication_Login": {
+      "description": "Login",
+      "message": "Логин"
+   },
+   "kitsuClass_authentication_Password": {
+      "description": "Password",
+      "message": "Пароль"
+   },
+   "kitsuClass_authentication_Success": {
+      "description": "Authentication success",
+      "message": "Токен сохранен, теперь можно закрыть страницу."
+   },
+   "kitsuClass_authentication_Wrong": {
+      "description": "Credentials wrong",
+      "message": "Не верные данные"
+   },
+   "kitsuClass_authentication_text": {
+      "description": "Authentication text in Kitsu",
+      "message": "Чтобы зайти с Kitsu, вам надо ввести e-mail и пароль от вашего аккаунта. Введенные данные не будут сохранены на вашем компьютере или где-либо еще.\u003Cbr>Они будут отправлены напрямую на Kitsu. Только токен доступа для Kitsu будет сохранён.\u003Cbr>"
+   },
+   "list_sorting_airing_date": {
+      "description": "Dropdown option to sort list by airing date",
+      "message": "По дате эфира"
+   },
+   "list_sorting_alpha": {
+      "description": "Dropdown option to sort list alphabetic",
+      "message": "По алфавиту"
+   },
+   "list_sorting_history": {
+      "description": "Dropdown option to sort list by last updated",
+      "message": "По последнему обновлению"
+   },
+   "list_sorting_score": {
+      "description": "Dropdown option to sort list by score",
+      "message": "По оценке"
+   },
+   "list_sorting_unread": {
+      "description": "Dropdown option to sort list by unread",
+      "message": "Не прочитано"
+   },
+   "locale": {
+      "description": "Current locale",
+      "message": "ru"
+   },
+   "minimalApp_Overview": {
+      "description": "Overview",
+      "message": "Обзор"
+   },
+   "minimalApp_Recommendations": {
+      "description": "Recommendations",
+      "message": "Рекомендации"
+   },
+   "minimalApp_Reviews": {
+      "description": "Reviews",
+      "message": "Обзоры"
+   },
+   "minimalApp_Settings": {
+      "description": "Settings",
+      "message": "Настройки"
+   },
+   "minimalClass_Popup": {
+      "description": "Please allow pop-ups for this website",
+      "message": "Пожалуйста, разрешите всплывающие окна на этом сайте"
+   },
+   "minimalClass_versionMsg_Text_1": {
+      "description": "Update version - Text 1",
+      "message": "Спасибо за установку MAL-Sync"
+   },
+   "next": {
+      "description": "Next button",
+      "message": "Далее"
+   },
+   "nextEpShort_no_nextEp": {
+      "description": "Error message if no next episode could be found after pressing the next episode shortcut",
+      "message": "Невозможно найти следующую серию"
+   },
+   "nextEpShort_no_support": {
+      "description": "Error message if the page does not support opening the next episode after pressing the shortcut",
+      "message": "Эта страница не поддерживает переход к следующей серии"
+   },
+   "overview_Characters": {
+      "description": "Characters",
+      "message": "Персонажи"
+   },
+   "overview_Continue_anime": {
+      "description": "Continue watching",
+      "message": "Продолжить просмотр"
+   },
+   "overview_Continue_manga": {
+      "description": "Continue reading",
+      "message": "Продолжить чтение"
+   },
+   "overview_EditDetails": {
+      "description": "Edit Details",
+      "message": "Редактировать детали"
+   },
+   "overview_EndingTheme": {
+      "description": "Ending Theme",
+      "message": "Эндинг:"
+   },
+   "overview_Information": {
+      "description": "Header of the information section of the popup anime overview",
+      "message": "Информация"
+   },
+   "overview_Next_Episode_anime": {
+      "description": "Next Episode",
+      "message": "Следующая серия"
+   },
+   "overview_Next_Episode_manga": {
+      "description": "Next Chapter",
+      "message": "Следующая глава"
+   },
+   "overview_OpeningTheme": {
+      "description": "Opening Theme",
+      "message": "Опенинг:"
+   },
+   "overview_Related": {
+      "description": "Header of the anime/manga relations section of the popup anime overview",
+      "message": "Связанное"
+   },
+   "overview_Resume_Episode_anime": {
+      "description": "Resume Episode",
+      "message": "Возобновить серию"
+   },
+   "overview_Resume_Episode_manga": {
+      "description": "Resume Chapter",
+      "message": "Возобновить главу"
+   },
+   "overview_Streaming": {
+      "description": "Header of the streaming link section of the popup anime overview",
+      "message": "Смотреть на"
+   },
+   "overview_sidebar_Aired": {
+      "description": "Info table on overview - Aired: 2014-04-09 to 2014-06-25",
+      "message": "Даты эфира:"
+   },
+   "overview_sidebar_Authors": {
+      "description": "Info table on overview - Authors: Kamiya, Yuu",
+      "message": "Авторы:"
+   },
+   "overview_sidebar_Broadcast": {
+      "description": "Info table on overview - Broadcast: Wednesday at 21:30 (JST)",
+      "message": "Эфир:"
+   },
+   "overview_sidebar_Chapters": {
+      "description": "Info table on overview - Chapters: 12",
+      "message": "Главы:"
+   },
+   "overview_sidebar_Demographic": {
+      "message": "Аудитория:"
+   },
+   "overview_sidebar_Duration": {
+      "description": "Info table on overview - Duration: 23 min",
+      "message": "Длительность:"
+   },
+   "overview_sidebar_End_Date": {
+      "description": "Info table on overview - End Date: 10.10.2010",
+      "message": "Конец показа:"
+   },
+   "overview_sidebar_Episodes": {
+      "description": "Info table on overview - Episodes: 12",
+      "message": "Эпизоды:"
+   },
+   "overview_sidebar_Favorites": {
+      "description": "Info table on overview - Favorites: 15423",
+      "message": "В избранных:"
+   },
+   "overview_sidebar_Format": {
+      "description": "Info table on overview - Format: Movie",
+      "message": "Тип:"
+   },
+   "overview_sidebar_Genres": {
+      "description": "Info table on overview - Genres: Action",
+      "message": "Жанры:"
+   },
+   "overview_sidebar_Licensor": {
+      "description": "Info table on overview - Licensor: AT-X",
+      "message": "Лицензия:"
+   },
+   "overview_sidebar_Licensors": {
+      "message": "Лицензия:"
+   },
+   "overview_sidebar_Mal_Score": {
+      "description": "Info table on overview - MAL Score: 7.65",
+      "message": "Оценка MAL:"
+   },
+   "overview_sidebar_Members": {
+      "description": "Info table on overview - Members: 1337",
+      "message": "Участники:"
+   },
+   "overview_sidebar_Popularity": {
+      "description": "Info table on overview - Popularity: #15",
+      "message": "Популярность:"
+   },
+   "overview_sidebar_Premiered": {
+      "message": "Премьера:"
+   },
+   "overview_sidebar_Producers": {
+      "message": "Продюсеры:"
+   },
+   "overview_sidebar_Published": {
+      "message": "Издано:"
+   },
+   "overview_sidebar_Ranked": {
+      "description": "Info table on overview - Ranked: #317",
+      "message": "Рейтинг:"
+   },
+   "overview_sidebar_Rating": {
+      "description": "Info table on overview - Rating: PG-13",
+      "message": "Возрастной рейтинг:"
+   },
+   "overview_sidebar_Score": {
+      "description": "Info table on overview - Score: 7.65",
+      "message": "Оценка:"
+   },
+   "overview_sidebar_Season": {
+      "description": "Info table on overview - Season: Spring 2014",
+      "message": "Сезон:"
+   },
+   "overview_sidebar_Serialization": {
+      "description": "Info table on overview - Serialization: Big Comic Original",
+      "message": "Издавалось:"
+   },
+   "overview_sidebar_Source": {
+      "description": "Info table on overview - Source: Light Novel",
+      "message": "Основано на:"
+   },
+   "overview_sidebar_Start_Date": {
+      "description": "Info table on overview - Start Date: 10.10.2010",
+      "message": "Начало показа:"
+   },
+   "overview_sidebar_Status": {
+      "description": "Info table on overview - Status: Finished",
+      "message": "Статус:"
+   },
+   "overview_sidebar_Studios": {
+      "description": "Info table on overview - Studios: Madhouse",
+      "message": "Студии:"
+   },
+   "overview_sidebar_Themes": {
+      "message": "Темы:"
+   },
+   "overview_sidebar_Total_Playtime": {
+      "description": "Info table on overview - Total Playtime: 276 mins",
+      "message": "Общее время просмотра:"
+   },
+   "overview_sidebar_Type": {
+      "message": "Тип:"
+   },
+   "overview_sidebar_Volumes": {
+      "description": "Info table on overview - Volumes: 12",
+      "message": "Тома:"
+   },
+   "overview_sidebar_Votes": {
+      "description": "Info table on overview - Votes: 1423",
+      "message": "Голоса:"
+   },
+   "overview_sidebar_external_links": {
+      "description": "Info table on overview - External Links: Official Site, Hulu",
+      "message": "Внешние ссылки:"
+   },
+   "overview_synonyms": {
+      "description": "Text of a button that shows the alternative names for an entry",
+      "message": "Синонимы"
+   },
+   "prediction_Airing": {
+      "description": "Text for airing estimation",
+      "message": "Показ через $time$",
+      "placeholders": {
+         "time": {
+            "content": "$1",
+            "example": "2 days 1 hour"
+         }
+      }
+   },
+   "prediction_Episode_anime": {
+      "description": "Text for next episode estimation",
+      "message": "Следующий эпизод ожидается через $time$",
+      "placeholders": {
+         "time": {
+            "content": "$1",
+            "example": "2 days 1 hour"
+         }
+      }
+   },
+   "prediction_Episode_manga": {
+      "description": "Text for next chapter estimation",
+      "message": "Следующая глава ожидается через $time$",
+      "placeholders": {
+         "time": {
+            "content": "$1",
+            "example": "2 days 1 hour"
+         }
+      }
+   },
+   "prediction_Last_anime": {
+      "description": "Text for last episode release time",
+      "message": "Последняя серия вышла $time$ назад",
+      "placeholders": {
+         "time": {
+            "content": "$1",
+            "example": "2 days 1 hour"
+         }
+      }
+   },
+   "prediction_Last_manga": {
+      "description": "Text for last chapter release time",
+      "message": "Последняя глава вышла $time$ назад",
+      "placeholders": {
+         "time": {
+            "content": "$1",
+            "example": "2 days 1 hour"
+         }
+      }
+   },
+   "prediction_complete": {
+      "description": "Header for the complete translation/airing section",
+      "message": "Закончено"
+   },
+   "prediction_incomplete": {
+      "description": "Text if an dub/sub wont be completed by the translation team. Discontinued translations",
+      "message": "Незакончено"
+   },
+   "prediction_next": {
+      "description": "Short Form Text for next episode/episode estimation",
+      "message": "Доступно через $time$",
+      "placeholders": {
+         "time": {
+            "content": "$1",
+            "example": "2 days 1 hour"
+         }
+      }
+   },
+   "prediction_ongoing": {
+      "description": "Header for the ongoing section in the translation/airing progress section",
+      "message": "Онгоинг"
+   },
+   "removed": {
+      "description": "Flash message that shows up after removing an anime/manga entry from user list",
+      "message": "Удалено"
+   },
+   "search_Score": {
+      "description": "Score",
+      "message": "Оценка:"
+   },
+   "search_Type": {
+      "description": "Type",
+      "message": "Тип:"
+   },
+   "search_Year": {
+      "description": "Year",
+      "message": "Год:"
+   },
+   "settings_Animesync": {
+      "description": "Anime sync",
+      "message": "Синхронизация аниме"
+   },
+   "settings_Animesync_Instant": {
+      "description": "Instant",
+      "message": "Моментально"
+   },
+   "settings_Animesync_Manual": {
+      "description": "Manual",
+      "message": "Вручную"
+   },
+   "settings_Animesync_Video": {
+      "description": "Video",
+      "message": "Процент"
+   },
+   "settings_AskBefore": {
+      "message": "Показывать подтверждение \"Завершено\" в начале серии/главы"
+   },
+   "settings_Authenticate": {
+      "description": "Authenticate",
+      "message": "Авторизация"
+   },
+   "settings_AutoTracking_Instant": {
+      "description": "Delay instant autotracking",
+      "message": "Отложить моментальный автотрекинг на $delay$ секунд",
+      "placeholders": {
+         "delay": {
+            "content": "$1",
+            "example": "15"
+         }
+      }
+   },
+   "settings_AutoTracking_Video": {
+      "description": "Update Episode of video progress",
+      "message": "Синхронизация после просмотра $videoDuration$% серии",
+      "placeholders": {
+         "videoDuration": {
+            "content": "$1",
+            "example": "85"
+         }
+      }
+   },
+   "settings_ClearCache": {
+      "description": "Clear Cache",
+      "message": "Очистить кэш"
+   },
+   "settings_Debugging": {
+      "description": "Debugging",
+      "message": "Дебаггинг"
+   },
+   "settings_ETC": {
+      "description": "ETC",
+      "message": "Разное"
+   },
+   "settings_ForceEnglishTitles": {
+      "message": "Названия произведений на Английском"
+   },
+   "settings_FriendScore": {
+      "description": "Friend scores on detail page",
+      "message": "Оценки друзей на подробной странице"
+   },
+   "settings_General": {
+      "description": "General",
+      "message": "Общие настройки"
+   },
+   "settings_Interval": {
+      "description": "Interval",
+      "message": "Интервал"
+   },
+   "settings_Interval_Default_Anime": {
+      "description": "Dropdown label for selecting the global progress anime source",
+      "message": "Язык по умолчанию (аниме)"
+   },
+   "settings_Interval_Default_Manga": {
+      "description": "Dropdown label for selecting the global progress manga source",
+      "message": "Язык по умолчанию (манга)"
+   },
+   "settings_Interval_Off": {
+      "description": "Interval - Off",
+      "message": "Выключить"
+   },
+   "settings_LocalSync": {
+      "description": "Option to activate the local storage fallback sync",
+      "message": "Резерв локального хранилища"
+   },
+   "settings_LocalSync_Export": {
+      "description": "Button to Export Local storage fallback data",
+      "message": "Экспортировать"
+   },
+   "settings_LocalSync_Help_Before": {
+      "message": "Если у вам есть проблемы, попробуйте повторить"
+   },
+   "settings_LocalSync_Help_LinkText": {
+      "message": "на этой странице"
+   },
+   "settings_LocalSync_Import": {
+      "description": "Button to import local storage fallback data",
+      "message": "Импортировать"
+   },
+   "settings_LocalSync_Label": {
+      "message": "Экспорт локального хранилища"
+   },
+   "settings_Mangasync": {
+      "description": "Manga sync",
+      "message": "Синхронизация манги"
+   },
+   "settings_Mangasync_readerTracking": {
+      "description": "Option to track the reading progress of a manga and if 90% of the manga is read, set the chapter to read",
+      "message": "Синхронизировать мангу после прочтения $mangaCompletionPercentage$% страниц",
+      "placeholders": {
+         "mangaCompletionPercentage": {
+            "content": "$1",
+            "example": "90"
+         }
+      }
+   },
+   "settings_Mangasync_readerTracking_percentage": {
+      "message": "Сделать главу прочитанной после процента страниц"
+   },
+   "settings_Mode": {
+      "description": "Mode",
+      "message": "Режим отслеживания"
+   },
+   "settings_Notifications": {
+      "description": "Notifications",
+      "message": "Уведомления"
+   },
+   "settings_Notifications_Sticky": {
+      "description": "Requires interaction to dismiss; ignores system notification timeout",
+      "message": "Закрепленные окна уведомления"
+   },
+   "settings_ProgressCheck": {
+      "description": "Header for the progress section in the settings",
+      "message": "Сверка прогресса"
+   },
+   "settings_Shortcuts": {
+      "description": "Shortcuts",
+      "message": "Горячие клавиши"
+   },
+   "settings_Shortcuts_Click": {
+      "description": "Shown if no shortcut is set for an option",
+      "message": "Введите комбинацию клавиш"
+   },
+   "settings_Shortcuts_Correction": {
+      "description": "Text for the correction ui shortcut",
+      "message": "Открыть окно исправления отслеживания"
+   },
+   "settings_Shortcuts_Next_Episode": {
+      "description": "Description for the next episode shortcut option",
+      "message": "Открыть следующую серию"
+   },
+   "settings_Shortcuts_Skip_Backward": {
+      "description": "Description for the the opening skip shortcut",
+      "message": "Вернуться в начало опенинга"
+   },
+   "settings_Shortcuts_Skip_Forward": {
+      "description": "Description for the the opening skip shortcut",
+      "message": "Пропустить опенинг"
+   },
+   "settings_Shortcuts_Sync": {
+      "description": "Text for the sync ui shortcut",
+      "message": "Указать серию/главу как завершенную"
+   },
+   "settings_StreamingSite": {
+      "description": "Streaming Site Links",
+      "message": "Быстрые ссылки на сайты аниме/манги"
+   },
+   "settings_StreamingSite_custom": {
+      "description": "Header of the section where you can add your own custom search links",
+      "message": "Свои поисковые ссылки"
+   },
+   "settings_StreamingSite_custom_url_anime": {
+      "description": "Form field title to enter the search url for anime",
+      "message": "URL для поиска аниме"
+   },
+   "settings_StreamingSite_custom_url_manga": {
+      "description": "Form field title to enter the search url for manga",
+      "message": "URL для поиска манги"
+   },
+   "settings_StreamingSite_custom_url_name": {
+      "description": "Placeholder text the field that sets the custom url name",
+      "message": "Название"
+   },
+   "settings_StreamingSite_text": {
+      "description": "Streaming Site Links - Text",
+      "message": "Если отключена ссылка, то сайт более не будет появляться на панели на MyAnimeList/AniList/Kitsu/Simkl."
+   },
+   "settings_Thumbnails": {
+      "description": "Thumbnails",
+      "message": "Превью изображений"
+   },
+   "settings_Thumbnails_Default": {
+      "description": "Thumbnails MAL Default",
+      "message": "По умолчанию MAL"
+   },
+   "settings_Thumbnails_Large": {
+      "description": "Thumbnails Large",
+      "message": "Большие"
+   },
+   "settings_Thumbnails_Medium": {
+      "description": "Thumbnails Medium",
+      "message": "Средние"
+   },
+   "settings_Thumbnails_Small": {
+      "description": "Thumbnails Small",
+      "message": "Маленькие"
+   },
+   "settings_Thumbnails_text": {
+      "description": "Thumbnails - Text",
+      "message": "Данная опция для изменения размера превью на MyAnimeList, т.е. изображения персонажей, людей, рекоммендаций и т.д."
+   },
+   "settings_UpdateCheck": {
+      "description": "Update Check",
+      "message": "Проверка обновлений"
+   },
+   "settings_UpdateCheck_Text": {
+      "description": "Update Check - Text",
+      "message": "Проверяет выход новых серий в фоновом режиме."
+   },
+   "settings_Userscriptmode": {
+      "description": "Userscript mode",
+      "message": "Режим пользовательских скриптов"
+   },
+   "settings_Userscriptmode_Text": {
+      "description": "Userscript mode - Text",
+      "message": "Отключает скрипты контента. Это делает возможным одновременную работу расширения и пользовательских скриптов."
+   },
+   "settings_Video_Fullscreen": {
+      "description": "Auto fullscreen toggle",
+      "message": "Автоматический полный экран"
+   },
+   "settings_Video_Player": {
+      "description": "Video settings header",
+      "message": "Видеоплеер"
+   },
+   "settings_Video_Resume": {
+      "description": "Auto resume video where you left off toggle",
+      "message": "Автоматическое возобновление"
+   },
+   "settings_anilist_update_ui": {
+      "description": "UI in the aniList sidebar to update episodes progress and the score",
+      "message": "Обновить UI"
+   },
+   "settings_anilist_update_ui_tooltip": {
+      "description": "Tooltip for the Update UI option",
+      "message": "Позволяет быстро обновить ваш счетчик серий, оценку и статус просмотра на AniList без необходимости открывать всплывающее окно."
+   },
+   "settings_autoNextEp": {
+      "description": "Autoplays the next episode after the video ends",
+      "message": "Автовоспроизведение следующей серии"
+   },
+   "settings_clean_tags_button": {
+      "description": "Button that leads to the clean tag page. This page is used to remove malsync meta data from the userlist tag/notes section",
+      "message": "Очистить тэги"
+   },
+   "settings_custom_domains_button": {
+      "description": "Button that leads to the custom domain configuration page",
+      "message": "Пользовательские домены"
+   },
+   "settings_custom_domains_disclaimer": {
+      "description": "Text on the custom domain configuration page",
+      "message": "Эта функция дает возможность добавлять свои домены к уже существующим сайтам для работы с множеством доменов а также с self-host вариантами, но вы не можете добавлять новые сайты."
+   },
+   "settings_custom_domains_missing_permissions_header": {
+      "description": "Section header for asking to allow missing domain permissions",
+      "message": "Обнаружены недостающие разрешения"
+   },
+   "settings_custom_domains_missing_permissions_long": {
+      "description": "Asking to allow missing domain permissions",
+      "message": "Некоторым сайтам еще не выданы разрешения"
+   },
+   "settings_custom_domains_permissions_not_supported": {
+      "description": "Text that is shown when the browser does not support adding new permissions",
+      "message": "Браузер или текущая страница не поддерживает выдачу разрешений, пожалуйста, попробуйте с помощью ссылки https://malsync.moe/pwa или используйте всплывающее окно расширения."
+   },
+   "settings_custom_domains_position": {
+      "description": "Position of the quicklinks",
+      "message": "Расположение"
+   },
+   "settings_custom_domains_wrong": {
+      "description": "Error text if the configuration is not correct",
+      "message": "Настройка неверна!"
+   },
+   "settings_custom_position_below": {
+      "description": "Position of the quicklinks below the information section",
+      "message": "Информация снизу"
+   },
+   "settings_discord_join": {
+      "description": "Link to join discord",
+      "message": "Присоединиться к нашему Discord серверу"
+   },
+   "settings_donate": {
+      "description": "Link to donation page",
+      "message": "Пожертвовать"
+   },
+   "settings_enabled": {
+      "description": "Checkbox if feature is enabled",
+      "message": "Включено"
+   },
+   "settings_epPredictions": {
+      "description": "Estimate episode number",
+      "message": "Предполагаемое количество серий"
+   },
+   "settings_filler": {
+      "description": "Option to enable filler checking",
+      "message": "Проверять на наличие филлеров и рекапов"
+   },
+   "settings_filler_text": {
+      "description": "filler tooltip",
+      "message": "Это проверит, отмечен ли эпизод как филлер или рекап в MyAnimeList"
+   },
+   "settings_help": {
+      "description": "Button that links to support",
+      "message": "Нужна помощь?"
+   },
+   "settings_highlightAllEp": {
+      "description": "Highlight all Episodes/Chapters",
+      "message": "Выделить все серии/главы"
+   },
+   "settings_highlightAllEp_Text": {
+      "description": "Highlight all Episodes/Chapters - Text",
+      "message": "Эта опция выделяет все просмотренные главы/серии в списке, который вы можете найти на некоторых аниме и манга сайтах"
+   },
+   "settings_introSkip": {
+      "description": "Skips video seconds",
+      "message": "Указать длительность пропуска опенинга ($Seconds$ секунд)",
+      "placeholders": {
+         "Seconds": {
+            "content": "$1",
+            "example": "30"
+         }
+      }
+   },
+   "settings_listsync": {
+      "description": "Header of the section of List Sync settings",
+      "message": "Синхронизация списков"
+   },
+   "settings_listsync_background": {
+      "description": "Option to sync list once a day in the background",
+      "message": "Синхронизировать ежедневно на фоне"
+   },
+   "settings_listsync_finishdate": {
+      "message": "Дата завершения:"
+   },
+   "settings_listsync_itemcount": {
+      "message": "К синхронизации:"
+   },
+   "settings_listsync_list": {
+      "message": "Список:"
+   },
+   "settings_listsync_master": {
+      "message": "Основной"
+   },
+   "settings_listsync_missing": {
+      "message": "Не хватает"
+   },
+   "settings_listsync_progress_anime": {
+      "message": "Эпизод:"
+   },
+   "settings_listsync_progress_manga": {
+      "message": "Глава:"
+   },
+   "settings_listsync_provider_done": {
+      "message": "Готово"
+   },
+   "settings_listsync_repeatcount_anime": {
+      "message": "Пересмотрено:"
+   },
+   "settings_listsync_repeatcount_manga": {
+      "message": "Перечитано:"
+   },
+   "settings_listsync_score": {
+      "message": "Оценка:"
+   },
+   "settings_listsync_slave": {
+      "message": "Зеркало"
+   },
+   "settings_listsync_startdate": {
+      "message": "Дата начала:"
+   },
+   "settings_listsync_status": {
+      "message": "Статус:"
+   },
+   "settings_listsync_syncbutton": {
+      "message": "Синхронизировать"
+   },
+   "settings_listsync_syncinprogress": {
+      "message": "Синхронизация в процессе:"
+   },
+   "settings_listsync_unknowndate": {
+      "message": "не установлена"
+   },
+   "settings_listsync_updates": {
+      "message": "Обновления"
+   },
+   "settings_listsync_volume": {
+      "message": "Том:"
+   },
+   "settings_loadPTWForProgress": {
+      "description": "In addition to CW/CR also load PTW/PTR when checking Progress",
+      "message": "Загружать «Посмотреть/прочитать позже» для оценки прогресса"
+   },
+   "settings_malContinue": {
+      "description": "Continue watching links",
+      "message": "Кнопка «Следующая серия»"
+   },
+   "settings_malResume": {
+      "description": "Resume watching links",
+      "message": "Кнопка «Возобновить просмотр»"
+   },
+   "settings_malTags": {
+      "description": "Use Tags/Notes",
+      "message": "Использовать тэги/заметки"
+   },
+   "settings_malTags_Text": {
+      "description": "Use Tags/Notes - Text",
+      "message": "Если включено: сайт с аниме/мангой, который вы использовали в прошлый раз, будет сохранен навсегда (во всех браузерах) в списке тэгов/заметок. Сохранённая строка в секции тэгов выглядит не лучшим образом, поэтому рекомендуется так делать только если вы не используете список тэгов/заметок на MyAnimeList."
+   },
+   "settings_miniMAL_Display": {
+      "description": "Display to the",
+      "message": "Отображать"
+   },
+   "settings_miniMAL_Display_Center": {
+      "description": "miniMAL Display Center",
+      "message": "По центру"
+   },
+   "settings_miniMAL_Display_Left": {
+      "description": "miniMAL Display Left",
+      "message": "Слева"
+   },
+   "settings_miniMAL_Display_Right": {
+      "description": "miniMAL Display Right",
+      "message": "Справа"
+   },
+   "settings_miniMAL_Height": {
+      "description": "miniMAL Height",
+      "message": "Высота (px / %)"
+   },
+   "settings_miniMAL_NotSet": {
+      "description": "miniMAL Not Set",
+      "message": "Не установлен"
+   },
+   "settings_miniMAL_Open": {
+      "description": "miniMAL Open",
+      "message": "Открыть miniMAL"
+   },
+   "settings_miniMAL_Width": {
+      "description": "miniMAL Width",
+      "message": "Ширина (px / %)"
+   },
+   "settings_miniMAL_autoCloseMinimal": {
+      "description": "Clicking outside closes miniMAL",
+      "message": "Нажатие снаружи закроет miniMAL"
+   },
+   "settings_miniMAL_floatButtonCorrection": {
+      "description": "Remap floating button to the correction UI",
+      "message": "Плавающая кнопка открывает окно исправления отслеживания"
+   },
+   "settings_miniMAL_floatButtonHide": {
+      "description": "Hide miniMAL floating menu button",
+      "message": "Спрятать плавающую кнопку"
+   },
+   "settings_miniMAL_floatButtonStealth": {
+      "description": "Stealth UI mode. Lowers the visibility of some malSync UI elements",
+      "message": "Незаметный режим интерфейса"
+   },
+   "settings_miniMAL_floatButtonStealth_tooltip": {
+      "description": "Stealth UI mode tooltip. Lowers the visibility of some malSync UI elements",
+      "message": "Делает индикатор прогресса (снизу вашего экрана) прозрачным по умолчанию и скрывает его быстрее"
+   },
+   "settings_miniMAL_minimizeBigPopup": {
+      "description": "Shows an 'action required' popup hidding big popups",
+      "message": "Минимизировать большие всплывающие окна"
+   },
+   "settings_miniMAL_minimizeBigPopup_tooltip": {
+      "description": "Shows an 'action required' popup hidding big popups",
+      "message": "Сворачивает большие окна в MAL-Sync, которые могут закрыть большую часть экрана, за кнопкой."
+   },
+   "settings_miniMAL_popup": {
+      "description": "Header of the settings section for the extension popup",
+      "message": "Всплывающее окно расширения"
+   },
+   "settings_miniMAL_pwa": {
+      "description": "Link to the PWA version of the extension popup",
+      "message": "PWA страница"
+   },
+   "settings_miniMAL_theme": {
+      "description": "Label for the theme switch dropdown (light/dark theme)",
+      "message": "Тема"
+   },
+   "settings_miniMAL_window": {
+      "description": "Open miniMAL in separate window checkbox",
+      "message": "Открывать расширение в отдельном окне"
+   },
+   "settings_miscellaneous": {
+      "description": "Header of the section of settings without specific theme",
+      "message": "Прочее"
+   },
+   "settings_more_info": {
+      "description": "Link button which links to more informations",
+      "message": "Больше информации"
+   },
+   "settings_onsite": {
+      "description": "Header of the section to change onsite website appearance and features",
+      "message": "На странице"
+   },
+   "settings_permissions_overview": {
+      "message": "Разрешения"
+   },
+   "settings_permissions_pages": {
+      "message": "Страницы"
+   },
+   "settings_permissions_player": {
+      "message": "Видеоплееры"
+   },
+   "settings_permissions_required": {
+      "message": "Необходимые"
+   },
+   "settings_presenceShowButtons": {
+      "description": "Show button to view the anime/manga on MAL or another provider",
+      "message": "Показывать кнопку открытия аниме/манги на MAL или другом ресурсе"
+   },
+   "settings_presenceShowMalsync": {
+      "description": "Show Mal-Sync in the title of the presence instead of anime/manga",
+      "message": "Показывать MAL-Sync в заголовке статуса активности заместо аниме/манги"
+   },
+   "settings_presence_largeimage": {
+      "description": "Dropdown label for selecting the presence image (manga/anime cover, website icon) for discord",
+      "message": "Изображение статуса активности"
+   },
+   "settings_presence_largeimage_cover": {
+      "description": "Dropdown option to show the cover from mal on discord",
+      "message": "Обложка"
+   },
+   "settings_presence_largeimage_malsync": {
+      "description": "Dropdown option to show the malsync icon on discord",
+      "message": "Иконка MAL-Sync"
+   },
+   "settings_presence_largeimage_website": {
+      "description": "Dropdown option to show the server icon on discord",
+      "message": "Иконка сайта"
+   },
+   "settings_profile_check": {
+      "description": "Button to rechecks the login status",
+      "message": "Проверить"
+   },
+   "settings_profile_logged_via": {
+      "description": "Info about which provider is used to login",
+      "message": "Вход с помощью $provider$",
+      "placeholders": {
+         "provider": {
+            "content": "$1",
+            "example": "MyAnimeList"
+         }
+      }
+   },
+   "settings_profile_logout": {
+      "description": "Button to logout",
+      "message": "Выйти"
+   },
+   "settings_profile_no_login": {
+      "description": "Text if not logged in",
+      "message": "Нет входа"
+   },
+   "settings_progress": {
+      "description": "Header of the section of progress estimation settings",
+      "message": "Оценка прогресса"
+   },
+   "settings_progress_default": {
+      "description": "Dropdown option to use the default in the estimation for an anime/manga",
+      "message": "По умолчанию"
+   },
+   "settings_progress_disabled": {
+      "description": "Dropdown option to disable the estimation for an anime/manga",
+      "message": "Выключено"
+   },
+   "settings_progress_dropdown": {
+      "description": "Text over the dropdown to select the Episode estimation/prediction source",
+      "message": "Предположительный источник:"
+   },
+   "settings_read_less": {
+      "description": "Button to show less the description",
+      "message": "Читать меньше"
+   },
+   "settings_read_more": {
+      "description": "Button to show more of the description",
+      "message": "Читать подробнее"
+   },
+   "settings_shortcut_tooltip": {
+      "description": "Shows this message if the users has only a single key set as shortcut",
+      "message": "Не рекомендуется устанавливать действия на одну клавишу"
+   },
+   "settings_theming": {
+      "description": "Header of the theming section",
+      "message": "Изменение темы"
+   },
+   "settings_theming_background_image": {
+      "description": "Option to select a custom background image for the extension popup",
+      "message": "Фоновое изображение"
+   },
+   "settings_theming_background_opacity": {
+      "description": "Option to set the transparency of the UI in front of the background image",
+      "message": "Прозрачность изображения"
+   },
+   "settings_theming_color": {
+      "description": "Option to select a custom theme color for the extension popup",
+      "message": "Цвет темы"
+   },
+   "settings_theming_sidebars": {
+      "description": "Option to disable the sidebars in the extension popup",
+      "message": "Боковые панели"
+   },
+   "settings_theming_theme_custom": {
+      "description": "Dropdown option to set the theme to custom witch shows a color picker",
+      "message": "Своя"
+   },
+   "settings_theming_theme_dark": {
+      "description": "Dropdown option to set the theme to the dark theme",
+      "message": "Темная"
+   },
+   "settings_theming_theme_light": {
+      "description": "Dropdown option to set the theme to the light theme",
+      "message": "Светлая"
+   },
+   "settings_theming_theme_system": {
+      "description": "Dropdown option to set the theme to the system (dark/light) theme",
+      "message": "Система"
+   },
+   "settings_tracking": {
+      "description": "tracking settings header",
+      "message": "Отслеживание"
+   },
+   "settings_tracking_disabled": {
+      "description": "Header for section with websites with disabled tracking",
+      "message": "Отслеживание выключено"
+   },
+   "settings_usedPage": {
+      "description": "Last used page links",
+      "message": "Кнопки с последними сайтами"
+   },
+   "settings_website_button": {
+      "description": "Button that leads to the config page where individual pages can be disabled",
+      "message": "Сайты"
+   },
+   "start": {
+      "description": "Start button",
+      "message": "Старт"
+   },
+   "syncPage_flashConfirm_Anime_Correct": {
+      "description": "Is anime correct",
+      "message": "Выбрано $anime$, верно?",
+      "placeholders": {
+         "anime": {
+            "content": "$1",
+            "example": "No Game No Life"
+         }
+      }
+   },
+   "syncPage_flashConfirm_complete": {
+      "description": "Question when last episode is synced",
+      "message": "Указать как завершенное?"
+   },
+   "syncPage_flashConfirm_offsetHandler_1": {
+      "description": "offsetHandler Episode",
+      "message": "Было замечено смещение серий на $calcOffset$. Это верно?",
+      "placeholders": {
+         "calcOffset": {
+            "content": "$1",
+            "example": "6"
+         }
+      }
+   },
+   "syncPage_flashConfirm_rewatch_finish_anime": {
+      "description": "Finish rewatching anime message",
+      "message": "Закончить повторный просмотр?"
+   },
+   "syncPage_flashConfirm_rewatch_finish_manga": {
+      "description": "Finish rereading manga message",
+      "message": "Закончить повторное чтение?"
+   },
+   "syncPage_flashConfirm_rewatch_start_anime": {
+      "description": "Start rewatching anime message",
+      "message": "Пересмотреть аниме?"
+   },
+   "syncPage_flashConfirm_rewatch_start_manga": {
+      "description": "Start rereading manga message",
+      "message": "Перечитать мангу?"
+   },
+   "syncPage_flashConfirm_start_anime": {
+      "description": "Start watching anime message",
+      "message": "Начать просмотр?"
+   },
+   "syncPage_flashConfirm_start_manga": {
+      "description": "Start reading manga message",
+      "message": "Начать чтение?"
+   },
+   "syncPage_flash_player_error": {
+      "description": "Message if the video player could not be recognized",
+      "message": "Видеоплеер не обнаружен. Пожалуйста, обновите вручную."
+   },
+   "syncPage_flashm_failded": {
+      "description": "When update to MAL failes",
+      "message": "Обновление не удалось"
+   },
+   "syncPage_flashm_resumeMsg": {
+      "description": "Video resume message",
+      "message": "Продолжить с $time$",
+      "placeholders": {
+         "time": {
+            "content": "$1",
+            "example": "13:37"
+         }
+      }
+   },
+   "syncPage_flashm_sync_anime": {
+      "description": "Update MAL to episode 3",
+      "message": "Обновить $page$ до $epNr$ серии",
+      "placeholders": {
+         "epNr": {
+            "content": "$2",
+            "example": "3"
+         },
+         "page": {
+            "content": "$1",
+            "example": "MAL"
+         }
+      }
+   },
+   "syncPage_flashm_sync_manga": {
+      "description": "Update MAL to chapter 3",
+      "message": "Обновить $page$ до $epNr$ главы",
+      "placeholders": {
+         "epNr": {
+            "content": "$2",
+            "example": "3"
+         },
+         "page": {
+            "content": "$1",
+            "example": "MAL"
+         }
+      }
+   },
+   "syncPage_flashm_sync_manga_volume": {
+      "description": "Update MAL to volume 3",
+      "message": "Обновить $page$ до $epNr$ тома",
+      "placeholders": {
+         "epNr": {
+            "content": "$2",
+            "example": "3"
+         },
+         "page": {
+            "content": "$1",
+            "example": "MAL"
+         }
+      }
+   },
+   "syncPage_flashm_sync_undefined_undo": {
+      "description": "Undo button on 'synced' message",
+      "message": "Отменить"
+   },
+   "syncPage_flashm_sync_undefined_wrong": {
+      "description": "Wrong/correction button on 'synced' message",
+      "message": "Ошибка?"
+   },
+   "syncPage_malObj_addAnime": {
+      "description": "add anime",
+      "message": "Добавить на $page$",
+      "placeholders": {
+         "page": {
+            "content": "$1",
+            "example": "AniList"
+         }
+      }
+   },
+   "syncPage_malObj_nextEp_anime": {
+      "description": "Next episode message on streaming overview pages",
+      "message": "Серия $episode$",
+      "placeholders": {
+         "episode": {
+            "content": "$1",
+            "example": "5"
+         }
+      }
+   },
+   "syncPage_malObj_nextEp_manga": {
+      "description": "Next chapter message on streaming overview pages",
+      "message": "Глава $chapter$",
+      "placeholders": {
+         "chapter": {
+            "content": "$1",
+            "example": "6"
+         }
+      }
+   },
+   "updateCheck_Episode": {
+      "description": "Episode",
+      "message": "Серия"
+   },
+   "updateCheck_Message": {
+      "description": "Message",
+      "message": "Сообщение"
+   },
+   "updateCheck_NotificationCheck": {
+      "description": "Notification Check",
+      "message": "Проверка уведомлений"
+   },
+   "updateCheck_NotificationHistory": {
+      "description": "Notification History",
+      "message": "История уведомлений"
+   },
+   "updateCheck_Refresh": {
+      "description": "Refresh",
+      "message": "Обновить"
+   },
+   "updateCheck_StartCheck": {
+      "description": "Start Check",
+      "message": "Начать проверку"
+   },
+   "updated": {
+      "description": "Flash message that shows up after updating an anime/manga entry",
+      "message": "Обновлено"
+   }
+}

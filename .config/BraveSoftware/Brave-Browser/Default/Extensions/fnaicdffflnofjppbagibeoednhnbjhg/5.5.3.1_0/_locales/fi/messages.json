@@ -1,0 +1,801 @@
+{
+   "DescriptionAccountDeleted": {
+      "message": "Tämä profiili on poistettu."
+   },
+   "DescriptionAccountcreated": {
+      "message": "Profiilisi on valmis ja voit nyt sulkea tämän välilehden."
+   },
+   "DescriptionAccountlabel": {
+      "message": "Nimeä profiili sen tunnistamisen helpottamiseksi"
+   },
+   "DescriptionAdaptergit": {
+      "message": "Git-vaihtoehto synkronoi kirjanmerkit tallentamalla ne tiedostoksi määritettyyn Git-arkistoon. Tässä ei ole mahdollista käyttää verkkokäyttöliittymää, mutta voit käyttää sitä minkä tahansa Git-palvelimen, kuten GitHubin, GitLabin, Gitean yms. kanssa. Tukee HTTP-, FTP-, tieto-, tiedosto- ja JavaScript-kirjanmerkkejä, muttei päästä päähän -salausta."
+   },
+   "DescriptionAdaptergoogledrive": {
+      "message": "Synkronoi kirjanmerkit salattavissa olevaan tiedostoon, joka tallennetaan Google Driveen. Tukee HTTP-, FTP-, tieto-, tiedosto- ja JavaScript-kirjanmerkkejä, sekä päästä päähän -salausta."
+   },
+   "DescriptionAdapterlinkwarden": {
+      "message": "Synkronoi kirjanmerkit avointa lähdekoodia olevalle Linkwarden-palvelimelle, joko itse ylläpitämällesi palvelimelle tai osoitteessa cloud.linkwarden.app olevalle pilvipalvelimelle. Vain HTTP-, FTP- ja JavaScript-kirjanmerkkien synkronointia tuetaan. Päästä päähän -salausta ei tueta."
+   },
+   "DescriptionAdapternextcloud": {
+      "message": "Tämä vanha vaihtoehto on yhteensopiva ainakin Bookmarks-sovelluksen version 0.11 kanssa. Se emuloi kansioita niiden polut sisältävien tunnisteiden avulla. Tätä ei suositella uusille profiileille."
+   },
+   "DescriptionAdapternextcloudfolders": {
+      "message": "Synkronoi kirjanmerkkisi Nextcloud Bookmarks -alustalle (avoimen lähdekoodin yhteistyöalusta, jota voit joko ylläpitää itse tai hankkia tilin jonkun muun ylläpitämälle pilvipalvelimelle). Tukee HTTP-, FTP- ja JavaScript-kirjanmerkkejä, muttei päästä päähän -salausta. Varmista, että olet asentanut Bookmarks-sovelluksen käyttämäsi Nextcloud-instanssin sovelluskaupasta."
+   },
+   "DescriptionAdapterwebdav": {
+      "message": "Synkronoi kirjanmerkit tallentamalla ne tiedostoksi määritettyyn WebDAV-jakoon. Tässä ei ole mahdollista käyttää verkkokäyttöliittymää, mutta voit käyttää sitä minkä tahansa WebDAV-yhteensopivan palvelimen kanssa. Tukee HTTP-, FTP-, tieto-, tiedosto- ja JavaScript-kirjanmerkkejä, sekä päästä päähän -salausta."
+   },
+   "DescriptionAllownetwork": {
+      "message": "Synkronointipalvelimesi lisäksi Floccus voi käyttää verkkoyhteyttä kirjanmerkkiesi lisätietojen, kuten kuvakkeiden noutoon. Tästä voi sallia tällaiset yhteydet."
+   },
+   "DescriptionAllowredirects": {
+      "message": "Kytke tämä käyttöön, jos kohtaat synkronoinnin aikana ohjausvirheitä, jotka ovat mielestäsi turhia."
+   },
+   "DescriptionAlternativereview": {
+      "message": "Arvostele sivustolla AlternativeTo.net"
+   },
+   "DescriptionAppstorereview": {
+      "message": "Arvostele Apple Storessa"
+   },
+   "DescriptionBookmarkexists": {
+      "message": "Kirjanmerkki on jo olemassa valitussa profiilissa"
+   },
+   "DescriptionBookmarksfile": {
+      "message": "Kirjanmerkkitiedoston sijainti suhteessa WebDAV URL-osoitteeseen (kaikkien sijainnin kansioiden on oltava jo olemassa). Esim. omat_tiedostot/kirjanmerkit.xbel."
+   },
+   "DescriptionBookmarksfilegit": {
+      "message": "Kirjanmerkkitiedoston sijainti suhteessa Git-arkistosi juureen (kaikkien sijainnin kansioiden on oltava jo olemassa). Esim. omat_tiedostot/kirjanmerkit.xbel."
+   },
+   "DescriptionBookmarksfilegoogle": {
+      "message": "Nimi, jolla kirjanmerkkitiedosto tallennetaan Google Driveesi (varmista, että nimi on Drivessa ainutlaatuinen)."
+   },
+   "DescriptionChoosefolder": {
+      "message": "Valitse olemassaoleva kansio synkronoitavaksi"
+   },
+   "DescriptionChromereview": {
+      "message": "Arvostele Chrome Web Storessa"
+   },
+   "DescriptionClickcount": {
+      "message": "Lähetä Nextcliud-palvelimelle tilastoja siitä, mitä kirjanmerkkejä avaat eniten, jolloin voit järjestää ne sen mukaan."
+   },
+   "DescriptionClientcert": {
+      "message": "Kytke tämä käyttöön, jos palvelimesi edellyttää tunnistautumiseen päätevarmenteen tai evästeitä. Tällä voi olla ei-toivottuja sivuvaikutuksia, koska Floccus jakaa evästeitä tavallisten selainistuntojesi kanssa."
+   },
+   "DescriptionContributors": {
+      "message": "Nämä henkilöt ovat mahdollistaneet Floccuksen"
+   },
+   "DescriptionCurrentversion": {
+      "message": "Asennettu Floccus-versiosi on:"
+   },
+   "DescriptionDisabledaftererror": {
+      "message": "Yritettiin 10 kertaa ennen profiilin käytöstäpoistoa"
+   },
+   "DescriptionDonateintervention": {
+      "message": "Pidätkö kirjanmerkkien synkronoinnista? Tue minua!"
+   },
+   "DescriptionDownloadlogs": {
+      "message": "Floccus kirjaa kaiken toimintansa lokitiedostoon, jota voit tutkia itse tai lähettää kehittäjille vianselvitystä varten. Peitetyissä lokeissa kansioiden ja kirjanmerkkien nimet sekä URL-osoitteet koodataan peruuttamattomasti kryptografisella hajautustoiminnolla. Kannattaa kuitenkin tarkistaa ennen tällaisten lokien lähetystä, ettei niihin ole jäänyt arkaluontoisia tietoja, joita automaattinen anonymisointiprosessi ei ole havainnut."
+   },
+   "DescriptionEdgereview": {
+      "message": "Arvostele Edge-lisäosissa"
+   },
+   "DescriptionExport": {
+      "message": "Valitse tiedostoon vietävät profiilit. Tiedoston avulla voit helposti tuoda profiilisi muihin selaimiin ja laitteisiin."
+   },
+   "DescriptionExportBookmarks": {
+      "message": "Vie kaikki tämän profiilin kirjanmerkit kaikkien valtaselainten tukemaan HTML-tiedostoon."
+   },
+   "DescriptionExtension": {
+      "message": "Synkronoi kirjamerkit yksityisesti selainten ja laitteiden välillä"
+   },
+   "DescriptionFailsafe": {
+      "message": "Joskus asetusvirheet tai ohjelmistoviat saattavat johtaa tietojen menetykseen tarkoituksettoman poiston seurauksena. Tämän estämiseksi Floccus ei yhden synkronoinnin yhteydessä poista yli 50 % kirjamerkeistäsi ellei tätä varmistusta poisteta käytöstä."
+   },
+   "DescriptionFilesPermission": {
+      "message": "Varmista. että floccuksella on käyttöoikeus Kirjanmerkit-sovelluksen lisäksi Nextcloudin Tiedostot-sovellukseen."
+   },
+   "DescriptionFiletype": {
+      "message": "Voit valita missä tiedostomuodossa haluat tallentaa kirjanmerkkisi palvelimelle."
+   },
+   "DescriptionFunddevelopment": {
+      "message": "Floccuksen kehitystä rahoitetaan vapaaehtoispohjaisella tilausmallilla, joten jos koet panokseni sen arvoiseksi ja jos sinulla on mahdollisuus luopua muutamasta lantista kuukausittain, arvostaisin tukeasi. Harkitse myös Floccuksen arvostelemista omassa lisäosakaupassasi. Kiitos! 💙"
+   },
+   "DescriptionGithubsponsors": {
+      "message": "Tue projektia toistuvalla lahjoituksella GitHub-sponsoroinnin välityksellä."
+   },
+   "DescriptionGoogleplayreview": {
+      "message": "Arvostele Google Playssa"
+   },
+   "DescriptionImport": {
+      "message": "Palauta muissa selaimissa tai laitteissa aiemmin luodut profiilit tuomalla viedyt profiilit siältävä tiedosto. Huomioi, että oikeat synkronointikansiot on määritettävä tuonnin jälkeen uudelleen."
+   },
+   "DescriptionImportbookmarks": {
+      "message": "Tuo kirjanmerkkejä sisältävä HTML-tiedosto nykyiseen kansioon."
+   },
+   "DescriptionKofi": {
+      "message": "Tue projektia kertaluontoisella tai toistuvalla lahjoituksella Ko-fin välityksellä."
+   },
+   "DescriptionLiberapay": {
+      "message": "Tue projektia toistuvalla lahjoituksella Librepayn välityksellä."
+   },
+   "DescriptionLocalfolder": {
+      "message": "Tämän kirjanmerkkikansion linkit tallennetaan palvelimelle linkkeinä ja palvelimen linkit tallennetaan kirjanmerkikeiksi tähän kansioon."
+   },
+   "DescriptionLocaltarget": {
+      "message": "Valitse haluatko synkronoida selaimen kirjanmerkit vai välilehdet."
+   },
+   "DescriptionLoggedingoogle": {
+      "message": "Olet yhdistänyt Google-tilisi kirjanmerkkien synkronointitiedoston tallentamiseksi Google Driveen."
+   },
+   "DescriptionLogingoogle": {
+      "message": "Tallenna kirjanmerkkien synkronointitiedosto Google Driveen yhdistämällä Google-tiliisi."
+   },
+   "DescriptionMozillareview": {
+      "message": "Arvostele Mozilla-lisäosissa"
+   },
+   "DescriptionNestedSync": {
+      "message": "Voit määrittää sisäkkäisiä profiileja niin, että yläkansio kuuluu profiiliin A, ja alikansio profiiliin A ja B. Haluatko sallia muiden profiilien synkronoida tämän profiilin kansion."
+   },
+   "DescriptionNoAccount": {
+      "message": "Aloita synkronointi lisäämällä uusia profiileja tai tuomalla aiemmat profiilit tiedostosta."
+   },
+   "DescriptionNonhttps": {
+      "message": "Olet syöttänyt salaamatonta protokollaa käyttävän palvelimen. On suositeltavaa käyttää vain HTPPS-protokollaa tukevia palvelimia."
+   },
+   "DescriptionOpencollective": {
+      "message": "Tue projektia toistuvalla lahjoituksella OpenCollectiven välityksellä."
+   },
+   "DescriptionParallelsync": {
+      "message": "Valitse tämä nopeuttaaksesi synkronointia synkronoimalla useita kansioita saman aikaisesti. Ominaisuus on kokeellinen ja vaikeuttaa vianselvityslokien lukua."
+   },
+   "DescriptionPassphrase": {
+      "message": "Aseta kirjanmerkkitiedostonm salaukseen käytettävä tunnuslauseke. Jos lauseketta ei aseteta, ei salausta suoriteta."
+   },
+   "DescriptionPatreon": {
+      "message": "Tue projektia toistuvalla lahjoituksella Patreonin välityksellä."
+   },
+   "DescriptionPaypal": {
+      "message": "Tue projektia kertaluontoisella tai toistuvalla lahjoituksella PayPalin välityksellä."
+   },
+   "DescriptionRemoveaccount": {
+      "message": "Poista tämä profiili (tämä ei poista kirjanmerkkejäsi)"
+   },
+   "DescriptionReportproblem": {
+      "message": "Jos haluat ilmoittaa vuorenvarmasta ongelmasta yhteyttä suoraan kehittäjiin suoraan, onnistuu se täältä:"
+   },
+   "DescriptionReset": {
+      "message": "Luo uusi kansio nollaamalla synkronoitu kansio"
+   },
+   "DescriptionResetcache": {
+      "message": "Tyhjennä välimuisti painamalla tätä painiketta, jolloin seuraava synkronointi ei varmasti poista tietoja ja vain yhdistää palvelimen ja paikalliset kirjanmerkit."
+   },
+   "DescriptionServerfolder": {
+      "message": "Synkronoitaessa tämän selaimen kirjanmerkit tallennetaan palvelimella tähän sijaintiin. Huomioi, että polku kuvastaa Nextcloud Bookmarks -kansiota, ei Nextcloud Files -kansiota. Sijoita kaikki linkit palvelimen juurikansioon jättämällä tämä tyhjäksi."
+   },
+   "DescriptionServerfolderlinkwarden": {
+      "message": "Synkronoitaessa tämän selaimen kirjanmerkit tallennetaan palvelimella linkeiksi tähän kokoelmaan."
+   },
+   "DescriptionStrategy": {
+      "message": "Tämä määrittää, miten eri laitteiden kirjanmerkit synkronoidaan. Useimmiten kaikki muutokset halutaan säilyttää, jos ne ovat yhteensopivia, mutta joskus voi olla tarpeellista korvata muissa selaimissa tai pakallisesti tehdyt muutokset (lisäykset ja poistot mukaan lukien)."
+   },
+   "DescriptionSyncDown": {
+      "message": "Lataa muiden selainten muutokset ja korvaa paikalliset"
+   },
+   "DescriptionSyncNormal": {
+      "message": "Yhdistä paikalliset ja korvaa muiden selainten muutokset"
+   },
+   "DescriptionSyncTabs": {
+      "message": "Palvelimelle tallennetut linkit avataan selaimen välilehtinä ja selaimen nykyiset välilehdet tallennetaan palvelimelle linkkeinä. Huomioi, että palvelimelle tallennettujen linkkien suuri määrä voi seuraavan synkronoinnin yhteydessä ylikuormittaa selaimesi."
+   },
+   "DescriptionSyncUp": {
+      "message": "Lähetä paikalliset ja korvaa muiden selainten muutokset"
+   },
+   "DescriptionSyncinprogress": {
+      "message": "Synkronointi on käynnissä."
+   },
+   "DescriptionSyncinterval": {
+      "message": "Synkronointien välinen aika. Oletus on 15 minuuttia."
+   },
+   "DescriptionSyncscheduled": {
+      "message": "Tämä profiili synkronoidaan pian. Odotetaan joko muiden laitteidesi tai tällä laitteella olevien profiiliesi synkronoinnin valmistumista."
+   },
+   "DescriptionTelemetry": {
+      "message": "Floccus voi lähettää automaattisesti virhetiedot kehittäjille. Tämä auttaa ja nopeuttaa Floccuksen virheiden havainnointia ja korjausta merkittävästi auttaen parantamaan käyttökokemustasi. Floccuksen kehittäjät eivät koskaan näe kirjanmerkkejäsi raportoinnin ollessa käytsössä."
+   },
+   "DescriptionUpdated": {
+      "message": "Onnittelut! Floccuksen uusin versio on saapunut laitteellesi!"
+   },
+   "DescriptionWebdavurl": {
+      "message": "esim. Nextcloudilla: https://esimerkki.fi/remote.php/webdav/"
+   },
+   "DescriptionWritereview": {
+      "message": "Jos olet innoissasi Floccuksesta, kerro siitä muille arvostelemalla se alla olevissa palveluissa."
+   },
+   "Error001": {
+      "message": "E001: Kohdekansiota ei ole olemassa."
+   },
+   "Error002": {
+      "message": "E002: Päivitettävää kirjanmerkkiä ei enää ole olemassa."
+   },
+   "Error003": {
+      "message": "E003: Lähdekansiota ei enää ei ole olemassa. Tämä on poikkeuksellinen virhe. Onnittelut."
+   },
+   "Error004": {
+      "message": "E004: Kohdekansiota ei ole olemassa."
+   },
+   "Error005": {
+      "message": "E005: Kohdekansiota ei ole olemassa."
+   },
+   "Error006": {
+      "message": "E006: Päivitettävää kansiota ei ole olemassa."
+   },
+   "Error007": {
+      "message": "E007: Siirrettävää kansiota ei ole olemassa."
+   },
+   "Error008": {
+      "message": "E008: Lähdekansiota ei ole olemassa."
+   },
+   "Error009": {
+      "message": "E009: Kohdekansiota ei ole olemassa."
+   },
+   "Error010": {
+      "message": "E010: Järjestettävää kansiota ei löytynyt."
+   },
+   "Error011": {
+      "message": "E011: Kansiojärjestyksen kohde ei ole alihakemisto: {0}."
+   },
+   "Error012": {
+      "message": "E012: Kansiojärjestyksestä puuttuu joitakin alikansioita."
+   },
+   "Error013": {
+      "message": "E013: Poistettavaa kansiota ei ole olemassa."
+   },
+   "Error014": {
+      "message": "E014: Poistettavan kansion yläkansiota ei ole olemassa."
+   },
+   "Error015": {
+      "message": "E015: Odottamaton vastaus palvelimelta."
+   },
+   "Error016": {
+      "message": "E016: Pyyntö aikakatkaistiin. Tarkista palvelinasetuksesi."
+   },
+   "Error017": {
+      "message": "E017: Verkkovirhe. Tarkista verkkoyhteytesi ja tiliasetuksesi."
+   },
+   "Error018": {
+      "message": "E018: Palvelimelle ei voitu tunnistautua."
+   },
+   "Error019": {
+      "message": "E019: HTTP-tila {0}. Pyyntö {0} epäonnistui. Tarkista palvelinasetukset ja loki."
+   },
+   "Error020": {
+      "message": "E020: Palvelimen vastausta ei voida jäsentää. Onko kirjanmerkkisovellus asennettu palvelimellesi?"
+   },
+   "Error021": {
+      "message": "E021: Palvelimen tilan ristiriita. Kansio löytyy alikansioiden järjestysluettelosta, muttei hakemistorakenteesta."
+   },
+   "Error022": {
+      "message": "E022: Kansiossa {0} näennäisesti olevaa kirjanmerkkiä {1} ei ole olemassa."
+   },
+   "Error023": {
+      "message": "E023: Lukitustiedostoa ei voitu poistaa. Yritä poistaa {0} manuaalisesti."
+   },
+   "Error024": {
+      "message": "E024: HTTP-tila {0} yritettäessä tunnistaa lukitustiedoston {1} tilaa."
+   },
+   "Error025": {
+      "message": "E025: \"Kirjanmerkkitiedoston sijainti\" -asetus ei voi alkaa vinoviivalla '/'."
+   },
+   "Error026": {
+      "message": "E026: Sykronointi peruttiin."
+   },
+   "Error027": {
+      "message": "E027: Sykronointi keskeytyi."
+   },
+   "Error028": {
+      "message": "E028: Tunnistautuminen palvelimelle epäonnistui."
+   },
+   "Error029": {
+      "message": "E029: Varmistus: Nykyinen synkronointi poistaisi {0} % kirjanmerkeistäsi, joten se peruttiin. Jos haluat tästä huolimatta jatkaa, voit poistaa rajoituksen asetuksista."
+   },
+   "Error030": {
+      "message": "E030: Kirjanmerkkitiedoston salauksen purku epäonnistui. Salauslauseke ei ehkä ole oikein tai tiedosto on viallinen."
+   },
+   "Error031": {
+      "message": "E031: Google Drive -tunnistautuminen epäonnistui. Yhdistä Google-tilisi uudelleen."
+   },
+   "Error032": {
+      "message": "E032: OAuth-virhe. Tunnisteen vahvistusvirhe. Yhdistä Google-tilisi uudelleen."
+   },
+   "Error033": {
+      "message": "E033: Havaittiin uudelleenohjaus. Varmista, että palvelin tukee valittua synkronointitapaa ja syöttämäsi URL-osoite on oikein, eikä ohjaa eri sijaintiin. Jos ohjaus on järjestelmässäsi normaalia, voit poistaa tarkastuksen käytöstä asetuksista."
+   },
+   "Error034": {
+      "message": "E034: Kirjanmerkkien etätiedosto ei ole luettavissa. Unohditko määrittää salauksen salauslausekkeen?"
+   },
+   "Error035": {
+      "message": "E035: Kirjanmerkin {0} luonti palvelimelle epäonnistui."
+   },
+   "Error036": {
+      "message": "E036: Synkronointipalvelimen käyttöön tarvittavia oikeuksia puuttuu."
+   },
+   "Error037": {
+      "message": "E037: Resurssi on lukittu."
+   },
+   "Error038": {
+      "message": "E038: Paikallista kansiota ei löytynyt."
+   },
+   "ErrorFolderloopselected": {
+      "message": "Kansiota ei voida siirtää itseensä"
+   },
+   "ErrorNofolderselected": {
+      "message": "Kansiota ei ole valittu"
+   },
+   "LabelAbout": {
+      "message": "Tietoja"
+   },
+   "LabelAccesstoken": {
+      "message": "Pääsytunniste"
+   },
+   "LabelAccountDeleted": {
+      "message": "Profiili poistettiin"
+   },
+   "LabelAccountcreated": {
+      "message": "Profiili on luotu"
+   },
+   "LabelAccountlabel": {
+      "message": "Profiilin nimi"
+   },
+   "LabelAdaptergit": {
+      "message": "Git – HTTPS"
+   },
+   "LabelAdaptergoogledrive": {
+      "message": "Google Drive"
+   },
+   "LabelAdapterlinkwarden": {
+      "message": "Linkwarden"
+   },
+   "LabelAdapternextcloud": {
+      "message": "Nextcloud Bookmarks (vanha)"
+   },
+   "LabelAdapternextcloudfolders": {
+      "message": "Nextcloud Bookmarks"
+   },
+   "LabelAdapterwebdav": {
+      "message": "WebDAV-jako"
+   },
+   "LabelAdd": {
+      "message": "Lisää"
+   },
+   "LabelAddaccount": {
+      "message": "Lisää profiili"
+   },
+   "LabelAddbookmark": {
+      "message": "Lisää kirjamerkki"
+   },
+   "LabelAddfolder": {
+      "message": "Lisää kansio"
+   },
+   "LabelAllownetwork": {
+      "message": "Salli verkon käyttö"
+   },
+   "LabelAllowredirects": {
+      "message": "Salli palvelimen URL-osoitteen uudelleenohjautuminen"
+   },
+   "LabelAutosync": {
+      "message": "Automaattinen synkronointi"
+   },
+   "LabelBack": {
+      "message": "Takaisin"
+   },
+   "LabelBookmarksfile": {
+      "message": "Kirjanmerkkitiedoston sijainti"
+   },
+   "LabelCancel": {
+      "message": "Peruuta"
+   },
+   "LabelCancelsync": {
+      "message": "Peru synkronointi"
+   },
+   "LabelChange": {
+      "message": "uuta"
+   },
+   "LabelChooseadapter": {
+      "message": "Miten haluat synkronoida?"
+   },
+   "LabelChoosefolder": {
+      "message": "Valitse kansio"
+   },
+   "LabelClickcount": {
+      "message": "Laske klikkaukset"
+   },
+   "LabelClientcert": {
+      "message": "Lähetä päätteen tunnistetiedot"
+   },
+   "LabelConnect": {
+      "message": "Yhdistä"
+   },
+   "LabelContinue": {
+      "message": "Jatka"
+   },
+   "LabelContinuefloccus": {
+      "message": "Jatka Floccukseen"
+   },
+   "LabelContributors": {
+      "message": "Osallistujat"
+   },
+   "LabelCurrentversion": {
+      "message": "Nykyinen versio"
+   },
+   "LabelDebuglogs": {
+      "message": "Vianselvityslokit"
+   },
+   "LabelDeleteitem": {
+      "message": "Poista"
+   },
+   "LabelDonate": {
+      "message": "Lahjoita"
+   },
+   "LabelDone": {
+      "message": "Valmis"
+   },
+   "LabelDownloadanonymizedlogs": {
+      "message": "Peitetyt lokit"
+   },
+   "LabelDownloadfulllogs": {
+      "message": "Täydet lokit"
+   },
+   "LabelDownloadlogs": {
+      "message": "Lataa lokit"
+   },
+   "LabelEditbookmark": {
+      "message": "Muokkaa kirjanmerkkiä"
+   },
+   "LabelEditfolder": {
+      "message": "Muokkaa kansiota"
+   },
+   "LabelEdititem": {
+      "message": "Muokkaa"
+   },
+   "LabelExport": {
+      "message": "Vie profiilit"
+   },
+   "LabelExportBookmarks": {
+      "message": "Vie kirjanmerkit"
+   },
+   "LabelFailsafe": {
+      "message": "Varmistus"
+   },
+   "LabelFailsafeoff": {
+      "message": "Ei käytössä. Salli yli 50 %:n poistaminen paikallisista kirjanmerkeistäni pyytämättä vahvistusta."
+   },
+   "LabelFailsafeon": {
+      "message": "Käytössä. Älä poista yli 50 % paikallisista kirjanmerkeistäni vahvistamatta. (Suositus)"
+   },
+   "LabelFiletype": {
+      "message": "Tiedostomuoto"
+   },
+   "LabelFiletypehtml": {
+      "message": "HTML, laajasti tuettu avoin muoto (kokeellinen)"
+   },
+   "LabelFiletypexbel": {
+      "message": "XBEL, yksinkertainen avoin muoto"
+   },
+   "LabelFolderNotFound": {
+      "message": "Kansiota ei löytynyt"
+   },
+   "LabelFunddevelopment": {
+      "message": "💸 Rahoita kehitystä"
+   },
+   "LabelGitbranch": {
+      "message": "Git-haara"
+   },
+   "LabelGithubsponsors": {
+      "message": "GitHub-sponsorit"
+   },
+   "LabelGiturl": {
+      "message": "Arkiston HTTP URL -osoite"
+   },
+   "LabelGoogledrivesetup": {
+      "message": "Kirjaudu Google Driveen"
+   },
+   "LabelImport": {
+      "message": "Tuo profiilit"
+   },
+   "LabelImportExport": {
+      "message": "Tuo/vie profiileja"
+   },
+   "LabelImportbookmarks": {
+      "message": "Tuo kirjanmerkit"
+   },
+   "LabelImportsuccessful": {
+      "message": "Profiili(t) tuotiin"
+   },
+   "LabelKey": {
+      "message": "Syötä salauslauseke"
+   },
+   "LabelKey2": {
+      "message": "Syötä salauslaseke uudestaan"
+   },
+   "LabelKofi": {
+      "message": "Ko-fi"
+   },
+   "LabelLiberapay": {
+      "message": "Liberapay"
+   },
+   "LabelLinkwardenconnectionerror": {
+      "message": "Linkwarden-palvelintasi ei tavoitettu"
+   },
+   "LabelLinkwardenurl": {
+      "message": "Linkwarden-palvelimen URL-osoite"
+   },
+   "LabelLocalfolder": {
+      "message": "Kirjanmerkkikansio"
+   },
+   "LabelLocaltarget": {
+      "message": "Paikallinen kohde"
+   },
+   "LabelLoginFlowError": {
+      "message": "Nexcloud-kirjautuminen epäonnistui"
+   },
+   "LabelLoginFlowStart": {
+      "message": "Kirjaudu Nexcloudiin"
+   },
+   "LabelLoginFlowStop": {
+      "message": "Peru Nexcloud-kirjautuminen"
+   },
+   "LabelLogingoogle": {
+      "message": "Kirjaudu Googlella"
+   },
+   "LabelMobilesettings": {
+      "message": "Mobiiliasetukset"
+   },
+   "LabelNestedSync": {
+      "message": "Sisäkkäiset profiilit"
+   },
+   "LabelNestedSyncNo": {
+      "message": "En. Ohita tämän profiilin kansio muissa profiileissa."
+   },
+   "LabelNestedSyncYes": {
+      "message": "Kyllä. Sisällytä tämän profiilin kansio muihin profiileihin1."
+   },
+   "LabelNewAccount": {
+      "message": "Lisää profiili"
+   },
+   "LabelNewImport": {
+      "message": "Tuo"
+   },
+   "LabelNewfolder": {
+      "message": "Juuri luotu kansio"
+   },
+   "LabelNextcloudurl": {
+      "message": "Nextcloud URL"
+   },
+   "LabelNoAccount": {
+      "message": "Profiileja ei vielä ole"
+   },
+   "LabelNobookmarks": {
+      "message": "Täällä ei ole kirjanmerkkejä"
+   },
+   "LabelOpencollective": {
+      "message": "OpenCollective"
+   },
+   "LabelOpenintab": {
+      "message": "Avaa välilehdessä"
+   },
+   "LabelOptions": {
+      "message": "Asetukset"
+   },
+   "LabelOptionsDangerous": {
+      "message": "Vaaralliset toiminnot"
+   },
+   "LabelOptionsFolderMapping": {
+      "message": "Kansiomääritykset"
+   },
+   "LabelOptionsServerDetails": {
+      "message": "Palvelimen tiedot"
+   },
+   "LabelOptionsSyncBehavior": {
+      "message": "Synkronointiasetukset"
+   },
+   "LabelOptionsscreen": {
+      "description": "Title of the options screen. The placeholder holds the profile type.",
+      "message": "{0} valintaa"
+   },
+   "LabelParallelsync": {
+      "message": "Nopeuta synkronointia"
+   },
+   "LabelPassphrase": {
+      "message": "Salauslauseke"
+   },
+   "LabelPassword": {
+      "message": "Salasana"
+   },
+   "LabelPatreon": {
+      "message": "Patreon"
+   },
+   "LabelPaypal": {
+      "message": "PayPal"
+   },
+   "LabelReleaseNotes": {
+      "message": "Lue julkaisutiedot"
+   },
+   "LabelRemove": {
+      "message": "Poista"
+   },
+   "LabelRemoveaccount": {
+      "message": "Poista profiili"
+   },
+   "LabelRemovedkey": {
+      "message": "Salauslauseke poistettiin"
+   },
+   "LabelRemovekey": {
+      "message": "Poista salauslauseke"
+   },
+   "LabelReportproblem": {
+      "message": "Ilmoita ongelmasta"
+   },
+   "LabelReset": {
+      "message": "Nollaa"
+   },
+   "LabelResetCache": {
+      "message": "Tyhjennä välimuisti"
+   },
+   "LabelRootfolder": {
+      "message": "Juurikansio"
+   },
+   "LabelSave": {
+      "message": "Tallenna"
+   },
+   "LabelSearch": {
+      "message": "Etsi kirjanmerkkejä"
+   },
+   "LabelSearchfolder": {
+      "message": "Etsi {0}"
+   },
+   "LabelSelect": {
+      "message": "Valitse"
+   },
+   "LabelServerfolder": {
+      "message": "Palvelimen kohde"
+   },
+   "LabelServersetup": {
+      "message": "Mille palvelimelle haluat synkronoida?"
+   },
+   "LabelSetkeybutton": {
+      "message": "Aseta salauslauseke"
+   },
+   "LabelShareitem": {
+      "message": "Jaa"
+   },
+   "LabelSlugline": {
+      "message": "Yksityinen kirjanmerkkien synkronointi"
+   },
+   "LabelSortcustom": {
+      "message": "Mukautettu"
+   },
+   "LabelSorttitle": {
+      "message": "Nimi"
+   },
+   "LabelSorturl": {
+      "message": "Linkki"
+   },
+   "LabelStrategy": {
+      "message": "Synkronointistrategia"
+   },
+   "LabelStrategydefault": {
+      "message": "Yhdistä aina paikalliset ja muiden selainten muutokset (suositeltavaa)"
+   },
+   "LabelStrategyoverwrite": {
+      "message": "Lähetä aina paikalliset ja kumoa muiden selainten muutokset"
+   },
+   "LabelStrategyslave": {
+      "message": "Kumoa aina paikalliset ja lataa muiden selainten muutokset"
+   },
+   "LabelSyncDown": {
+      "message": "Vedä alas"
+   },
+   "LabelSyncDownOnce": {
+      "message": "Vedä alas kerran"
+   },
+   "LabelSyncNormal": {
+      "message": "Yhdistä"
+   },
+   "LabelSyncTabs": {
+      "message": "Selaimen välilehdet"
+   },
+   "LabelSyncUp": {
+      "message": "Työnnä ylös"
+   },
+   "LabelSyncUpOnce": {
+      "message": "Työnnä ylös kerran"
+   },
+   "LabelSyncall": {
+      "message": "Synkronoi kaikki profiilit"
+   },
+   "LabelSyncbehavior": {
+      "message": "Synkronointiasetukset"
+   },
+   "LabelSyncbehaviorsetup": {
+      "message": "Miten haluat synronoinnin toimivan?"
+   },
+   "LabelSyncfolders": {
+      "message": "Synkronointikansiot"
+   },
+   "LabelSyncfoldersetup": {
+      "message": "Mitkä kansiot haluat synkronoida?"
+   },
+   "LabelSyncfromscratch": {
+      "message": "Aloita synkronointi alusta"
+   },
+   "LabelSyncinterval": {
+      "message": "Synkronoinnin ajoitus"
+   },
+   "LabelSyncmethod": {
+      "message": "Synkronointitapa"
+   },
+   "LabelSyncnow": {
+      "message": "Synkronoi nyt"
+   },
+   "LabelSyncserver": {
+      "message": "Synkronointipalvelin"
+   },
+   "LabelTabs": {
+      "message": "Välilehdet"
+   },
+   "LabelTelemetry": {
+      "message": "🐛 Automaattinen virheraportointi"
+   },
+   "LabelTelemetrydisable": {
+      "message": "Älä lähetä Floccuksen kehittäjille virheraportteja"
+   },
+   "LabelTelemetryenable": {
+      "message": "Lähetä Floccuksen kehittäjille virheraportteja"
+   },
+   "LabelUnlock": {
+      "message": "Avaa Floccus"
+   },
+   "LabelUntitledfolder": {
+      "message": "Nimetön kansio"
+   },
+   "LabelUpdated": {
+      "message": "⚡ Floccus päivitettiin"
+   },
+   "LabelUsername": {
+      "message": "Käyttäjätunnus"
+   },
+   "LabelWebdavurl": {
+      "message": "WebDAV URL-osoite"
+   },
+   "LabelWritereview": {
+      "message": "💙 Jaa rakkautta!"
+   },
+   "LegacyAdapterDeprecation": {
+      "message": "Tätä vanha profiilityyppiä ei enää tueta ja se poistetaan pian kokonaan. Vaihda uutee Nexcloud-synkronointiin, joka tarjoaa suorituskykyä ja tarkkuutta."
+   },
+   "StatusAllgood": {
+      "message": "Kaikki kunnossa"
+   },
+   "StatusDisabled": {
+      "message": "Ei käytössä"
+   },
+   "StatusError": {
+      "message": "Virhe"
+   },
+   "StatusFailsafeoff": {
+      "message": "Varmistus ei ole käytössä. Tarkoituksettoman tietojen menetyksen riksi on olemassa. Varmistuksen käyttöönotto on suositeltavaa."
+   },
+   "StatusLastsynced": {
+      "message": "Edellinen synkronointi: {0} sitten"
+   },
+   "StatusNeversynced": {
+      "message": "Ei vielä synkronoitu"
+   },
+   "StatusScheduled": {
+      "message": "Ajoitettu"
+   },
+   "StatusSyncing": {
+      "message": "Synkronoidaan"
+   }
+}

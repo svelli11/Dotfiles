@@ -1,0 +1,283 @@
+{
+  "name": "VoidScans",
+  "domain": [
+    "https://hivecomic.com",
+    "https://hivetoon.com",
+    "https://void-scans.com"
+  ],
+  "languages": [
+    "English"
+  ],
+  "type": "manga",
+  "urls": {
+    "match": [
+      "*://hivecomic.com/*",
+      "*://hivetoon.com/*",
+      "*://void-scans.com/*"
+    ]
+  },
+  "search": "https://hivecomic.com/series?searchTerm={searchtermPlus}",
+  "sync": {
+    "isSyncPage": [
+      [
+        "and",
+        [
+          [
+            "url"
+          ],
+          [
+            "urlPart",
+            3
+          ],
+          [
+            "equals",
+            "series"
+          ]
+        ],
+        [
+          [
+            "url"
+          ],
+          [
+            "urlPart",
+            5
+          ],
+          [
+            "boolean"
+          ]
+        ],
+        [
+          [
+            "url"
+          ],
+          [
+            "urlPart",
+            5
+          ],
+          [
+            "matches",
+            "chapter[_-]"
+          ]
+        ]
+      ]
+    ],
+    "getTitle": [
+      [
+        "title"
+      ],
+      [
+        "split",
+        "Chapter"
+      ],
+      [
+        "at",
+        0
+      ],
+      [
+        "trim"
+      ]
+    ],
+    "getIdentifier": [
+      [
+        "url"
+      ],
+      [
+        "urlPart",
+        4
+      ]
+    ],
+    "getOverviewUrl": [
+      [
+        "string",
+        "/series/<identifier>"
+      ],
+      [
+        "replace",
+        "<identifier>",
+        [
+          [
+            "url"
+          ],
+          [
+            "this",
+            "sync.getIdentifier"
+          ]
+        ]
+      ],
+      [
+        "urlAbsolute"
+      ]
+    ],
+    "getEpisode": [
+      [
+        "coalesce",
+        [
+          [
+            "title"
+          ],
+          [
+            "regex",
+            "chapter (\\d+)",
+            1
+          ],
+          [
+            "number"
+          ]
+        ],
+        [
+          [
+            "url"
+          ],
+          [
+            "urlPart",
+            5
+          ],
+          [
+            "regex",
+            "chapter[_-](\\d+)",
+            1
+          ],
+          [
+            "number"
+          ]
+        ]
+      ],
+      [
+        "ifNotReturn"
+      ]
+    ]
+  },
+  "overview": {
+    "isOverviewPage": [
+      [
+        "and",
+        [
+          [
+            "url"
+          ],
+          [
+            "urlPart",
+            4
+          ],
+          [
+            "boolean"
+          ]
+        ],
+        [
+          [
+            "url"
+          ],
+          [
+            "urlPart",
+            3
+          ],
+          [
+            "equals",
+            "series"
+          ]
+        ],
+        [
+          [
+            "url"
+          ],
+          [
+            "urlPart",
+            5
+          ],
+          [
+            "boolean"
+          ],
+          [
+            "not"
+          ]
+        ]
+      ]
+    ],
+    "getTitle": [
+      [
+        "querySelector",
+        "h1[itemprop=\"name\"]"
+      ],
+      [
+        "text"
+      ],
+      [
+        "trim"
+      ]
+    ],
+    "getIdentifier": [
+      [
+        "url"
+      ],
+      [
+        "this",
+        "sync.getIdentifier"
+      ]
+    ],
+    "uiInjection": [
+      [
+        "querySelector",
+        "h1[itemprop=\"name\"]"
+      ],
+      [
+        "uiAfter"
+      ]
+    ]
+  },
+  "lifecycle": {
+    "setup": [
+      [
+        "addStyle",
+        "#malp #MalData {\n  justify-content: flex-start !important;\n  align-items: stretch !important;\n  gap: 10px;\n}\n#malp #MalData .malp-group {\n  display: flex;\n  flex-direction: column !important;\n  gap: 3px;\n}\n#malp #MalData .malp-group.malp-group-rating {\n  display: flex !important;\n}\n#malp #MalData .malp-group > .malp-group-field,\n#malp #MalData .malp-group > .malp-group-value-section {\n  flex-grow: 1;\n  background-color: hsla(0, 0%, 100%, 0.1) !important;\n  border-radius: 4px;\n  padding: 4px 8px !important;\n}\n#malp #MalData option {\n  background-color: hsla(0, 0%, 100%, 0.1) !important;\n}\n#malp #MalData .malp-group-label {\n  display: block !important;\n}\n#malp #MalData .malp-group-label {\n  display: block !important;\n  font-size: 12px !important;\n}\n#malp #MalData .malp-group-mal-add {\n  display: flex !important;\n}\n#malp #MalData .malp-group-mal-add .malp-group-label {\n  visibility: hidden;\n}\n#malp #MalData .malp-group-mal-add a {\n  color: inherit;\n}\n#malp #MalData #AddMalDiv {\n  display: none !important;\n}\n#malp #malStatus,\n#malp #malUserRating,\n#malp #malEpisodes,\n#malp #malVolumes,\n#malp #malEpisodes,\n#malp #malRating {\n  color: inherit;\n  font-size: inherit;\n  font-family: inherit;\n  background: transparent;\n  border-color: grey;\n  text-decoration: none;\n  outline: medium none;\n  border-width: 0;\n  height: auto;\n  align-content: center;\n  padding: 0;\n  margin: 0;\n  line-height: 1;\n}\n#malp #malEpisodes,\n#malp #malVolumes,\n#malp #malEpisodes {\n  text-align: center;\n  border-bottom-width: 1px;\n}\n#malp #malEpisodes:focus,\n#malp #malVolumes:focus,\n#malp #malEpisodes:focus {\n  border-color: black;\n}\n.mal-sync-active {\n  background-color: #002e7459;\n}\n#malSyncProgress.ms-loading {\n  height: 4px;\n  width: 100%;\n  position: relative;\n  overflow: hidden;\n  background-color: #ddd;\n}\n#malSyncProgress.ms-loading::before {\n  display: block;\n  position: absolute;\n  content: '';\n  left: -200px;\n  width: 200px;\n  height: 4px;\n  background-color: #2980b9;\n  animation: loading-mal 2s linear infinite;\n}\n@keyframes loading-mal {\n  0% {\n    left: -200px;\n    width: 30%;\n  }\n  50% {\n    width: 30%;\n  }\n  70% {\n    width: 70%;\n  }\n  80% {\n    left: 50%;\n  }\n  95% {\n    left: 120%;\n  }\n  100% {\n    left: 100%;\n  }\n}\n#malSyncProgress.ms-done .ms-progress {\n  width: 100% !important;\n  background-color: #ff4081 !important;\n  transition: background-color 1s !important;\n}\n"
+      ]
+    ],
+    "ready": [
+      [
+        "querySelector",
+        "h1"
+      ],
+      [
+        "text"
+      ],
+      [
+        "contains",
+        "erver error"
+      ],
+      [
+        "ifThen",
+        [
+          [
+            "string",
+            "404"
+          ],
+          [
+            "log"
+          ],
+          [
+            "return"
+          ]
+        ]
+      ],
+      [
+        "detectURLChanges",
+        [
+          [
+            "trigger"
+          ]
+        ],
+        null,
+        "detectURLChangesuk6ioe06ad9"
+      ],
+      [
+        "domReady"
+      ],
+      [
+        "trigger"
+      ]
+    ]
+  },
+  "version": {
+    "hash": "43aafda0",
+    "timestamp": "1747044328700"
+  }
+}

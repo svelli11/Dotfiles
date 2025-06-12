@@ -1,0 +1,775 @@
+{
+   "action": {
+      "default_icon": "icons/icon16.png",
+      "default_popup": "popup.html"
+   },
+   "author": "lolamtisch@gmail.com",
+   "background": {
+      "service_worker": "background.js"
+   },
+   "commands": {
+      "_execute_action": {
+         "suggested_key": {
+            "default": "Alt+M",
+            "mac": "Alt+M",
+            "windows": "Alt+M"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "exclude_globs": [ "*myanimelist.net/anime/season*", "*myanimelist.net/anime/producer*", "*myanimelist.net/manga/magazine*", "*myanimelist.net/anime/genre*", "*myanimelist.net/manga/genre*" ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/mal-script.js" ],
+      "matches": [ "*://myanimelist.net/anime/*", "*://myanimelist.net/manga/*", "*://myanimelist.net/animelist/*", "*://myanimelist.net/mangalist/*", "*://myanimelist.net/anime.php?id=*", "*://myanimelist.net/manga.php?id=*", "*://myanimelist.net/character/*", "*://myanimelist.net/people/*", "*://myanimelist.net/search/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/oauth-script.js" ],
+      "matches": [ "*://malsync.moe/mal/oauth*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/oauth-anilist-script.js" ],
+      "matches": [ "*://malsync.moe/anilist/oauth*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/oauth-shiki-script.js" ],
+      "matches": [ "*://malsync.moe/shikimori/oauth*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/anilist-script.js" ],
+      "matches": [ "*://anilist.co/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/kitsu-script.js" ],
+      "matches": [ "*://kitsu.app/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/simkl-script.js" ],
+      "matches": [ "*://simkl.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "content/pwa-script.js" ],
+      "matches": [ "*://malsync.moe/pwa*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Crunchyroll.js", "content/content-script.js" ],
+      "matches": [ "*://*.crunchyroll.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Mangadex.js", "content/content-script.js" ],
+      "matches": [ "*://mangadex.org/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Gogoanime.js", "content/content-script.js" ],
+      "matches": [ "*://*.gogoanime.tv/*", "*://*.gogoanime.io/*", "*://*.gogoanime.in/*", "*://*.gogoanime.se/*", "*://*.gogoanime.sh/*", "*://*.gogoanime.video/*", "*://*.gogoanime.movie/*", "*://*.gogoanime.so/*", "*://*.gogoanime.ai/*", "*://*.gogoanime.vc/*", "*://*.gogoanime.pe/*", "*://*.gogoanime.wiki/*", "*://*.gogoanime.cm/*", "*://*.gogoanime.film/*", "*://*.gogoanime.fi/*", "*://*.gogoanime.gg/*", "*://*.gogoanime.sk/*", "*://*.gogoanime.lu/*", "*://*.gogoanime.tel/*", "*://*.gogoanime.ee/*", "*://*.gogoanime.dk/*", "*://*.gogoanime.ar/*", "*://*.gogoanime.bid/*", "*://*.gogoanimes.co/*", "*://*.animego.to/*", "*://*.gogoanime.gr/*", "*://*.gogoanime.llc/*", "*://*.gogoanime.cl/*", "*://*.gogoanime.hu/*", "*://*.gogoanime.vet/*", "*://*.gogoanimehd.to/*", "*://*.gogoanime3.net/*", "*://*.gogoanimehd.io/*", "*://*.anitaku.to/*", "*://*.anitaku.so/*", "*://*.gogoanime3.co/*", "*://*.anitaku.pe/*", "*://*.gogoanime3.cc/*", "*://*.anitaku.bz/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_TurkAnime.js", "content/content-script.js" ],
+      "matches": [ "*://*.www.turkanime.tv/video/*", "*://*.www.turkanime.tv/anime/*", "*://*.www.turkanime.net/video/*", "*://*.www.turkanime.net/anime/*", "*://*.www.turkanime.co/video/*", "*://*.www.turkanime.co/anime/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Emby.js", "content/content-script.js" ],
+      "matches": [ "*://app.emby.media/*", "*://app.emby.tv/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Plex.js", "content/content-script.js" ],
+      "matches": [ "*://app.plex.tv/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Netflix.js", "content/content-script.js" ],
+      "matches": [ "*://www.netflix.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_animepahe.js", "content/content-script.js" ],
+      "matches": [ "*://animepahe.com/play/*", "*://animepahe.com/anime/*", "*://animepahe.ru/play/*", "*://animepahe.ru/anime/*", "*://animepahe.org/play/*", "*://animepahe.org/anime/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Animeflv.js", "content/content-script.js" ],
+      "matches": [ "*://*.animeflv.net/anime/*", "*://*.animeflv.net/ver/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [ "*://jkanime.net/", "*://jkanime.net/letra/*", "*://jkanime.net/buscar/*", "*://jkanime.net/directorio/*", "*://jkanime.net/terminos-condiciones/" ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Jkanime.js", "content/content-script.js" ],
+      "matches": [ "*://jkanime.net/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Proxer.js", "content/content-script.js" ],
+      "matches": [ "*://proxer.me/*", "*://proxer.net/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Aniflix.js", "content/content-script.js" ],
+      "matches": [ "*://*.aniflix.tv/*", "*://*.aniflix.cc/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_KickAssAnime.js", "content/content-script.js" ],
+      "matches": [ "*://*.kaas.am/*", "*://*.kaas.ro/*", "*://*.kaas.to/*", "*://*.kickassanime.ro/*", "*://*.kickassanime.am/*", "*://*.kickassanimes.io/*", "*://*.kickassanime.mx/*", "*://*.kaa.mx/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Shinden.js", "content/content-script.js" ],
+      "matches": [ "*://shinden.pl/episode/*", "*://shinden.pl/series/*", "*://shinden.pl/titles/*", "*://shinden.pl/epek/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Voiranime.js", "content/content-script.js" ],
+      "matches": [ "*://voiranime.com/*", "*://*.voiranime.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_VIZ.js", "content/content-script.js" ],
+      "matches": [ "*://www.viz.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [ "*://www.animezone.pl/anime/lista*", "*://www.animezone.pl/anime/sezony*", "*://www.animezone.pl/anime/ranking*", "*://www.animezone.pl/anime/nadchodzace*", "*://www.animezone.pl/anime/premiery*", "*://www.animezone.pl/anime/filmy*" ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_AnimeZone.js", "content/content-script.js" ],
+      "matches": [ "*://www.animezone.pl/odcinki/*", "*://www.animezone.pl/odcinek/*", "*://www.animezone.pl/anime/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_AnimeOdcinki.js", "content/content-script.js" ],
+      "matches": [ "*://anime-odcinki.pl/anime/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_serimanga.js", "content/content-script.js" ],
+      "matches": [ "*://serimanga.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_mangadenizi.js", "content/content-script.js" ],
+      "matches": [ "*://mangadenizi.com/*", "*://*.mangadenizi.net/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_moeclip.js", "content/content-script.js" ],
+      "matches": [ "*://moeclip.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_mangalivre.js", "content/content-script.js" ],
+      "matches": [ "*://mangalivre.net/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_tmofans.js", "content/content-script.js" ],
+      "matches": [ "*://tmofans.com/*", "*://lectortmo.com/*", "*://visortmo.com/*", "*://gastronomiaporpaises.com/*", "*://releasingcars.com/*", "*://mundorecetascuriosas.com/*", "*://lupitaalosfogones.com/*", "*://cocinarporelmundo.com/*", "*://disfrutacocina.com/*", "*://recetascuriosas.com/*", "*://lacocinadelupita.com/*", "*://mynewsrecipes.com/*", "*://recipestravelworld.com/*", "*://recipestraveling.com/*", "*://recetaspaises.com/*", "*://worldrecipesu.com/*", "*://techinroll.com/*", "*://vsrecipes.com/*", "*://mygamesinfo.com/*", "*://gamesnk.com/*", "*://otakuworldgames.com/*", "*://animalcanine.com/*", "*://cook2love.com/*", "*://wtechnews.com/*", "*://animationforyou.com/*", "*://fanaticmanga.com/*", "*://mistermanga.com/*", "*://enginepassion.com/*", "*://motornk.com/*", "*://recipesnk.com/*", "*://panicmanga.com/*", "*://worldmangas.com/*", "*://anitoc.com/*", "*://cookerready.com/*", "*://cooker2love.com/*", "*://infopetworld.com/*", "*://infogames2you.com/*", "*://almtechnews.com/*", "*://animation2you.com/*", "*://recipesdo.com/*", "*://vgmotor.com/*", "*://myotakuinfo.com/*", "*://otakworld.com/*", "*://cookermania.com/*", "*://motorbakery.com/*", "*://recipesist.com/*", "*://motorpi.com/*", "*://dariusmotor.com/*", "*://recipesaniki.com/*", "*://cocinaconlupita.com/*", "*://recetasdelupita.com/*", "*://gamesxo.com/*", "*://fitfooders.com/*", "*://checkingcars.com/*", "*://keepfooding.com/*", "*://feelthecook.com/*", "*://recetchef.com/*", "*://motoroilblood.com/*", "*://anisurion.com/*", "*://recipescoaching.com/*", "*://anitirion.com/*", "*://cookernice.com/*", "*://animalsside.com/*", "*://paleomotor.com/*", "*://otakunice.com/*", "*://sucrecipes.com/*", "*://recetasviaje.com/*", "*://animalslegacy.com/*", "*://worldcuisineis.com/*", "*://eligeunnombre.com/*", "*://cyclingresolution.com/*", "*://comollamarle.com/*", "*://fashionandcomplements.com/*", "*://gamesnacion.com/*", "*://topamotor.com/*", "*://motorwithpassion.com/*", "*://gamesnewses.com/*", "*://technewsroll.com/*", "*://infonombre.com/*", "*://animationdraw.com/*", "*://recetasdegina.com/*", "*://mislyfashion.com/*", "*://techingro.com/*", "*://motoralm.com/*", "*://tocanimation.com/*", "*://letsmotorgo.com/*", "*://zonatmo.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_MangaPlus.js", "content/content-script.js" ],
+      "matches": [ "*://mangaplus.shueisha.co.jp/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_JapScan.js", "content/content-script.js" ],
+      "matches": [ "*://*.japscan.ws/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Hulu.js", "content/content-script.js" ],
+      "matches": [ "*://www.hulu.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Hidive.js", "content/content-script.js" ],
+      "matches": [ "*://www.hidive.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_MangaKatana.js", "content/content-script.js" ],
+      "matches": [ "*://mangakatana.com/manga/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_manga4life.js", "content/content-script.js" ],
+      "matches": [ "*://*.manga4life.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_bato.js", "content/content-script.js" ],
+      "matches": [ "*://bato.to/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_MangaPark.js", "content/content-script.js" ],
+      "matches": [ "*://mangapark.net/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_AnimeXin.js", "content/content-script.js" ],
+      "matches": [ "*://animexin.vip/*", "*://animexin.xyz/*", "*://animexinax.com/*", "*://animexin.top/*", "*://animexin.dev/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_MonosChinos.js", "content/content-script.js" ],
+      "matches": [ "*://monoschinos.com/*", "*://monoschinos2.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Anime365.js", "content/content-script.js" ],
+      "matches": [ "*://smotret-anime.org/catalog/*", "*://smotret-anime.online/catalog/*", "*://smotret-anime.com/catalog/*", "*://anime365.ru/catalog/*", "*://anime-365.ru/catalog/*", "*://smotret-anime.ru/catalog/*", "*://smotretanime.ru/catalog/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_AnimeFire.js", "content/content-script.js" ],
+      "matches": [ "*://animefire.net/*", "*://animefire.plus/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_OtakuFR.js", "content/content-script.js" ],
+      "matches": [ "*://otakufr.co/*", "*://otakufr.cc/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_mangatx.js", "content/content-script.js" ],
+      "matches": [ "*://mangatx.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_manhuafast.js", "content/content-script.js" ],
+      "matches": [ "*://manhuafast.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_TRanimeizle.js", "content/content-script.js" ],
+      "matches": [ "*://tranimeizle.net/*", "*://www.tranimeizle.net/*", "*://tranimeizle.co/*", "*://www.tranimeizle.co/*", "*://*.tranimeizle.top/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_AnimeStreamingFR.js", "content/content-script.js" ],
+      "matches": [ "*://*.animestreamingfr.fr/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Furyosociety.js", "content/content-script.js" ],
+      "matches": [ "*://furyosociety.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_AnimeId.js", "content/content-script.js" ],
+      "matches": [ "*://www.animeid.tv/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_MyAnimeListVideo.js", "content/content-script.js" ],
+      "matches": [ "*://myanimelist.net/anime/*/*/episode/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_AnimeUnity.js", "content/content-script.js" ],
+      "matches": [ "*://*.animeunity.it/anime/*", "*://*.animeunity.tv/anime/*", "*://*.animeunity.cc/anime/*", "*://*.animeunity.to/anime/*", "*://*.animeunity.so/anime/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_MangaHere.js", "content/content-script.js" ],
+      "matches": [ "*://*.mangahere.cc/manga/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_MangaFox.js", "content/content-script.js" ],
+      "matches": [ "*://*.fanfox.net/manga/*", "*://*.mangafox.la/manga/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_DesuOnline.js", "content/content-script.js" ],
+      "matches": [ "*://desu-online.pl/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_WuxiaWorld.js", "content/content-script.js" ],
+      "matches": [ "*://wuxiaworld.site/novel/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_LeviatanScans.js", "content/content-script.js" ],
+      "matches": [ "*://lscomic.com/*", "*://en.leviatanscans.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_ReaperScans.js", "content/content-script.js" ],
+      "matches": [ "*://reaperscans.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_LynxScans.js", "content/content-script.js" ],
+      "matches": [ "*://lynxscans.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_ZeroScans.js", "content/content-script.js" ],
+      "matches": [ "*://zeroscans.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_DeathTollScans.js", "content/content-script.js" ],
+      "matches": [ "*://reader.deathtollscans.net/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_ManhuaPlus.js", "content/content-script.js" ],
+      "matches": [ "*://manhuaplus.com/manga*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Readm.js", "content/content-script.js" ],
+      "matches": [ "*://readm.org/manga/*", "*://www.readm.org/manga/*", "*://*.readm.today/manga/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_tioanime.js", "content/content-script.js" ],
+      "matches": [ "*://tioanime.com/anime/*", "*://tioanime.com/ver/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_MangaSee.js", "content/content-script.js" ],
+      "matches": [ "*://*.mangasee123.com/manga*", "*://*.mangasee123.com/read-online*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Okanime.js", "content/content-script.js" ],
+      "matches": [ "*://*.okanime.com/animes/*", "*://*.okanime.com/movies/*", "*://*.okanime.tv/animes/*", "*://*.okanime.tv/movies/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_BSTO.js", "content/content-script.js" ],
+      "matches": [ "*://bs.to/serie/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_AsuraScans.js", "content/content-script.js" ],
+      "matches": [ "*://asura.gg/*", "*://*.asurascans.com/*", "*://*.asuracomics.com/*", "*://asuratoon.com/*", "*://*.asuracomic.net/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_An1me.js", "content/content-script.js" ],
+      "matches": [ "*://an1me.nl/*", "*://an1me.to/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_MangaJar.js", "content/content-script.js" ],
+      "matches": [ "*://mangajar.com/manga/*", "*://mangajar.pro/manga/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Otakustv.js", "content/content-script.js" ],
+      "matches": [ "*://*.otakustv.com/anime/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Komga.js", "content/content-script.js" ],
+      "matches": [ "*://demo.komga.org/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_AnimeWho.js", "content/content-script.js" ],
+      "matches": [ "*://animewho.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Fumetsu.js", "content/content-script.js" ],
+      "matches": [ "*://fumetsu.pl/anime/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_FrixySubs.js", "content/content-script.js" ],
+      "matches": [ "*://frixysubs.pl/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Guya.js", "content/content-script.js" ],
+      "matches": [ "*://guya.moe/*", "*://cubari.moe/*", "*://guya.cubari.moe/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_MangaHub.js", "content/content-script.js" ],
+      "matches": [ "*://mangahub.io/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_ComicK.js", "content/content-script.js" ],
+      "matches": [ "*://comick.app/*", "*://comick.ink/*", "*://comick.cc/*", "*://comick.io/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Bentomanga.js", "content/content-script.js" ],
+      "matches": [ "*://www.bentomanga.com/*", "*://bentomanga.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_MangaSushi.js", "content/content-script.js" ],
+      "matches": [ "*://mangasushi.net/manga*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_TritiniaScans.js", "content/content-script.js" ],
+      "matches": [ "*://tritinia.com/manga*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_ReadManhua.js", "content/content-script.js" ],
+      "matches": [ "*://readmanhua.net/manga*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_FlameScans.js", "content/content-script.js" ],
+      "matches": [ "*://flamecomics.com/*", "*://flamecomics.me/*", "*://flamecomics.xyz/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_ImmortalUpdates.js", "content/content-script.js" ],
+      "matches": [ "*://immortalupdates.com/manga*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Zoro.js", "content/content-script.js" ],
+      "matches": [ "*://aniwatch.to/*", "*://aniwatch.nz/*", "*://aniwatch.se/*", "*://hianime.to/*", "*://hianime.nz/*", "*://hianime.mn/*", "*://hianime.sx/*", "*://hianime.bz/*", "*://hianime.pe/*", "*://hianimez.to/*", "*://hianimez.is/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Kitsune.js", "content/content-script.js" ],
+      "matches": [ "*://kitsune.tv/*", "*://beta.kitsune.tv/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_LHTranslation.js", "content/content-script.js" ],
+      "matches": [ "*://lhtranslation.net/manga*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_MangasOrigines.js", "content/content-script.js" ],
+      "matches": [ "*://mangas-origines.fr/oeuvre*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_BlueSolo.js", "content/content-script.js" ],
+      "matches": [ "*://*.bluesolo.org/manga/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_DisasterScans.js", "content/content-script.js" ],
+      "matches": [ "*://disasterscans.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_DynastyScans.js", "content/content-script.js" ],
+      "matches": [ "*://dynasty-scans.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Aniworld.js", "content/content-script.js" ],
+      "matches": [ "*://aniworld.to/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_BetterAnime.js", "content/content-script.js" ],
+      "matches": [ "*://betteranime.net/anime/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_BilibiliComics.js", "content/content-script.js" ],
+      "matches": [ "*://*.manga.bilibili.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_MangaReader.js", "content/content-script.js" ],
+      "matches": [ "*://mangareader.to/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_AnimeOnsen.js", "content/content-script.js" ],
+      "matches": [ "*://animeonsen.xyz/*", "*://www.animeonsen.xyz/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Animetoast.js", "content/content-script.js" ],
+      "matches": [ "*://*.animetoast.cc/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_LuminousScans.js", "content/content-script.js" ],
+      "matches": [ "*://luminousscans.com/*", "*://luminousscans.gg/*", "*://luminous-scans.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Animeworld.js", "content/content-script.js" ],
+      "matches": [ "*://*.animeworld.tv/play/*", "*://*.animeworld.so/play/*", "*://*.animeworld.ac/play/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_MangaBuddy.js", "content/content-script.js" ],
+      "matches": [ "*://mangabuddy.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_ToonAnime.js", "content/content-script.js" ],
+      "matches": [ "*://vvww.toonanime.cc/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_ADKami.js", "content/content-script.js" ],
+      "matches": [ "*://*.adkami.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Kaguya.js", "content/content-script.js" ],
+      "matches": [ "*://kaguya.app/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Hdrezka.js", "content/content-script.js" ],
+      "matches": [ "*://hdrezka.ag/animation/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_SovetRomantica.js", "content/content-script.js" ],
+      "matches": [ "*://sovetromantica.com/anime/*", "*://ani.wtf/anime/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_ADN.js", "content/content-script.js" ],
+      "matches": [ "*://animationdigitalnetwork.fr/*", "*://animationdigitalnetwork.de/*", "*://animationdigitalnetwork.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Aniyan.js", "content/content-script.js" ],
+      "matches": [ "*://aniyan.net/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Docchi.js", "content/content-script.js" ],
+      "matches": [ "*://docchi.pl/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_FRAnime.js", "content/content-script.js" ],
+      "matches": [ "*://franime.fr/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_FMTeam.js", "content/content-script.js" ],
+      "matches": [ "*://fmteam.fr/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Animelon.js", "content/content-script.js" ],
+      "matches": [ "*://www.animelon.com/*", "*://animelon.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_AnimeNoSub.js", "content/content-script.js" ],
+      "matches": [ "*://animenosub.to/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_AnimeSama.js", "content/content-script.js" ],
+      "matches": [ "*://anime-sama.fr/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_MangaFire.js", "content/content-script.js" ],
+      "matches": [ "*://mangafire.to/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_projectsuki.js", "content/content-script.js" ],
+      "matches": [ "*://projectsuki.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_AnimeBuff.js", "content/content-script.js" ],
+      "matches": [ "*://animebuff.ru/anime/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_AnimeOnegai.js", "content/content-script.js" ],
+      "matches": [ "*://animeonegai.com/*", "*://www.animeonegai.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_AnimeKO.js", "content/content-script.js" ],
+      "matches": [ "*://*.animeko.co/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_AnimeGO.js", "content/content-script.js" ],
+      "matches": [ "*://animego.org/anime/*", "*://animego.me/anime/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_LuciferDonghua.js", "content/content-script.js" ],
+      "matches": [ "*://*.luciferdonghua.in/*", "*://*.luciferdonghua.co.in/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_NeoxScans.js", "content/content-script.js" ],
+      "matches": [ "*://neoxscans.com/*", "*://*.neoxscans.net/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_HinataSoul.js", "content/content-script.js" ],
+      "matches": [ "*://www.hinatasoul.com/anime*", "*://www.hinatasoul.com/videos/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_OgladajAnime.js", "content/content-script.js" ],
+      "matches": [ "*://ogladajanime.pl/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_hachi.js", "content/content-script.js" ],
+      "matches": [ "*://hachi.moe/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_WitAnime.js", "content/content-script.js" ],
+      "matches": [ "*://witanime.sbs/*", "*://witanime.pics/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Suwayomi.js", "content/content-script.js" ],
+      "matches": [ "*://suwayomi-webui-preview.github.io/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_ManhuaUS.js", "content/content-script.js" ],
+      "matches": [ "*://manhuaus.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Taiyo.js", "content/content-script.js" ],
+      "matches": [ "*://*.taiyo.moe/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_AnimesOnline.js", "content/content-script.js" ],
+      "matches": [ "*://*.animesonline.in/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Miruro.js", "content/content-script.js" ],
+      "matches": [ "*://*.miruro.to/*", "*://*.miruro.tv/*", "*://*.miruro.online/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Latanime.js", "content/content-script.js" ],
+      "matches": [ "*://latanime.org/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_MangaRead.js", "content/content-script.js" ],
+      "matches": [ "*://*.mangaread.org/manga/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Q1N.js", "content/content-script.js" ],
+      "matches": [ "*://q1n.net/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_TempleScan.js", "content/content-script.js" ],
+      "matches": [ "*://templescan.net/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_ScyllaScans.js", "content/content-script.js" ],
+      "matches": [ "*://scyllacomics.xyz/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_VortexScans.js", "content/content-script.js" ],
+      "matches": [ "*://vortexscans.org/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_WeebCentral.js", "content/content-script.js" ],
+      "matches": [ "*://weebcentral.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Kavita.js", "content/content-script.js" ],
+      "matches": [ "*://demo.kavitareader.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Rawkuma.js", "content/content-script.js" ],
+      "matches": [ "*://rawkuma.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Aninexus.js", "content/content-script.js" ],
+      "matches": [ "*://aninexus.to/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_AnimeKAI.js", "content/content-script.js" ],
+      "matches": [ "*://animekai.to/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_Hikari.js", "content/content-script.js" ],
+      "matches": [ "*://watch.hikaritv.xyz/*", "*://hikari.gg/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [  ],
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/page_AniDream.js", "content/content-script.js" ],
+      "matches": [ "*://*.anidream.cc/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "vendor/jquery.min.js", "i18n.js", "content/iframe.js" ],
+      "matches": [ "*://*.openload.co/*", "*://*.openload.pw/*", "*://*.streamango.com/*", "*://*.mp4upload.com/*", "*://*.mcloud.to/*", "*://*.mcloud.bz/*", "*://*.static.crunchyroll.com/*", "*://*.vidstreaming.io/*", "*://*.vidstreaming.link/*", "*://*.xstreamcdn.com/*", "*://*.gcloud.live/*", "*://*.oload.tv/*", "*://*.mail.ru/*", "*://*.myvi.ru/*", "*://*.myvi.tv/*", "*://*.sibnet.ru/*", "*://*.tune.pk/*", "*://*.tune.ke/*", "*://*.vimple.ru/*", "*://*.href.li/*", "*://*.vk.com/*", "*://*.cloudvideo.tv/*", "*://*.fembed.net/*", "*://*.fembed.com/*", "*://*.animeproxy.info/*", "*://*.feurl.com/*", "*://*.embedsito.com/v/*", "*://*.fcdn.stream/v/*", "*://*.fcdn.stream/e/*", "*://*.vaplayer.xyz/v/*", "*://*.vaplayer.xyz/e/*", "*://*.femax20.com/v/*", "*://*.femax20.com/e/*", "*://*.fplayer.info/*", "*://*.dutrag.com/*", "*://*.diasfem.com/*", "*://*.fembed-hd.com/*", "*://*.fembed9hd.com/*", "*://suzihaza.com/v/*", "*://vanfem.com/v/*", "*://*.youpload.co/*", "*://*.yourupload.com/*", "*://*.vidlox.me/*", "*://*.kwik.cx/*", "*://*.kwik.si/*", "*://*.mega.nz/*", "*://*.animeflv.net/*", "*://*.jwplayerhls.com/*", "*://*.hqq.tv/*", "*://waaw.tv/*", "*://*.jkanime.net/*", "*://*.ok.ru/*", "*://*.novelplanet.me/*", "*://*.stream.proxer.me/*", "*://*.stream.proxer.net/*", "*://*.stream-service.proxer.me/*", "*://verystream.com/*", "*://*.animeultima.eu/e/*", "*://*.animeultima.eu/faststream/*", "*://*.animeultima.to/e/*", "*://*.animeultima.to/faststream/*", "*://*.vidoza.net/*", "*://*.videzz.net/*", "*://gounlimited.to/*", "*://www.ani-stream.com/*", "*://animedaisuki.moe/embed/*", "*://www.dailymotion.com/embed/*", "*://geo.dailymotion.com/*", "*://vev.io/embed/*", "*://vev.red/embed/*", "*://jwpstream.com/jwps/yplayer.php*", "*://www.vaplayer.xyz/v/*", "*://vaplayer.me/*", "*://mp4.sh/embed/*", "*://embed.mystream.to/*", "*://*.bitchute.com/embed/*", "*://*.streamcherry.com/embed/*", "*://*.clipwatching.com/*", "*://*.flix555.com/*", "*://*.vshare.io/v/*", "*://ebd.cda.pl/*", "*://www.lycoris.cafe/*", "*://*.replay.watch/*", "*://*.playhydrax.com/*", "*://hydrax.net/*", "*://*.geoip.redirect-ads.com/*", "*://*.streamium.xyz/*", "*://kodik.info/*", "*://aniboom.one/*", "*://smotret-anime.org/translations/embed/*", "*://smotret-anime.online/translations/embed/*", "*://smotret-anime.com/translations/embed/*", "*://anime365.ru/translations/embed/*", "*://anime-365.ru/translations/embed/*", "*://*.pstream.net/e/*", "*://fusevideo.net/e/*", "*://fusevideo.io/e/*", "*://*.animefever.tv/embed/*", "*://*.haloani.ru/*", "*://*.moeclip.com/v/*", "*://*.moeclip.com/embed/*", "*://*.mixdrop.co/e/*", "*://*.mixdrop.to/e/*", "*://*.mdbekjwqa.pw/e/*", "*://*.mdfx9dc8n.net/e/*", "*://*.mdzsmutpcvykb.net/e/*", "*://*.mixdropjmk.pw/e/*", "*://*.mixdrop21.net/e/*", "*://*.mixdrop.si/e/*", "*://*.mixdrop.nu/e/*", "*://*.mixdrop.sx/e/*", "*://*.mixdrop.ms/e/*", "*://*.mixdrop.ps/e/*", "*://*.mixdrop.my/e/*", "*://gdriveplayer.me/embed*", "*://sendvid.net/v/*", "*://sendvid.com/embed/*", "*://streamz.cc/*", "*://*.vidbm.com/embed-*", "*://*.vidbem.com/embed-*", "*://*.cloudhost.to/*/mediaplayer/*/_embed.php?*", "*://*.letsupload.co/*/mediaplayer/*/_embed.php?*", "*://streamtape.com/*", "*://streamtape.net/*", "*://streamtape.xyz/*", "*://streamtape.to/*", "*://strcloud.in/*", "*://strcloud.link/*", "*://streamta.pe/*", "*://strtape.tech/*", "*://strtapeadblock.club/*", "*://strtapeadblock.me/*", "*://streamta.site/*", "*://scloud.online/*", "*://strtpe.link/*", "*://stape.me/*", "*://stape.fun/*", "*://streamtapeadblock.art/*", "*://reproductor.monoschinos.com/*", "*://uptostream.com/iframe/*", "*://easyload.io/e/*", "*://*.googleusercontent.com/gadgets/*", "*://animedesu.pl/player/desu.php?v=*", "*://*.plyr.link/*", "*://v.vvid.cc/*", "*://*.okanime.com/cdn/*/embed/?*", "*://*.gogo-stream.com/*", "*://*.gogo-play.net/*", "*://*.gogo-play.tv/*", "*://*.streamani.net/*", "*://*.streamani.io/*", "*://*.goload.one/*", "*://*.goload.pro/*", "*://*.goload.io/*", "*://*.gogoplay1.com/*", "*://*.gogoplay2.com/*", "*://*.gogoplay4.com/*", "*://*.gogoplay5.com/*", "*://*.gogoplay.io/*", "*://*.gogohd.net/*", "*://*.gogohd.pro/*", "*://*.gembedhd.com/*", "*://*.playgo1.cc/*", "*://*.anihdplay.com/*", "*://*.playtaku.net/*", "*://*.playtaku.online/*", "*://*.gotaku1.com/*", "*://*.goone.pro/*", "*://*.embtaku.pro/*", "*://*.embtaku.com/*", "*://*.s3taku.com/*", "*://*.s3embtaku.pro/*", "*://vivo.sx/embed/*", "*://play.api-web.site/*", "*://vidstream.pro/embed/*", "*://vidstream.pro/e/*", "*://vidstreamz.online/embed/*", "*://vidstreamz.online/e/*", "*://vidstream.pro/embed/*", "*://vidstream.pro/e/*", "*://vizcloud.ru/embed/*", "*://vizcloud.ru/e/*", "*://vizcloud2.ru/embed/*", "*://vizcloud2.ru/e/*", "*://vizcloud.online/embed/*", "*://vizcloud.online/e/*", "*://vizstream.ru/embed/*", "*://vizstream.ru/e/*", "*://vizcloud.xyz/embed/*", "*://vizcloud.xyz/e/*", "*://vizcloud.cloud/embed/*", "*://vizcloud.cloud/e/*", "*://vizcloud.co/embed/*", "*://vizcloud.co/e/*", "*://vidplay.site/e/*", "*://vidplay.lol/e/*", "*://vidplay.online/e/*", "*://a9bfed0818.nl/e/*", "*://vid142.site/e/*", "*://vid1a52.site/e/*", "*://vid2a41.site/e/*", "*://streamsb.net/*", "*://streamsb.com/*", "*://sbembed.com/*", "*://sbembed1.com/*", "*://sbvideo.net/*", "*://sbplay.org/*", "*://sbplay.one/*", "*://sbplay1.com/*", "*://sbplay2.com/*", "*://embedsb.com/*", "*://watchsb.com/*", "*://sbplay2.xyz/*", "*://sbfull.com/e/*", "*://ssbstream.net/*", "*://streamsss.net/*", "*://sbanh.com/e/*", "*://sblongvu.com/e/*", "*://sbchill.com/e/*", "*://sbone.pro/e/*", "*://sbani.pro/e/*", "*://dood.to/*", "*://dood.watch/*", "*://doodstream.com/*", "*://dood.la/*", "*://*.dood.video/*", "*://dood.ws/e/*", "*://dood.sh/e/*", "*://dood.so/e/*", "*://dood.pm/e/*", "*://dood.wf/e/*", "*://dood.re/e/*", "*://dooood.com/e/*", "*://dood.li/e/*", "*://youtube.googleapis.com/embed/*drive.google.com*", "*://hdvid.tv/*", "*://vidfast.co/*", "*://supervideo.tv/*", "*://jetload.net/*", "*://saruch.co/*", "*://vidmoly.me/*", "*://vidmoly.to/*", "*://upstream.to/*", "*://abcvideo.cc/*", "*://aparat.cam/*", "*://www.aparat.com/video/video/embed/*", "*://vudeo.net/*", "*://voe.sx/e/*", "*://gamoneinterrupted.com/e/*", "*://crownmakermacaronicism.com/e/*", "*://generatesnitrosate.com/e/*", "*://yodelswartlike.com/e/*", "*://cigarlessarefy.com/e/*", "*://valeronevijao.com/e/*", "*://strawberriesporail.com/e/*", "*://timberwoodanotia.com/e/*", "*://phenomenalityuniform.com/e/*", "*://nonesnanking.com/e/*", "*://kathleenmemberhistory.com/e/*", "*://bradleyviewdoctor.com/e/*", "*://seanshowcould.com/e/*", "*://johntryopen.com/e/*", "*://morganoperationface.com/e/*", "*://brookethoughi.com/e/*", "*://jamesstartstudent.com/e/*", "*://ryanagoinvolve.com/e/*", "*://jasonresponsemeasure.com/e/*", "*://shannonpersonalcost.com/e/*", "*://brucevotewithin.com/e/*", "*://rebeccaneverbase.com/e/*", "*://loriwithinfamily.com/e/*", "*://bethshouldercan.com/e/*", "*://sandratableother.com/e/*", "*://robertordercharacter.com/e/*", "*://maxfinishseveral.com/e/*", "*://alejandrocenturyoil.com/e/*", "*://heatherwholeinvolve.com/e/*", "*://nathanfromsubject.com/e/*", "*://jennifercertaindevelopment.com/e/*", "*://richardsignfish.com/e/*", "*://sarahnewspaperbeat.com/e/*", "*://diananatureforeign.com/e/*", "*://jonathansociallike.com/e/*", "*://mariatheserepublican.com/e/*", "*://vidoo.tv/*", "*://nxload.com/*", "*://videobin.co/*", "*://uqload.com/*", "*://evoload.io/*", "*://kaa-play.me/*", "*://kaavid.com/*", "*://vidnethub.net/*", "*://vidco.pro/*", "*://omegadthree.com/*", "*://krussdomi.com/*", "*://*.animeshouse.net/gcloud/*", "*://*.animeshouse.net/playerBlue/*", "*://*.animeshouse.net/mp4/*", "*://*.animeshouse.net/ah-clp-new/*", "*://animato.me/embed/*", "*://kimanime.ru/AnimeIframe/*", "*://vidcloud.spb.ru/*", "*://*.streamhd.cc/*", "*://*.rapid-cloud.ru/*", "*://*.rapid-cloud.co/*", "*://videovard.sx/*", "*://videovard.to/*", "*://streamlare.com/e/*", "*://betteranime.net/player*", "*://streamzz.to/*", "*://protonvideo.to/iframe/*", "*://ninjastream.to/watch/*", "*://harajuku.pl/*", "*://vupload.com/*", "*://*.turkanime.net/player/*", "*://*.turkanime.co/player/*", "*://*.turkanime.co/embed/*", "*://play.cozyplayer.com/*", "*://odnoklassniki.ru/*", "*://myalucard.xyz/*", "*://uploads.mobi/*", "*://iframe.mediadelivery.net/embed/*", "*://*.yfvf.com/*", "*://waaw.to/*", "*://suzihaza.com/*", "*://*.solidfiles.com/*", "*://www.animeworld.tv/api/episode/serverPlayerAnimeWorld?id=*", "*://www.animeworld.so/api/episode/serverPlayerAnimeWorld?id=*", "*://www.animeworld.ac/api/episode/serverPlayerAnimeWorld?id=*", "*://filemoon.sx/e/*", "*://filemoon.sx/lol/*", "*://kerapoxy.cc/e/*", "*://kerapoxy.cc/lol/*", "*://vpcxz19p.xyz/e/*", "*://vpcxz19p.xyz/lol/*", "*://filemoon.top/e/*", "*://filemoon.top/lol/*", "*://fmoonembed.pro/e/*", "*://fmoonembed.pro/lol/*", "*://rgeyyddl.skin/e/*", "*://rgeyyddl.skin/lol/*", "*://designparty.sx/e/*", "*://designparty.sx/lol/*", "*://c4qhk0je.xyz/e/*", "*://c4qhk0je.xyz/lol/*", "*://1azayf9w.xyz/e/*", "*://1azayf9w.xyz/lol/*", "*://81u6xl9d.xyz/e/*", "*://81u6xl9d.xyz/lol/*", "*://gorro-chfzoaas.fun/e/*", "*://gorro-chfzoaas.fun/lol/*", "*://z7ihwgqj.fun/*", "*://mb.toonanime.xyz/dist/*", "*://aniyan.net/jwplayer/*", "*://*.googlevideo.com/videoplayback?*", "*://animenosub.upn.one/#*", "*://*.streamhide.to/e/*", "*://megacloud.tv/*", "*://megacloud.club/*", "*://megacloud.blog/*", "*://vixcloud.cc/*", "*://vixcloud.co/*", "*://yonaplay.org/*", "*://*.4shared.com/*", "*://*.videa.hu/*", "*://*.soraplay.xyz/*", "*://streamwish.to/e/*", "*://sfastwish.com/e/*", "*://awish.pro/e/*", "*://hlswish.com/e/*", "*://swishsrv.com/e/*", "*://alions.pro/v/*", "*://megaf.cc/e/*", "*://rogeriobetin.com/*", "*://nvlabs-fi-cdn.q9x.in/*", "*://oneupload.to/*", "*://player.vimeo.com/*", "*://fle-rvd0i9o8-moo.com/*", "*://dhtpre.com/*", "*://*.bunniescdn.online/*", "*://megaup.cc/e/*", "*://boosterx.stream/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": {
+      "extension_pages": "script-src 'self'; object-src 'self';"
+   },
+   "declarative_net_request": {
+      "rule_resources": [ {
+         "enabled": true,
+         "id": "ruleset",
+         "path": "declarative_net.json"
+      } ]
+   },
+   "default_locale": "en",
+   "description": "__MSG_Package_Description__",
+   "host_permissions": [ "https://myanimelist.net/", "https://myanimelist.cdn-dena.com/", "https://cdn.myanimelist.net/", "https://kissanimelist.firebaseio.com/", "https://*.anilist.co/", "https://graphql.anilist.co/", "https://kitsu.app/", "https://media.kitsu.app/", "https://api.simkl.com/", "https://www.netflix.com/", "https://discover.hulu.com/", "https://www.primevideo.com/", "https://www.crunchyroll.com/", "https://api.malsync.moe/", "https://chibi.malsync.moe/", "https://api.myanimelist.net/", "https://api.mangadex.org/", "https://shikimori.one/", "https://*.plex.direct/" ],
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkYdAb7mzIaDFkCS69lCSD8Vm426GJF/CIP5zTx9dbeMox3Lge1N/e8bCALtsnGzO+BeMLW4OhtIqK7yAa9MgHwgjGU6AGC+zZ2O+yY+NsMBKGamHFf4NIPSloRGdUS71TD6H/w5oi+j4zKAR1IwxOnYk0EzFeVZiiLB3r4ErZ/0Sx4bH4W0n2t4iTOwJT0kpOqfP/NHlyKfLcwFi1tC+iila2S5nyNrNENVDQwGwu0oWNhFEb2NLEtmtvgtyI7Bzkc4+B3atBdRiIZ6tLY59xAXaVqqTbrTJtwMY7qrDgWaNbz6PsJcgX/qZZ3z7l9mESbPJRfRmAu5C3sMofkkLMwIDAQAB",
+   "manifest_version": 3,
+   "name": "MAL-Sync",
+   "optional_host_permissions": [ "*://*/*" ],
+   "optional_permissions": [ "scripting" ],
+   "options_ui": {
+      "browser_style": false,
+      "page": "settings.html"
+   },
+   "permissions": [ "storage", "alarms", "notifications", "declarativeNetRequestWithHostAccess" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.12.0",
+   "web_accessible_resources": [ {
+      "matches": [ "*://*/*" ],
+      "resources": [ "vendor/*", "assets/*", "icons/*", "content/proxy/*", "window.html" ]
+   } ]
+}

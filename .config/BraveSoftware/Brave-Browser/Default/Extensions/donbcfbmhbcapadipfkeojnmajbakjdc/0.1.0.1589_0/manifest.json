@@ -1,0 +1,53 @@
+{
+   "action": {
+      "default_popup": "popup.html"
+   },
+   "background": {
+      "service_worker": "dist/background.js"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "exclude_matches": [ "https://sso.godaddy.com/*", "https://authentication.td.com/*", "https://*.twitch.tv/*", "https://www.tuxedocomputers.com/*", "https://*.taobao.com/*", "https://*.time4learning.com/*", "https://*.edgenuity.com/*", "https://www.chewy.com/*", "https://*.duosecurity.com/*", "https://*.tiktok.com/*" ],
+      "js": [ "dist/content.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": {
+      "extension_pages": "default-src 'self'; script-src 'wasm-unsafe-eval' 'self'; style-src 'unsafe-inline'; connect-src *; media-src *; img-src data:;"
+   },
+   "declarative_net_request": {
+      "rule_resources": [ {
+         "enabled": true,
+         "id": "4399_rules",
+         "path": "dist/4399_rules.json"
+      } ]
+   },
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "homepage_url": "https://ruffle.rs/",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "180": "images/icon180.png",
+      "32": "images/icon32.png",
+      "48": "images/icon48.png"
+   },
+   "incognito": "split",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAof4wCcledLBsEpZaGVr29Z7gvvYrCAn9o3/4BHORgqnf45B7Rvw++6gFRbumPKQdHYsnpwuqJ424eZWA4f2Bg8QDfLANHp+7Lo4qH2r9129vCTTyOvBJQQg1mhqn1/RIQ2xxHladcHDgzqVJ6IMskMiecRo55eeoyM6MA+TbwPhIRtnuwjWt8BfMYw66UN1V1sq0XNPtknd2nXJhYgTg361Ku97j+K+XhE/9wW1SZL74cefPmdidnUlo81cfO1nSW4i14FCkWgi7PN6jDDAr9znSgEGT2gJaLoVNWYcNSgjWtNlxQlAhgrr/ZyX1vqrurW4fRwy8o8y5Z1Ys7wBAsQIDAQAB",
+   "manifest_version": 3,
+   "name": "Ruffle - Flash Emulator",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "options.html"
+   },
+   "permissions": [ "storage", "scripting", "declarativeNetRequestWithHostAccess" ],
+   "short_name": "Ruffle",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.0.1589",
+   "version_name": "0.1.0 nightly 2025-05-29",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "*" ]
+   } ]
+}

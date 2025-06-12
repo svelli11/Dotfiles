@@ -1,0 +1,40 @@
+{
+   "action": {
+   },
+   "background": {
+      "scripts": [ "web/worker.js" ],
+      "service_worker": "web/worker.js"
+   },
+   "browser_specific_settings": {
+      "gecko": {
+         "id": "frankerfacez@frankerfacez.com"
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "exclude_globs": [ "*://api.twitch.tv/*", "*://localhost.rig.twitch.tv/*", "*://blog.twitch.tv/*", "*://im.twitch.tv/*", "*://chatdepot.twitch.tv/*", "*://tmi.twitch.tv/*", "*://brand.twitch.tv/*", "*://dev.twitch.tv/*", "*://gql.twitch.tv/*", "*://passport.twitch.tv/*" ],
+      "js": [ "web/script.min.js" ],
+      "matches": [ "*://*.twitch.tv/*" ]
+   } ],
+   "description": "The Twitch enhancement suite. Get custom emotes and tons of new features you'll never want to go without.",
+   "externally_connectable": {
+      "matches": [ "*://*.twitch.tv/*", "*://*.youtube.com/*" ]
+   },
+   "homepage_url": "http://www.frankerfacez.com",
+   "host_permissions": [ "*://*.twitch.tv/*", "*://*.frankerfacez.com/*" ],
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCA3cSXpMpzaLzuVA7YPnrUd5RLNhjWp4uz6UnspMZSutwvF1wMdIBQdEI5/mT7twy7wiAdCKLDo+dpq95y0Hqyuv6MpQTj783fxDl12vSxcib78GaViQm4RNjlaLbPow7ooPJGRLHDQSVNeeogFOX+5/hdNdFfxIRqkNav1sCCPQIDAQAB",
+   "manifest_version": 3,
+   "name": "FrankerFaceZ",
+   "short_name": "FFZ",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.77.4.0",
+   "web_accessible_resources": [ {
+      "matches": [ "*://*.twitch.tv/*", "*://*.youtube.com/*" ],
+      "resources": [ "web/*" ]
+   } ]
+}

@@ -1,0 +1,344 @@
+{
+   "Add": {
+      "description": "Button to add an anime/manga to user list",
+      "message": "추가"
+   },
+   "All": {
+      "description": "All",
+      "message": "전체"
+   },
+   "Anime": {
+      "description": "General translation of anime for places like drop downs",
+      "message": "애니메이션"
+   },
+   "Cancel": {
+      "description": "Cancel",
+      "message": "취소"
+   },
+   "Help": {
+      "description": "Help",
+      "message": "도움"
+   },
+   "Load": {
+      "description": "Button to load content",
+      "message": "불러오기"
+   },
+   "Loading": {
+      "description": "Loading",
+      "message": "불러오는 중"
+   },
+   "Manga": {
+      "description": "General translation of manga for places like drop downs",
+      "message": "만화"
+   },
+   "No": {
+      "description": "No",
+      "message": "아니요"
+   },
+   "Not_Found": {
+      "description": "Anime/Manga Not Found",
+      "message": "찾지 못함!"
+   },
+   "NothingFound": {
+      "description": "Nothing Found",
+      "message": "아무것도 찾지 못함"
+   },
+   "Ok": {
+      "description": "Ok",
+      "message": "오케이"
+   },
+   "Remove": {
+      "description": "Button for removing entry from MAL...",
+      "message": "제거"
+   },
+   "Reset": {
+      "description": "Reset",
+      "message": "초기화"
+   },
+   "Search": {
+      "description": "Button to open the site search links on mal, anilist ...",
+      "message": "사이트 검색"
+   },
+   "Select": {
+      "description": "Select",
+      "message": "선택"
+   },
+   "Show": {
+      "description": "Show",
+      "message": "보여주기"
+   },
+   "Synchronize": {
+      "description": "Button to Synchronize state with mal...",
+      "message": "동기화"
+   },
+   "UI_Chapter": {
+      "description": "Chapter",
+      "message": "챕터:"
+   },
+   "UI_Episode": {
+      "description": "Episode",
+      "message": "에피소드:"
+   },
+   "UI_Score": {
+      "description": "Score",
+      "message": "당신의 점수:"
+   },
+   "UI_Score_Appalling": {
+      "description": "Appalling - Score",
+      "message": "(1) 최악"
+   },
+   "UI_Score_Average": {
+      "description": "Average - Score",
+      "message": "(5) 보통"
+   },
+   "UI_Score_Bad": {
+      "description": "Bad - Score",
+      "message": "(4) 나쁨"
+   },
+   "UI_Score_Fine": {
+      "description": "Fine - Score",
+      "message": "(6) 평범함"
+   },
+   "UI_Score_Good": {
+      "description": "Good - Score",
+      "message": "(7) 좋음"
+   },
+   "UI_Score_Great": {
+      "description": "Great - Score",
+      "message": "(9) 최고"
+   },
+   "UI_Score_Horrible": {
+      "description": "Horrible - Score",
+      "message": "(2) 끔찍한"
+   },
+   "UI_Score_Masterpiece": {
+      "description": "Masterpiece - Score",
+      "message": "(10) 명작"
+   },
+   "UI_Score_Not_Rated": {
+      "description": "Text if nothing is selected in the rating dropdown",
+      "message": "평가하지 않음"
+   },
+   "UI_Score_VeryBad": {
+      "description": "Very Bad - Score",
+      "message": "(3) 매우 나쁨"
+   },
+   "UI_Score_VeryGood": {
+      "description": "Very Good - Score",
+      "message": "(8) 매우 좋음"
+   },
+   "UI_Status": {
+      "description": "Status",
+      "message": "상태:"
+   },
+   "UI_Status_All": {
+      "description": "Dropdown text to show all anime on the users list",
+      "message": "전체"
+   },
+   "UI_Status_Completed": {
+      "description": "Completed",
+      "message": "완료"
+   },
+   "UI_Status_Dropped": {
+      "description": "Dropped",
+      "message": "포기한"
+   },
+   "UI_Status_OnHold": {
+      "description": "On-Hold",
+      "message": "대기중"
+   },
+   "UI_Status_Rewatching_anime": {
+      "description": "Status to rewatch anime",
+      "message": "다시 보는 중"
+   },
+   "UI_Status_Rewatching_manga": {
+      "description": "Status to reread manga",
+      "message": "다시 읽는 중"
+   },
+   "UI_Status_planTo_anime": {
+      "description": "Plan to Watch",
+      "message": "볼 예정"
+   },
+   "UI_Status_planTo_manga": {
+      "description": "Plan to Read",
+      "message": "읽을 예정"
+   },
+   "UI_Status_watching_anime": {
+      "description": "Watching",
+      "message": "시청중"
+   },
+   "UI_Status_watching_manga": {
+      "description": "Reading",
+      "message": "읽는중"
+   },
+   "Update": {
+      "description": "Update",
+      "message": "업데이트"
+   },
+   "Yes": {
+      "description": "Yes",
+      "message": "네"
+   },
+   "anilistClass_authentication": {
+      "description": "The token has been obtained and saved",
+      "message": "토큰이 저장되었습니다 이 창을 닫아도 됩니다"
+   },
+   "back": {
+      "description": "Back button",
+      "message": "이전"
+   },
+   "bookmarksItem_Day": {
+      "description": "day",
+      "message": "일"
+   },
+   "bookmarksItem_Hour": {
+      "description": "hour",
+      "message": "시간"
+   },
+   "bookmarksItem_Year": {
+      "description": "year",
+      "message": "년"
+   },
+   "bookmarksItem_ago": {
+      "description": "Text for time in the past",
+      "message": "$time$ 전에",
+      "placeholders": {
+         "time": {
+            "content": "$1",
+            "example": "2 days 1 hour"
+         }
+      }
+   },
+   "bookmarksItem_min": {
+      "description": "min",
+      "message": "분"
+   },
+   "bookmarksItem_now": {
+      "description": "Now",
+      "message": "지금"
+   },
+   "bookmarksItem_sec": {
+      "description": "second",
+      "message": "초"
+   },
+   "close": {
+      "description": "close",
+      "message": "닫기"
+   },
+   "fullscreen": {
+      "description": "fullscreen",
+      "message": "전체화면"
+   },
+   "kitsuClass_authentication_Login": {
+      "description": "Login",
+      "message": "로그인"
+   },
+   "kitsuClass_authentication_Password": {
+      "description": "Password",
+      "message": "암호"
+   },
+   "kitsuClass_authentication_Success": {
+      "description": "Authentication success",
+      "message": "토큰이 저장되었습니다, 이 창을 닫아도 됩니다."
+   },
+   "locale": {
+      "description": "Current locale",
+      "message": "ko"
+   },
+   "next": {
+      "description": "Next button",
+      "message": "다음"
+   },
+   "removed": {
+      "description": "Flash message that shows up after removing an anime/manga entry from user list",
+      "message": "제거됨"
+   },
+   "start": {
+      "description": "Start button",
+      "message": "시작"
+   },
+   "syncPage_flashConfirm_Anime_Correct": {
+      "description": "Is anime correct",
+      "message": "\"$anime$\"이 맞으십니까?",
+      "placeholders": {
+         "anime": {
+            "content": "$1",
+            "example": "No Game No Life"
+         }
+      }
+   },
+   "syncPage_flashConfirm_complete": {
+      "description": "Question when last episode is synced",
+      "message": "완료됨으로 처리할까요?"
+   },
+   "syncPage_flashConfirm_rewatch_finish_anime": {
+      "description": "Finish rewatching anime message",
+      "message": "다시 시청하기를 마칠까요?"
+   },
+   "syncPage_flashConfirm_rewatch_finish_manga": {
+      "description": "Finish rereading manga message",
+      "message": "다시 읽기를 마칠까요?"
+   },
+   "syncPage_flashConfirm_rewatch_start_anime": {
+      "description": "Start rewatching anime message",
+      "message": "애니메이션을 다시 시청할까요?"
+   },
+   "syncPage_flashConfirm_rewatch_start_manga": {
+      "description": "Start rereading manga message",
+      "message": "만화를 다시 읽을까요?"
+   },
+   "syncPage_flashConfirm_start_anime": {
+      "description": "Start watching anime message",
+      "message": "시청 시작할까요?"
+   },
+   "syncPage_flashConfirm_start_manga": {
+      "description": "Start reading manga message",
+      "message": "읽기를 시작할까요?"
+   },
+   "syncPage_flash_player_error": {
+      "description": "Message if the video player could not be recognized",
+      "message": "플레이어가 감지되지 못했습니다. 수동으로 업데이트해주세요."
+   },
+   "syncPage_flashm_failded": {
+      "description": "When update to MAL failes",
+      "message": "업데이트 실패"
+   },
+   "syncPage_flashm_resumeMsg": {
+      "description": "Video resume message",
+      "message": "$time$에 이어서 보기",
+      "placeholders": {
+         "time": {
+            "content": "$1",
+            "example": "13:37"
+         }
+      }
+   },
+   "syncPage_flashm_sync_undefined_undo": {
+      "description": "Undo button on 'synced' message",
+      "message": "취소"
+   },
+   "syncPage_malObj_nextEp_anime": {
+      "description": "Next episode message on streaming overview pages",
+      "message": "$episode$ 화",
+      "placeholders": {
+         "episode": {
+            "content": "$1",
+            "example": "5"
+         }
+      }
+   },
+   "syncPage_malObj_nextEp_manga": {
+      "description": "Next chapter message on streaming overview pages",
+      "message": "챕터 $chapter$",
+      "placeholders": {
+         "chapter": {
+            "content": "$1",
+            "example": "6"
+         }
+      }
+   },
+   "updated": {
+      "description": "Flash message that shows up after updating an anime/manga entry",
+      "message": "업데이트됨"
+   }
+}

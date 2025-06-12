@@ -1,0 +1,28 @@
+{
+   "action": {
+      "default_popup": "src/ui/pages/popup.html"
+   },
+   "background": {
+      "service_worker": "service-worker-loader.js",
+      "type": "module"
+   },
+   "description": "Always support your favorite streamer by automatically pulling up their stream when they go live.",
+   "host_permissions": [ "https://*.googleapis.com/*", "https://*.twitch.tv/*", "https://*.kick.com/*", "https://*.youtube.com/*" ],
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhZoXFgsUR7OeUNPvHJIg/Fi9yueGvivp0KhLS8DYw06vxB/MsdJCIK+WxVanGEo09ZuDjPU3cImRTq4WIViSm0k2wUAtKoX0hoKMgr+yE1pq8tM47TXe+BSaaU6WYotwDo9UluiFR6kQhBDFGkl8q1j8ZhAYNaC/rhpJFisuVh4VqbMi+L86vSR4VbVPSmw6yMChn7wvwUBljQRQUaEkfEEiz1M0lq24ZRmFsNUJ6/7pOy18/3W6vnHE5fnwPh8xWO2lSL5Z8G7usCIKa8uj2ukmCXAoyV7ThfDKhaA9lL+Y0cbVO/11JesQQ2fTygtXKoqwotXh8DsiZV/GWnuojwIDAQAB",
+   "manifest_version": 3,
+   "name": "Twitch Lurker",
+   "permissions": [ "identity", "alarms", "scripting", "contextMenus", "notifications", "storage", "unlimitedStorage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.0.5",
+   "web_accessible_resources": [ {
+      "matches": [ "https://*.twitch.tv/*" ],
+      "resources": [ "assets/logging-DFlNDjhV.js", "assets/main.ts-D_7BIUya.js" ],
+      "use_dynamic_url": true
+   } ]
+}

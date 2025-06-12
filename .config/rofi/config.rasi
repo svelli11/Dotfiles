@@ -1,0 +1,25 @@
+configuration {
+  modes: [ combi ];
+  combi-modes: [ drun, run ];
+}
+
+@theme "gruvbox-dark-soft"
+ 
+/* Insert theme modifications after this */
+
+entry {
+	placeholder: "TYPE HERE FAGGOT...";
+	cursor: pointer;
+}
+
+
+
+
+  timeout {
+      action: "kb-cancel";
+      delay:  0;
+  }
+  filebrowser {
+      directories-first: true;
+      sorting-method:    "name";
+  }

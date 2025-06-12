@@ -1,0 +1,181 @@
+{
+  "pages": {
+    "mangaNato": {
+      "key": "mangaNato",
+      "name": "MangaNato",
+      "version": {
+        "hash": "e6db0108",
+        "timestamp": "1747044328586"
+      },
+      "type": "manga",
+      "domain": [
+        "https://manganato.gg",
+        "https://natomanga.com",
+        "https://nelomanga.com",
+        "https://mangakakalot.gg"
+      ],
+      "languages": [
+        "English"
+      ],
+      "urls": {
+        "match": [
+          "*://*.manganato.gg/*",
+          "*://*.natomanga.com/*",
+          "*://*.nelomanga.com/*",
+          "*://*.mangakakalot.gg/*"
+        ]
+      },
+      "search": "https://manganato.gg/search/story/{searchterm(_)[noSpecial]}",
+      "database": "MangaNato"
+    },
+    "gojo": {
+      "key": "gojo",
+      "name": "Gojo",
+      "version": {
+        "hash": "b37164fa",
+        "timestamp": "1747044328585"
+      },
+      "type": "anime",
+      "domain": [
+        "https://gojo.wtf"
+      ],
+      "languages": [
+        "English"
+      ],
+      "urls": {
+        "match": [
+          "*://gojo.wtf/*"
+        ]
+      },
+      "search": "https://gojo.wtf/search?query={searchtermPlus}"
+    },
+    "animeLib": {
+      "key": "animeLib",
+      "name": "AnimeLib",
+      "version": {
+        "hash": "49b2c722",
+        "timestamp": "1747044328585"
+      },
+      "type": "anime",
+      "domain": "https://anilib.me",
+      "languages": [
+        "Russian"
+      ],
+      "urls": {
+        "match": [
+          "*://anilib.me/*"
+        ]
+      },
+      "search": "https://anilib.me/ru/catalog?q={searchterm}"
+    },
+    "mangaLib": {
+      "key": "mangaLib",
+      "name": "MangaLib",
+      "version": {
+        "hash": "44e5a0d3",
+        "timestamp": "1747044328586"
+      },
+      "type": "manga",
+      "domain": [
+        "https://mangalib.me",
+        "https://mangalib.org",
+        "https://slashlib.me",
+        "https://v2.slashlib.me",
+        "https://v1.yaoilib.net"
+      ],
+      "languages": [
+        "Russian"
+      ],
+      "urls": {
+        "match": [
+          "*://mangalib.org/*",
+          "*://mangalib.me/*",
+          "*://*.slashlib.me/*",
+          "*://*.yaoilib.net/*"
+        ]
+      },
+      "search": "https://mangalib.me/ru/catalog?q={searchterm}"
+    },
+    "ranobeLib": {
+      "key": "ranobeLib",
+      "name": "RanobeLib",
+      "version": {
+        "hash": "56d15753",
+        "timestamp": "1747044328586"
+      },
+      "type": "manga",
+      "domain": "https://ranobelib.me",
+      "languages": [
+        "Russian"
+      ],
+      "urls": {
+        "match": [
+          "*://ranobelib.me/*"
+        ]
+      },
+      "search": "https://ranobelib.me/ru/catalog?q={searchterm}"
+    },
+    "anizm": {
+      "key": "anizm",
+      "name": "Anizm",
+      "version": {
+        "hash": "4feb8f89",
+        "timestamp": "1747044328585"
+      },
+      "type": "anime",
+      "domain": "https://anizm.net",
+      "languages": [
+        "Turkish"
+      ],
+      "urls": {
+        "match": [
+          "*://anizm.net/*"
+        ]
+      }
+    },
+    "toonily": {
+      "key": "toonily",
+      "name": "Toonily",
+      "version": {
+        "hash": "fc992520",
+        "timestamp": "1747044328586"
+      },
+      "type": "manga",
+      "domain": "https://toonily.com",
+      "languages": [
+        "English"
+      ],
+      "urls": {
+        "match": [
+          "*://toonily.com/serie/*"
+        ]
+      },
+      "search": "https://toonily.com/?s={searchtermPlus}&post_type=wp-manga"
+    },
+    "voidScans": {
+      "key": "voidScans",
+      "name": "VoidScans",
+      "version": {
+        "hash": "e61db5f7",
+        "timestamp": "1747044328587"
+      },
+      "type": "manga",
+      "domain": [
+        "https://hivecomic.com",
+        "https://hivetoon.com",
+        "https://void-scans.com"
+      ],
+      "languages": [
+        "English"
+      ],
+      "urls": {
+        "match": [
+          "*://hivecomic.com/*",
+          "*://hivetoon.com/*",
+          "*://void-scans.com/*"
+        ]
+      },
+      "search": "https://hivecomic.com/series?searchTerm={searchtermPlus}"
+    }
+  }
+}

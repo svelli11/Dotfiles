@@ -1,0 +1,822 @@
+{
+   "DescriptionAccountDeleted": {
+      "message": "Ten profil został usunięty"
+   },
+   "DescriptionAccountcreated": {
+      "message": "Profil został utworzony. Możesz zamknąć tę kartę."
+   },
+   "DescriptionAccountlabel": {
+      "message": "Nazwij ten profil aby łatwiej go rozróżniać"
+   },
+   "DescriptionAdaptergit": {
+      "message": "Metoda synchronizacji zakładek przy użyciu pliku znajdującego się w repozytorium Git. Ta opcja nie posiada interfejsu użytkownika po stronie serwera. Można używać z każdym serwerem Git, np. Github, Gitlab, Gitea. Można synchronizować zakładki typu http, ftp, data, javascript. Ta opcja nie może być użyta do szyfrowania typu end-to-end."
+   },
+   "DescriptionAdaptergoogledrive": {
+      "message": "Synchronizuj zakładki przy użyciu (opcjonalnie zaszyfrowanego) pliku przechowywanego na Dysku Google. Synchronizowane będą zakładki http, ftp, data, file i javascript. Z tą metodą możesz użyć szyfrowania typu end-to-end."
+   },
+   "DescriptionAdapterlinkwarden": {
+      "message": "Synchronizuj zakładki z otwartoźródłową aplikacją Linkwarden, uruchomioną na swoim serwerze albo w chmurze cloud.linkwarden.app. Można synchronizować zakładki http, ftp and javascript. Ta opcja nie może być użyta do szyfrowania typu end-to-end."
+   },
+   "DescriptionAdapternextcloud": {
+      "message": "Umożliwia działanie ze starszą wersją - co najmniej v0.11 - aplikacji Zakładki. W tym trybie emulowane są foldery przy użyciu tagów zawierających ścieżki folderów. Nie jest zalecane używanie tego z nowymi profilami."
+   },
+   "DescriptionAdapternextcloudfolders": {
+      "message": "Synchronizuj swoje zakładki z otwartożródłową aplikacją Zakładki w Nextcloud (tę platformę możesz utrzymywać na swoim własnym serwerze lub wykupić instancję u jednego z dostawców). Z aplikacją Zakładki Nextcloud możesz synchronizować zakładki http, ftp i javascript. Upewnij się że masz zainstalowaną aplikację Zakładki ze sklepu Nextcloud w swojej instancji. Ta opcja nie może być użyta do szyfrowania typu end-to-end."
+   },
+   "DescriptionAdapterwebdav": {
+      "message": "Metoda synchronizacji zakładek przy użyciu udziału WebDAV. Ta opcja nie posiada interfejsu użytkownika po stronie serwera. Można używać z każdym serwerem zgodnym z WebDAV, na swoim własnym serwerze lub w chmurze. Można synchronizować zakładki typu http, ftp, data, javascript."
+   },
+   "DescriptionAllownetwork": {
+      "message": "Floccus może używać połączeń sieciowych, oprócz połączeń w celu synchronizacji z Twoim serwerem, do uzyskania dodatkowych informacji o zakładkach (jak ikony itp). Tutaj możesz zezwolić na takie użycie sieci."
+   },
+   "DescriptionAllowredirects": {
+      "message": "Włącz tę opcję, jeśli podczas synchronizacji wystąpią błędy przekierowań, które Twoim zdaniem są nieuzasadnione."
+   },
+   "DescriptionAlternativereview": {
+      "message": "Napisz recenzję w AlternativeTo.net"
+   },
+   "DescriptionAppstorereview": {
+      "message": "Napisz recenzję w App Store"
+   },
+   "DescriptionAutosync": {
+      "message": "Włączenie uruchamia regularną synchronizację w wybranych odstępach czasu a także na bieżąco, kilka sekund po tym jak wprowadzisz zmiany. Jeśli nie włączysz automatycznej synchronizacji, będziesz mógł synchronizować ręcznie używając przycisk synchronizacji."
+   },
+   "DescriptionBookmarkexists": {
+      "message": "Ta zakładka już istnieje w wybranym profilu"
+   },
+   "DescriptionBookmarksfile": {
+      "message": "Położenie pliku z zakładkami w kontekście adresu WebDAV (wszystkie katalogi w ścieżce muszą istnieć), np. osobiste/bookmarks.xbel"
+   },
+   "DescriptionBookmarksfilegit": {
+      "message": "Ścieżka do pliku z zakładkami w odniesieniu do głównego katalogu (roota) twojego repozytorium Git (wszystkie katalogi w ścieżce muszą istnieć), np. osobiste/bookmarks.xbel"
+   },
+   "DescriptionBookmarksfilegoogle": {
+      "message": "Nazwa pliku z zakładkami w Dysku Google. Nie wprowadzaj pełnej ścieżki, tylko samą nazwę pliku. Upewnij się, że nazwa jest unikalna na Twoim Dysku."
+   },
+   "DescriptionChoosefolder": {
+      "message": "Wskaż istniejący folder do synchronizacji"
+   },
+   "DescriptionChromereview": {
+      "message": "Napisz recenzję w Chrome WebStore"
+   },
+   "DescriptionClickcount": {
+      "message": "Wysyłaj statystyki o użytych zakładkach do serwera Nextcloud, aby móc sortować do liczbie kliknięć"
+   },
+   "DescriptionClientcert": {
+      "message": "Włącz tę opcję, jeśli Twój serwer wymaga certyfikatu klienta lub pliku cookie dla autoryzacji. To może spowodować nieoczekiwane efekty uboczne, gdyż Floccus będzie współdzielił cookies w ramach standardowych sesji przeglądarki."
+   },
+   "DescriptionContributors": {
+      "message": "Dzięki tym ludziom Floccus może istnieć"
+   },
+   "DescriptionCurrentversion": {
+      "message": "Aktualnie zainstalowana wersja Floccus to:"
+   },
+   "DescriptionDisabledaftererror": {
+      "message": "Ponowiono 10 razy przed wyłączeniem tego profilu"
+   },
+   "DescriptionDonateintervention": {
+      "message": "Lubisz synchronizację zakładek? Wspieraj mnie!"
+   },
+   "DescriptionDownloadlogs": {
+      "message": "Floccus zapisuje całą swoją aktywność w pliku logu, aby można było ją zweryfikować samodzielnie lub przesłać deweloperom do celów usuwania błędów. W zanonimizowanych logach takie dane jak nazwy folderów, nazwy zakładek czy adresy stron są usuwane poprzez użycie funkcji haszującej. Zanim wyślesz nam zanonimizowane logi, upewnij się, że w pobranym pliku nic nie zostało pominięte i wszystkie Twoje prywatne dane zostały zanonimizowane. "
+   },
+   "DescriptionEdgereview": {
+      "message": "Napisz recenzję w Edge Addons"
+   },
+   "DescriptionExport": {
+      "message": "Zaznacz poniżej profile, które zostaną zapisane do pliku. Dzięki temu łatwo odtworzysz te same profile na innym urządzeniu lub przeglądarce. "
+   },
+   "DescriptionExportBookmarks": {
+      "message": "Wyeksportuj wszystkie zakładki z tego profilu do pliku HTML kompatybilnego z większością przeglądarek."
+   },
+   "DescriptionExtension": {
+      "message": "Synchronizuj zakładki pomiędzy przeglądarkami i urządzeniami zachowując prywatność"
+   },
+   "DescriptionFailsafe": {
+      "message": "Błąd w konfiguracji lub oprogramowaniu może spowodować niezamierzone usunięcie danych, które mogą zostać utracone. Aby temu zapobiec, Floccus nie usunie jednorazowo więcej niż 50% zakładek, dopóki nie zmienisz tej opcji."
+   },
+   "DescriptionFilesPermission": {
+      "message": "Upewnij się, że zezwoliłeś Floccus nie tylko na używanie aplikacji Zakładki, ale także zezwoliłeś na dostęp do aplikacji Pliki w Nextcloud."
+   },
+   "DescriptionFiletype": {
+      "message": "Możesz wybrać format pliku, w którym chcesz przechowywać zakładki na serwerze."
+   },
+   "DescriptionFunddevelopment": {
+      "message": "Praca nad Floccus jest oparta na dobrowolnym modelu subskrypcji. Jeśli uważasz, że rozwiązanie jest tego warte i możesz przeznaczyć co miesiąc jakąś kwotę, proszę o wsparcie. Rozważ także ocenę dodatku w witrynie z dodatkami dla przeglądarki, której używasz. Dziękuję! 💙"
+   },
+   "DescriptionGithubsponsors": {
+      "message": "Przekazuj okresową darowiznę przez Github aby wspierać projekt"
+   },
+   "DescriptionGoogleplayreview": {
+      "message": "Napisz recenzję w Google Play"
+   },
+   "DescriptionImport": {
+      "message": "Wczytaj plik z wyeksportowanymi profilami z innego urządzenia lub przeglądarki. Następnie upewnij się, że wybrałeś na nowo właściwe foldery do synchronizacji. "
+   },
+   "DescriptionImportbookmarks": {
+      "message": "Zaimportuj plik HTML z zakładkami do bieżącego folderu"
+   },
+   "DescriptionKofi": {
+      "message": "Zrób okresową lub jednorazową darowiznę przez Ko-fi aby wspierać projekt"
+   },
+   "DescriptionLiberapay": {
+      "message": "Przekazuj okresową darowiznę przez Liberapay aby wspierać projekt"
+   },
+   "DescriptionLocalfolder": {
+      "message": "Zakładki w tym folderze zakładek będą przechowywane jako linki na serwerze oraz linki na serwerze będą przechowywane jako zakładki w tym folderze zakładek w tej przeglądarce."
+   },
+   "DescriptionLocaltarget": {
+      "message": "Wybierz czy chcesz synchronizować zakładki przeglądarki czy karty przeglądarki."
+   },
+   "DescriptionLoggedingoogle": {
+      "message": "Podłączyłeś konto Google aby przechowywać plik z zakładkami na Dysku Google."
+   },
+   "DescriptionLogingoogle": {
+      "message": "Podłącz konto Google aby przechowywać plik z zakładkami na Dysku Google."
+   },
+   "DescriptionMozillareview": {
+      "message": "Napisz recenzję w Mozilla Addons"
+   },
+   "DescriptionNestedSync": {
+      "message": "Możesz wskazać, że folder nadrzędny należy do profilu A a subfolder do profili A oraz B. Czy chcesz zezwolić innym profilom również na synchronizację folderu tego profilu?"
+   },
+   "DescriptionNoAccount": {
+      "message": "Dodaj nowe profile lub zaimportuj je z pliku, aby rozpocząć synchronizowanie."
+   },
+   "DescriptionNonhttps": {
+      "message": "Wskazany serwer nie szyfruje połączeń. Rekomendujemy korzystać wyłącznie z serwerów obsługujących protokół HTTPS."
+   },
+   "DescriptionOpencollective": {
+      "message": "Przekazuj okresową darowiznę przez OpenCollective aby wspierać projekt"
+   },
+   "DescriptionParallelsync": {
+      "message": "Umożliwia równoległe przetwarzanie wielu folderów aby przyspieszyć synchronizację. Ta funkcja jest eksperymentalna, powoduje że trudniej jest czytać i debugować logi."
+   },
+   "DescriptionPassphrase": {
+      "message": "Podaj hasło do zaszyfrowania pliku z zakładkami. Jeśli nie wskażesz hasła, plik nie zostanie zaszyfrowany."
+   },
+   "DescriptionPatreon": {
+      "message": "Przekazuj okresową darowiznę przez Patreon aby wspierać projekt"
+   },
+   "DescriptionPaypal": {
+      "message": "Przekaż jednorazową lub okresową darowiznę przez Paypal aby wesprzeć projekt"
+   },
+   "DescriptionReallydeleteitem": {
+      "message": "Na pewno usunąć ten element?"
+   },
+   "DescriptionRemoveaccount": {
+      "message": "Skasuj ten profil (to nie usunie zakładek)"
+   },
+   "DescriptionReportproblem": {
+      "message": "Jeśli chcesz skontaktować się bezpośrednio z programistami w konkretnej sprawie, możesz to zrobić tutaj:"
+   },
+   "DescriptionReset": {
+      "message": "Resetuj zsynchronizowany folder aby utworzyć nowy"
+   },
+   "DescriptionResetcache": {
+      "message": "Kliknij ten przycisk aby zresetować pamięć podręczną co sprawi, że przy następnej synchronizacji żadne dane nie zostaną usunięte lecz nastąpi scalenie lokalnych i zdalnych zakładek"
+   },
+   "DescriptionScheduledforcesync": {
+      "message": "Na pewno chcesz wymusić synchronizację? Synchronizowanie dwóch urządzeń naraz może spowodować nieprzewidziane problemy, włącznie z popsuciem danych. Upewnij się zanim potwierdzisz, że żadne inne urządzenie w tej chwili nie synchronizuje."
+   },
+   "DescriptionServerfolder": {
+      "message": "Podczas synchronizacji, zakładki w tej przeglądarce będą zapisywane jako linki w tej lokalizacji na serwerze. Uwaga, ścieżka reprezentuje folder w aplikacji Zakładki Nextcloud a nie folder w aplikacji Pliki Nextcloud. Pozostaw puste aby umieszczać linki w głównym folderze na serwerze."
+   },
+   "DescriptionServerfolderlinkwarden": {
+      "message": "Podczas synchronizacji, zakładki w tej przeglądarce będą przechowywane jako linki w tej kolekcji."
+   },
+   "DescriptionStrategy": {
+      "message": "Wskaż jak synchronizować zakładki pomiędzy różnymi urządzeniami. Zazwyczaj zachowywane są zmiany ze wszystkich urządzeń, ale czasem możesz chcieć nadpisywać zmiany (także dodawanie i usuwanie) z innych przeglądarek lub te wprowadzone lokalnie."
+   },
+   "DescriptionSyncDown": {
+      "message": "Pobierz zmiany z innych przeglądarek i nadpisz lokalne zmiany"
+   },
+   "DescriptionSyncNormal": {
+      "message": "Połącz zmiany lokalne ze zmianami z innych przeglądarek"
+   },
+   "DescriptionSyncTabs": {
+      "message": "Linki przechowywane na serwerze będą otwierane jako karty w twojej przeglądarce oraz istniejące otwarte karty przeglądarki będą zapisywane jako linki na serwerze. W zależności od tego, ile linków jest przechowywanych na serwerze, może to przeciążyć przeglądarkę, gdyż wszystkie zostaną otwarte jako karty przy następnym uruchomieniu synchronizacji."
+   },
+   "DescriptionSyncUp": {
+      "message": "Wyślij lokalne zmiany i nadpisz zmiany z innych przeglądarek"
+   },
+   "DescriptionSyncinprogress": {
+      "message": "Trwa synchronizacja."
+   },
+   "DescriptionSyncinterval": {
+      "message": "Czas pomiędzy kolejnymi synchronizacjami w minutach. Domyślnie 15 minut."
+   },
+   "DescriptionSyncscheduled": {
+      "message": "Ten profil zostanie niebawem zsynchronizowany. Czekam, aż inne twoje urządzenia lub inne profile na tym urządzeniu ukończą synchronizację."
+   },
+   "DescriptionTelemetry": {
+      "message": "Floccus może automatycznie zgłosić błędy do deweloperów. To znaczna pomoc dla szybkiego wykrywania i usuwania błędów, co w dłuższym okresie pomaga podnosić jakość Floccus. Nawet jeśli włączysz raportowanie błędów, deweloperzy nie będą mieli dostępu do Twoich zakładek."
+   },
+   "DescriptionUpdated": {
+      "message": "Najnowsza aktualizacja dla Floccus została zainstalowana!"
+   },
+   "DescriptionWebdavurl": {
+      "message": "np. w nextcloud: https://example.com/remote.php/webdav/"
+   },
+   "DescriptionWritereview": {
+      "message": "Jeśli jesteś zadowolony z Floccus, podziel się oceną na jednej z platform poniżej."
+   },
+   "Error001": {
+      "message": "E001: Folder do utworzenia nie istnieje"
+   },
+   "Error002": {
+      "message": "E002: Aktualizowana zakładka już nie istnieje"
+   },
+   "Error003": {
+      "message": "E003: Folder do przeniesienia nie istnieje. To jest nieprawidłowość, gratulacje"
+   },
+   "Error004": {
+      "message": "E004: Folder do przeniesienia nie istnieje"
+   },
+   "Error005": {
+      "message": "E005: Folder do utworzenia nie istnieje"
+   },
+   "Error006": {
+      "message": "E006: Folder do zaktualizowania nie istnieje"
+   },
+   "Error007": {
+      "message": "E007: Folder do przeniesienia nie istnieje"
+   },
+   "Error008": {
+      "message": "E008: Folder do przeniesienia nie istnieje"
+   },
+   "Error009": {
+      "message": "E009: Folder do przeniesienia nie istnieje."
+   },
+   "Error010": {
+      "message": "E010: Nie można znaleźć folderu"
+   },
+   "Error011": {
+      "message": "E011: Element w folderze nie jest obecnie elementem podrzędnym: {0}"
+   },
+   "Error012": {
+      "message": "E012: W folderze brakuje niektórych podfolderów"
+   },
+   "Error013": {
+      "message": "E013: Folder do usunięcia nie istnieje"
+   },
+   "Error014": {
+      "message": "E014: Folder nadrzędny nie istnieje"
+   },
+   "Error015": {
+      "message": "E015: Odpowiedź serwera zawiera nieoczekiwane dane"
+   },
+   "Error016": {
+      "message": "E016: Upłynął limit czasu żądania. Sprawdź konfigurację serwera"
+   },
+   "Error017": {
+      "message": "E017: Błąd sieci: Sprawdź połączenie i dane konta"
+   },
+   "Error018": {
+      "message": "E018: Nie udało się uwierzytelnić na serwerze"
+   },
+   "Error019": {
+      "message": "E019: Status HTTP {0}. Nieudane {1} żądanie. Sprawdź konfigurację serwera i logi."
+   },
+   "Error020": {
+      "message": "E020: Nie można przetworzyć odpowiedzi serwera. Czy aplikacja Zakładki jest zainstalowana na serwerze?"
+   },
+   "Error021": {
+      "message": "E021: Niespójny stan serwera. Folder jest obecny na liście elementów podrzędnych ale nie w drzewie katalogów"
+   },
+   "Error022": {
+      "message": "E022: Folder {0} zawiera nieistniejącą zakładkę {1} "
+   },
+   "Error023": {
+      "message": "E023: Nie można wyczyścić pliku blokady, rozważ usunięcie {0} ręczne"
+   },
+   "Error024": {
+      "message": "E024: Status HTTP {0} podczas próby ustalenia stanu pliku blokady {1} "
+   },
+   "Error025": {
+      "message": "E025: Ustawienie pliku zakładek nie może zaczynać się od ukośnika: '/'"
+   },
+   "Error026": {
+      "message": "E026: Synchronizacja została anulowana"
+   },
+   "Error027": {
+      "message": "E027: Synchronizacja została przerwana"
+   },
+   "Error028": {
+      "message": "E028: Nie udało się uwierzytelnić na serwerze"
+   },
+   "Error029": {
+      "message": "E029: Zabezpieczenie: obecna synchronizacja może usunąć {0}% Twoich zakładek i nie zostanie wykonana. Zmień opcję zabezpieczeń w ustawieniach konta jeśli chcesz kontynuować."
+   },
+   "Error030": {
+      "message": "E030: Nieudane odszyfrowanie pliku zakładek. Błędne hasło lub uszkodzony plik"
+   },
+   "Error031": {
+      "message": "E031: Nie udało się uwierzytelnić w Dysku Google. Połącz ponownie Floccus ze swoim kontem Google."
+   },
+   "Error032": {
+      "message": "E032:Błąd OAuth. Błąd walidacji tokenu. Podłącz ponownie swoje konto Google."
+   },
+   "Error033": {
+      "message": "E033: Wykryto przekierowanie. Upewnij się, że serwer obsługuje wybraną metodę synchronizacji i podany adres URL nie przekierowuje w inne miejsce. Jeśli przekierowanie jest częścią Twojej konfiguracji, możesz wyłączyć to sprawdzenie w ustawieniach."
+   },
+   "Error034": {
+      "message": "E034: Nie można odczytać pliku zakładek. Być może nie ustawiłeś hasła szyfrującego lub wskazałeś niewłaściwy format."
+   },
+   "Error035": {
+      "message": "E035: Nie udało się utworzyć następującej zakładki na serwerze: (0)"
+   },
+   "Error036": {
+      "message": "E036: Brak uprawnień dostępu do serwera synchronizacji."
+   },
+   "Error037": {
+      "message": "E037: Zasób jest zablokowany"
+   },
+   "Error038": {
+      "message": "E038: Nie można znaleźć lokalnego folderu"
+   },
+   "Error039": {
+      "message": "E039: Nie udało się zaktualizować następującej zakładki na serwerze: {0}"
+   },
+   "Error040": {
+      "message": "E040: Nie można znaleźć podanej nazwy pliku w Google Drive"
+   },
+   "ErrorFolderloopselected": {
+      "message": "Nie można przenieść folderu do niego samego"
+   },
+   "ErrorNofolderselected": {
+      "message": "Nie zaznaczono folderu"
+   },
+   "LabelAbout": {
+      "message": "O aplikacji"
+   },
+   "LabelAccesstoken": {
+      "message": "Token dostępowy"
+   },
+   "LabelAccountDeleted": {
+      "message": "Profil usunięty"
+   },
+   "LabelAccountcreated": {
+      "message": "Profil utworzony"
+   },
+   "LabelAccountlabel": {
+      "message": "Etykieta profilu"
+   },
+   "LabelAdaptergit": {
+      "message": "Git przez HTTPS"
+   },
+   "LabelAdaptergoogledrive": {
+      "message": "Google Drive"
+   },
+   "LabelAdapterlinkwarden": {
+      "message": "Linkwarden"
+   },
+   "LabelAdapternextcloud": {
+      "message": "Zakładki Nextcloud (starsza wersja)"
+   },
+   "LabelAdapternextcloudfolders": {
+      "message": "Zakładki Nextcloud"
+   },
+   "LabelAdapterwebdav": {
+      "message": "Udział WebDAV"
+   },
+   "LabelAdd": {
+      "message": "Dodaj"
+   },
+   "LabelAddaccount": {
+      "message": "Dodaj profil"
+   },
+   "LabelAddbookmark": {
+      "message": "Dodaj zakładkę"
+   },
+   "LabelAddfolder": {
+      "message": "Dodaj folder"
+   },
+   "LabelAllownetwork": {
+      "message": "Pozwolenie na użycie sieci"
+   },
+   "LabelAllowredirects": {
+      "message": "Zezwól na przekierowania w URL serwera"
+   },
+   "LabelAutosync": {
+      "message": "Automatyczna synchronizacja"
+   },
+   "LabelBack": {
+      "message": "Wstecz"
+   },
+   "LabelBookmarksfile": {
+      "message": "Plik zakładek"
+   },
+   "LabelCancel": {
+      "message": "Anuluj"
+   },
+   "LabelCancelsync": {
+      "message": "Anuluj"
+   },
+   "LabelChange": {
+      "message": "Zmień"
+   },
+   "LabelChooseadapter": {
+      "message": "Wybierz sposób synchronizacji"
+   },
+   "LabelChoosefolder": {
+      "message": "Wybierz folder"
+   },
+   "LabelClickcount": {
+      "message": "Zliczaj kliknięcia"
+   },
+   "LabelClientcert": {
+      "message": "Wyślij dane uwierzytelniające klienta"
+   },
+   "LabelConnect": {
+      "message": "Połącz"
+   },
+   "LabelContinue": {
+      "message": "Kontynuuj"
+   },
+   "LabelContinuefloccus": {
+      "message": "Kontynuuj z Floccus"
+   },
+   "LabelContributors": {
+      "message": "Współwórcy"
+   },
+   "LabelCurrentversion": {
+      "message": "Używana wersja"
+   },
+   "LabelDebuglogs": {
+      "message": "Logi do debugowania"
+   },
+   "LabelDeleteitem": {
+      "message": "Usuń"
+   },
+   "LabelDonate": {
+      "message": "Wspieraj"
+   },
+   "LabelDone": {
+      "message": "Wykonane"
+   },
+   "LabelDownloadanonymizedlogs": {
+      "message": "Zanonimizowane logi"
+   },
+   "LabelDownloadfulllogs": {
+      "message": "Pełne logi"
+   },
+   "LabelDownloadlogs": {
+      "message": "Pobierz logi"
+   },
+   "LabelEditbookmark": {
+      "message": "Edytuj zakładkę"
+   },
+   "LabelEditfolder": {
+      "message": "Edytuj folder"
+   },
+   "LabelEdititem": {
+      "message": "Edytuj"
+   },
+   "LabelExport": {
+      "message": "Eksport profili"
+   },
+   "LabelExportBookmarks": {
+      "message": "Eksportuj zakładki"
+   },
+   "LabelFailsafe": {
+      "message": "Zabezpieczenie"
+   },
+   "LabelFailsafeoff": {
+      "message": "Wyłączone. Zezwolenie na usunięcie ponad 50% lokalnych zakładek bez potwierdzenia."
+   },
+   "LabelFailsafeon": {
+      "message": "Włączone. Nie usuwaj więcej niż 50% lokalnych zakładek bez uprzedniego pytania o zgodę (zalecane)"
+   },
+   "LabelFiletype": {
+      "message": "Format pliku"
+   },
+   "LabelFiletypehtml": {
+      "message": "HTTP, szeroko wspierany, otwarty format (eksperymentalnie)"
+   },
+   "LabelFiletypexbel": {
+      "message": "XBEL, prosty, otwarty format"
+   },
+   "LabelFolderNotFound": {
+      "message": "Nie znaleziono folderu"
+   },
+   "LabelFunddevelopment": {
+      "message": "💸 Zasponsoruj rozwój"
+   },
+   "LabelGitbranch": {
+      "message": "Gałąź Git"
+   },
+   "LabelGithubsponsors": {
+      "message": "Sponsorzy Github"
+   },
+   "LabelGiturl": {
+      "message": "Adres HTTP repozytorium"
+   },
+   "LabelGoogledrivesetup": {
+      "message": "Zaloguj do Dysku Google"
+   },
+   "LabelImport": {
+      "message": "Import profili"
+   },
+   "LabelImportExport": {
+      "message": "Import/Eksport profili"
+   },
+   "LabelImportbookmarks": {
+      "message": "Importuj zakładki"
+   },
+   "LabelImportsuccessful": {
+      "message": "Profil(e) zaimportowane poprawnie"
+   },
+   "LabelKey": {
+      "message": "Wpisz hasło odblokowujące"
+   },
+   "LabelKey2": {
+      "message": "Wpisz hasło ponownie"
+   },
+   "LabelKofi": {
+      "message": "Kofi"
+   },
+   "LabelLiberapay": {
+      "message": "Liberapay"
+   },
+   "LabelLinkwardenconnectionerror": {
+      "message": "Połączenie z serwerem Linkwarden nie udało się"
+   },
+   "LabelLinkwardenurl": {
+      "message": "Adres serwera Linkwarden"
+   },
+   "LabelLocalfolder": {
+      "message": "Folder zakładek"
+   },
+   "LabelLocaltarget": {
+      "message": "Cel lokalny"
+   },
+   "LabelLoginFlowError": {
+      "message": "Logowanie Nextcloud nie powiodło się"
+   },
+   "LabelLoginFlowStart": {
+      "message": "Zaloguj z Nextcloud"
+   },
+   "LabelLoginFlowStop": {
+      "message": "Anuluj logowanie Nextcloud"
+   },
+   "LabelLogingoogle": {
+      "message": "Zaloguj się z Google"
+   },
+   "LabelMobilesettings": {
+      "message": "Ustawienia telefonu"
+   },
+   "LabelNestedSync": {
+      "message": "Zagnieżdżone profile"
+   },
+   "LabelNestedSyncNo": {
+      "message": "Nie, ignoruj folder tego profilu w innych profilach"
+   },
+   "LabelNestedSyncYes": {
+      "message": "Tak, dołącz folder tego profilu do innych profili"
+   },
+   "LabelNewAccount": {
+      "message": "Dodaj profil"
+   },
+   "LabelNewImport": {
+      "message": "Zaimportuj"
+   },
+   "LabelNewfolder": {
+      "message": "Nowo utworzony folder"
+   },
+   "LabelNextcloudurl": {
+      "message": "Adres Nextcloud"
+   },
+   "LabelNoAccount": {
+      "message": "Jeszcze brak profili"
+   },
+   "LabelNobookmarks": {
+      "message": "Nie ma tutaj zakładek"
+   },
+   "LabelOpencollective": {
+      "message": "OpenCollective"
+   },
+   "LabelOpenintab": {
+      "message": "Otwórz w karcie"
+   },
+   "LabelOptions": {
+      "message": "Opcje"
+   },
+   "LabelOptionsDangerous": {
+      "message": "Zaawansowane"
+   },
+   "LabelOptionsFolderMapping": {
+      "message": "Mapowanie folderów"
+   },
+   "LabelOptionsServerDetails": {
+      "message": "Szczegóły serwera"
+   },
+   "LabelOptionsSyncBehavior": {
+      "message": "Synchronizacja"
+   },
+   "LabelOptionsscreen": {
+      "description": "Title of the options screen. The placeholder holds the profile type.",
+      "message": "{0} ustawienia"
+   },
+   "LabelParallelsync": {
+      "message": "Przyśpiesz synchronizację"
+   },
+   "LabelPassphrase": {
+      "message": "Hasło"
+   },
+   "LabelPassword": {
+      "message": "Hasło"
+   },
+   "LabelPatreon": {
+      "message": "Patreon"
+   },
+   "LabelPaypal": {
+      "message": "Paypal"
+   },
+   "LabelReleaseNotes": {
+      "message": "Przeczytaj informacje o wydaniu"
+   },
+   "LabelRemove": {
+      "message": "Usuń"
+   },
+   "LabelRemoveaccount": {
+      "message": "Usuń profil"
+   },
+   "LabelRemovedkey": {
+      "message": "Usunięto hasło"
+   },
+   "LabelRemovekey": {
+      "message": "Usuń hasło"
+   },
+   "LabelReportproblem": {
+      "message": "Zgłoś problem"
+   },
+   "LabelReset": {
+      "message": "Reset"
+   },
+   "LabelResetCache": {
+      "message": "Wyczyść pamięć podręczną"
+   },
+   "LabelRootfolder": {
+      "message": "Folder główny"
+   },
+   "LabelSave": {
+      "message": "Zapisz"
+   },
+   "LabelScheduledforcesync": {
+      "message": "Wymuś synchronizację"
+   },
+   "LabelSearch": {
+      "message": "Wyszukaj"
+   },
+   "LabelSearchfolder": {
+      "message": "Wyszukaj w {0}"
+   },
+   "LabelSearchresultsotherfolders": {
+      "message": "Wyniki z innych folderów"
+   },
+   "LabelSelect": {
+      "message": "Wybierz"
+   },
+   "LabelServerfolder": {
+      "message": "Cel na serwerze"
+   },
+   "LabelServersetup": {
+      "message": "Podaj dane serwera, z którym chcesz synchronizować"
+   },
+   "LabelSetkeybutton": {
+      "message": "Podaj hasło"
+   },
+   "LabelShareitem": {
+      "message": "Udostępnij"
+   },
+   "LabelSlugline": {
+      "message": "Synchronizacja zakładek"
+   },
+   "LabelSortcustom": {
+      "message": "Dostosuj"
+   },
+   "LabelSorttitle": {
+      "message": "Nazwa"
+   },
+   "LabelSorturl": {
+      "message": "Link"
+   },
+   "LabelStrategy": {
+      "message": "Strategia synchronizacji"
+   },
+   "LabelStrategydefault": {
+      "message": "Scalaj lokalne zmiany ze zmianami z innych przeglądarek (rekomendowane)"
+   },
+   "LabelStrategyoverwrite": {
+      "message": "Wysyłaj lokalne zmiany i cofaj zmiany z innych przeglądarek"
+   },
+   "LabelStrategyslave": {
+      "message": "Cofaj lokalne zmiany i pobieraj zmiany z innych przeglądarek"
+   },
+   "LabelSyncDown": {
+      "message": "Pobierz zmiany"
+   },
+   "LabelSyncDownOnce": {
+      "message": "Pobierz zmiany jednorazowo"
+   },
+   "LabelSyncNormal": {
+      "message": "Scal"
+   },
+   "LabelSyncTabs": {
+      "message": "Karty przeglądarki"
+   },
+   "LabelSyncUp": {
+      "message": "Wyślij zmiany"
+   },
+   "LabelSyncUpOnce": {
+      "message": "Wyślij zmiany jednorazowo"
+   },
+   "LabelSyncall": {
+      "message": "Synchronizuj wszystkie profile"
+   },
+   "LabelSyncbehavior": {
+      "message": "Synchronizacja"
+   },
+   "LabelSyncbehaviorsetup": {
+      "message": "Której metody synchronizacji chcesz użyć?"
+   },
+   "LabelSyncfolders": {
+      "message": "Synchronizowane foldery"
+   },
+   "LabelSyncfoldersetup": {
+      "message": "Które foldery chcesz synchronizować?"
+   },
+   "LabelSyncfromscratch": {
+      "message": "Wykonaj synchronizację od zera"
+   },
+   "LabelSyncinterval": {
+      "message": "Częstotliwość synchronizacji"
+   },
+   "LabelSyncmethod": {
+      "message": "Metoda synchronizacji"
+   },
+   "LabelSyncnow": {
+      "message": "Synchronizuj"
+   },
+   "LabelSyncserver": {
+      "message": "Serwer synchronizacji"
+   },
+   "LabelTabs": {
+      "message": "Karty"
+   },
+   "LabelTelemetry": {
+      "message": "🐛 Automatyczne zgłaszanie błędów"
+   },
+   "LabelTelemetrydisable": {
+      "message": "Nie wysyłaj szczegółów błędów do deweloperów Floccus"
+   },
+   "LabelTelemetryenable": {
+      "message": "Automatycznie wysyłaj szczegóły błędów do deweloperów Floccus"
+   },
+   "LabelUnlock": {
+      "message": "Odblokuj Floccus"
+   },
+   "LabelUntitledfolder": {
+      "message": "Nienazwany folder"
+   },
+   "LabelUpdated": {
+      "message": "⚡ Floccus został zaktualizowany"
+   },
+   "LabelUsername": {
+      "message": "Nazwa użytkownika"
+   },
+   "LabelWebdavurl": {
+      "message": "Adres WebDAV"
+   },
+   "LabelWritereview": {
+      "message": "💙 Podziel się!"
+   },
+   "LegacyAdapterDeprecation": {
+      "message": "Ten przestarzały typ profilu zostanie niebawem usunięty. Przełącz się jak najszybciej na nową metodę synchronizacji z Nextcloud, która jest szybsza i pewniejsza."
+   },
+   "StatusAllgood": {
+      "message": "Powodzenie"
+   },
+   "StatusDisabled": {
+      "message": "Wyłączone"
+   },
+   "StatusError": {
+      "message": "Błąd"
+   },
+   "StatusFailsafeoff": {
+      "message": "Zabezpieczenie wyłączone. Ryzykujesz niezamierzoną utratę danych. Rekomendowane jest pozostawienie tej opcji włączonej."
+   },
+   "StatusLastsynced": {
+      "message": "Ostatnia synchronizacja: {0} temu"
+   },
+   "StatusNeversynced": {
+      "message": "Jeszcze nie zsynchronizowane "
+   },
+   "StatusScheduled": {
+      "message": "Zaplanowane"
+   },
+   "StatusSyncing": {
+      "message": "Synchronizacja"
+   }
+}
