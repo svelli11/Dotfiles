@@ -10,3 +10,36 @@
 2025/06/12-18:16:20.327 9fb2 Level-0 table #44: started
 2025/06/12-18:16:20.342 9fb2 Level-0 table #44: 70393 bytes OK
 2025/06/12-18:16:20.350 9fb2 Delete type=0 #41
+2025/06/12-18:45:24.813 9fb2 Level-0 table #46: started
+2025/06/12-18:45:24.828 9fb2 Level-0 table #46: 52357 bytes OK
+2025/06/12-18:45:24.836 9fb2 Delete type=0 #43
+2025/06/12-18:45:24.836 9fb2 Compacting 4@0 + 1@1 files
+2025/06/12-18:45:24.842 9fb2 Generated table #47@0: 82 keys, 51933 bytes
+2025/06/12-18:45:24.843 9fb2 Compacted 4@0 + 1@1 files => 51933 bytes
+2025/06/12-18:45:24.850 9fb2 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/06/12-18:45:24.850 9fb2 Delete type=2 #44
+2025/06/12-18:45:24.850 9fb2 Delete type=2 #42
+2025/06/12-18:45:24.850 9fb2 Delete type=2 #46
+2025/06/12-18:45:24.850 9fb2 Delete type=2 #37
+2025/06/12-18:45:24.850 9fb2 Delete type=2 #40
+2025/06/12-18:45:38.008 9fb2 Level-0 table #49: started
+2025/06/12-18:45:38.022 9fb2 Level-0 table #49: 73121 bytes OK
+2025/06/12-18:45:38.029 9fb2 Delete type=0 #45
+2025/06/12-20:21:07.189 9fb2 Level-0 table #51: started
+2025/06/12-20:21:07.203 9fb2 Level-0 table #51: 38292 bytes OK
+2025/06/12-20:21:07.210 9fb2 Delete type=0 #48
+2025/06/12-20:27:20.911 9fb2 Level-0 table #53: started
+2025/06/12-20:27:20.927 9fb2 Level-0 table #53: 41542 bytes OK
+2025/06/12-20:27:20.934 9fb2 Delete type=0 #50
+2025/06/12-20:52:35.022 9fb2 Level-0 table #55: started
+2025/06/12-20:52:35.040 9fb2 Level-0 table #55: 38438 bytes OK
+2025/06/12-20:52:35.048 9fb2 Delete type=0 #52
+2025/06/12-20:52:35.048 9fb2 Compacting 4@0 + 1@1 files
+2025/06/12-20:52:35.055 9fb2 Generated table #56@0: 82 keys, 53397 bytes
+2025/06/12-20:52:35.055 9fb2 Compacted 4@0 + 1@1 files => 53397 bytes
+2025/06/12-20:52:35.072 9fb2 compacted to: files[ 0 1 1 0 0 0 0 ]
+2025/06/12-20:52:35.072 9fb2 Delete type=2 #55
+2025/06/12-20:52:35.073 9fb2 Delete type=2 #53
+2025/06/12-20:52:35.073 9fb2 Delete type=2 #47
+2025/06/12-20:52:35.073 9fb2 Delete type=2 #51
+2025/06/12-20:52:35.073 9fb2 Delete type=2 #49
